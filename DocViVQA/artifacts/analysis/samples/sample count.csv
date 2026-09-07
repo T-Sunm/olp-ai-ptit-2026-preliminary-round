@@ -1,0 +1,31 @@
+question_id,quote_pairs,template,question
+B-train-00001-q03,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Cây trồng là “Lúa”?
+B-train-00001-q08,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Đạt kế hoạch”?
+B-train-00009-q07,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Vướng mắc là “Thủ tục”?
+B-train-00010-q07,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có ĐVT là “Ram”?
+B-train-00018-q04,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Mức đánh giá là “Chấp nhận”?
+B-train-00019-q04,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Thời gian chờ là “57 phút”?
+B-train-00021-q05,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Trạng thái là “Chờ nghiệm thu”?
+B-train-00029-q08,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Lớp là “12B”?
+B-train-00034-q07,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Mức đánh giá là “Chấp nhận”?
+B-train-00038-q06,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Trạng thái là “Đang thực hiện”?
+B-train-00038-q10,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Nhà cung cấp là “Công ty Minh An”?
+B-train-00042-q06,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Bình thường”?
+B-train-00043-q06,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Điều chỉnh giờ”?
+B-train-00044-q02,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Vướng mắc là “Không”?
+B-train-00054-q01,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Trạng thái là “Chờ nghiệm thu”?
+B-train-00054-q10,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Nhà cung cấp là “Công ty Minh An”?
+B-train-00055-q03,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Vướng mắc là “Vật liệu”?
+B-train-00061-q07,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Vướng mắc là “Mặt bằng”?
+B-train-00062-q08,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Trạng thái là “Đang thực hiện”?
+B-train-00065-q01,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Vướng mắc là “Thủ tục”?
+B-train-00067-q05,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Nhà cung cấp là “Công ty Minh An”?
+B-train-00067-q06,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Trạng thái là “Đã duyệt”?
+B-train-00068-q02,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Điều chỉnh giờ”?
+B-train-00069-q01,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Ổn định”?
+B-train-00069-q07,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Cây trồng là “Lúa”?
+B-train-00071-q09,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Tăng chuyến”?
+B-train-00072-q03,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Bình thường”?
+B-train-00085-q07,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Vướng mắc là “Không”?
+B-train-00086-q02,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Lớp là “12B”?
+B-train-00095-q06,1,UNMATCHED,Có bao nhiêu dòng trong bảng 1 ở trang 1 có Ghi chú là “Tăng chuyến”?

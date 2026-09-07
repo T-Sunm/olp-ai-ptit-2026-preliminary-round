@@ -203,6 +203,11 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# DocViVQA local data and generated artifacts
+DocViVQA/data/
+DocViVQA/outputs/
+DocViVQA/artifacts/models/*.pt
+
 # Ruff stuff:
 .ruff_cache/
 

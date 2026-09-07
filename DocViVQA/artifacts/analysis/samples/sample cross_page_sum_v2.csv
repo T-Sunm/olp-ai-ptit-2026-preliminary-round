@@ -1,0 +1,47 @@
+question_id,quote_pairs,question
+B-train-00103-q06,4,Lấy Diện tích (ha) của dòng có Địa bàn “Hải Phòng” và Cây trồng “Thanh long” ở trang 1 cộng với Diện tích (ha) của dòng có Địa bàn “Cần Thơ” và Cây trồng “Lúa” ở trang 2. Kết quả là bao nhiêu?
+B-train-00164-q05,4,Lấy Bồi thường của dòng có Nghiệp vụ “Hàng hóa” và Hợp đồng “726” ở trang 1 cộng với Bồi thường của dòng có Nghiệp vụ “Hàng hóa” và Hợp đồng “622” ở trang 2. Kết quả là bao nhiêu?
+B-train-00192-q09,4,Lấy Lũy kế của dòng có Khu vực “Khu vực đô thị” và Thuê bao “7.450” ở trang 1 cộng với Lũy kế của dòng có Khu vực “Cụm BTS-02” và Thuê bao “36.638” ở trang 2. Kết quả là bao nhiêu?
+B-train-00214-q07,4,Lấy Giá trị bán của dòng có Điểm bán “Cửa hàng 01” và Lượt khách “3233” ở trang 1 cộng với Giá trị bán của dòng có Điểm bán “Siêu thị trung tâm” và Lượt khách “2305” ở trang 2. Kết quả là bao nhiêu?
+B-train-00241-q07,4,Lấy Lũy kế của dòng có Nhóm chế độ “Ốm đau” và Hồ sơ nhận “1585” ở trang 1 cộng với Lũy kế của dòng có Nhóm chế độ “Ốm đau” và Hồ sơ nhận “2195” ở trang 2. Kết quả là bao nhiêu?
+B-train-00246-q03,4,Lấy Giải ngân của dòng có Dự án “Trường liên cấp” và Giá trị hợp đồng “4.270” ở trang 1 cộng với Giải ngân của dòng có Dự án “Cầu Đông Thành” và Giá trị hợp đồng “21.630” ở trang 2. Kết quả là bao nhiêu?
+B-train-00248-q07,4,Lấy Bồi thường của dòng có Nghiệp vụ “Sức khỏe” và Hợp đồng “518” ở trang 1 cộng với Bồi thường của dòng có Nghiệp vụ “Hàng hóa” và Hợp đồng “837” ở trang 2. Kết quả là bao nhiêu?
+B-train-00259-q08,4,Lấy Nhập viện của dòng có Khoa “Ngoại” và Lượt khám “353” ở trang 1 cộng với Nhập viện của dòng có Khoa “Ngoại” và Lượt khám “106” ở trang 2. Kết quả là bao nhiêu?
+B-train-00347-q10,4,Lấy Kế hoạch năm của dòng có Khoa “Tai Mũi Họng” và Lượt khám “408” ở trang 1 cộng với Kế hoạch năm của dòng có Khoa “Ngoại” và Lượt khám “266” ở trang 2. Kết quả là bao nhiêu?
+B-train-00410-q08,4,Lấy Kỳ trước của dòng có Chi nhánh “Đà Nẵng 01” và Dư nợ “2.760” ở trang 1 cộng với Kỳ trước của dòng có Chi nhánh “Hải Phòng 02” và Dư nợ “2.670” ở trang 2. Kết quả là bao nhiêu?
+B-train-00426-q06,4,Lấy Kỳ này của dòng có Khu vực “Cụm BTS-01” và Thuê bao “15.350” ở trang 1 cộng với Kỳ này của dòng có Khu vực “Khu vực miền núi” và Thuê bao “51.732” ở trang 2. Kết quả là bao nhiêu?
+B-train-00502-q04,4,Lấy Trễ hạn của dòng có Nhóm chế độ “Tai nạn lao động” và Hồ sơ nhận “1588” ở trang 1 cộng với Trễ hạn của dòng có Nhóm chế độ “Tai nạn lao động” và Hồ sơ nhận “1542” ở trang 2. Kết quả là bao nhiêu?
+B-train-00525-q01,4,Lấy Kế hoạch năm của dòng có Nghiệp vụ “Xe cơ giới” và Hợp đồng “841” ở trang 1 cộng với Kế hoạch năm của dòng có Nghiệp vụ “Tài sản” và Hợp đồng “80” ở trang 2. Kết quả là bao nhiêu?
+B-train-00592-q01,4,Lấy Lũy kế của dòng có Trạm “Trạm 220kV Trung” và Sản lượng “16.767” ở trang 1 cộng với Lũy kế của dòng có Trạm “Trạm Cao Nguyên” và Sản lượng “10.134” ở trang 2. Kết quả là bao nhiêu?
+B-train-00608-q06,4,Lấy Số đơn của dòng có Điểm bán “Điểm bán phía Nam” và Lượt khách “603” ở trang 1 cộng với Số đơn của dòng có Điểm bán “Cửa hàng 02” và Lượt khách “5098” ở trang 2. Kết quả là bao nhiêu?
+B-train-00628-q05,4,Lấy Sự cố của dòng có Trạm “Trạm Cao Nguyên” và Sản lượng “12.365” ở trang 1 cộng với Sự cố của dòng có Trạm “Trạm Cao Nguyên” và Sản lượng “12.217” ở trang 2. Kết quả là bao nhiêu?
+B-train-00652-q04,4,Lấy Lũy kế của dòng có Khu vực “Cụm BTS-02” và Thuê bao “49.738” ở trang 1 cộng với Lũy kế của dòng có Khu vực “Khu vực miền núi” và Thuê bao “5.498” ở trang 2. Kết quả là bao nhiêu?
+B-train-00659-q10,4,Lấy Nợ quá hạn của dòng có Chi nhánh “Đà Nẵng 01” và Dư nợ “1.950” ở trang 1 cộng với Nợ quá hạn của dòng có Chi nhánh “Cần Thơ 02” và Dư nợ “7.810” ở trang 2. Kết quả là bao nhiêu?
+B-train-00694-q03,2,Lấy Giá trúng của dòng có Gói thầu “GT99” ở trang 1 cộng với Giá trúng của dòng có Gói thầu “GT30” ở trang 2. Kết quả là bao nhiêu?
+B-train-00732-q08,4,Lấy Giải ngân của dòng có Dự án “Khu tái định cư” và Giá trị hợp đồng “4.450” ở trang 1 cộng với Giải ngân của dòng có Dự án “Trường liên cấp” và Giá trị hợp đồng “16.620” ở trang 2. Kết quả là bao nhiêu?
+B-train-00743-q05,2,Lấy Tồn đầu của dòng có Mã hàng “VT756” ở trang 1 cộng với Tồn đầu của dòng có Mã hàng “VT135” ở trang 2. Kết quả là bao nhiêu?
+B-train-00746-q09,4,Lấy Kế hoạch năm của dòng có Điểm bán “Cửa hàng 01” và Lượt khách “320” ở trang 1 cộng với Kế hoạch năm của dòng có Điểm bán “Điểm bán phía Bắc” và Lượt khách “4724” ở trang 2. Kết quả là bao nhiêu?
+B-train-00756-q05,4,Lấy Doanh thu của dòng có Tuyến “Hà Nội – Hải Phòng” và Số chuyến “42” ở trang 1 cộng với Doanh thu của dòng có Tuyến “Nha Trang – Đà Lạt” và Số chuyến “45” ở trang 2. Kết quả là bao nhiêu?
+B-train-00763-q02,4,Lấy Kỳ này của dòng có Tuyến “Nha Trang – Đà Lạt” và Số chuyến “10” ở trang 1 cộng với Kỳ này của dòng có Tuyến “Nha Trang – Đà Lạt” và Số chuyến “14” ở trang 2. Kết quả là bao nhiêu?
+B-train-00764-q09,2,Lấy Lũy kế của dòng có Gói thầu “GT39” ở trang 1 cộng với Lũy kế của dòng có Gói thầu “GT72” ở trang 2. Kết quả là bao nhiêu?
+B-train-00768-q07,4,Lấy Lũy kế của dòng có Khoa “Tai Mũi Họng” và Lượt khám “317” ở trang 1 cộng với Lũy kế của dòng có Khoa “Mắt” và Lượt khám “463” ở trang 2. Kết quả là bao nhiêu?
+B-train-00794-q08,8,Lấy Kỳ này của dòng có Đơn vị “THPT Chu Văn An” và Lớp “12E” và Thí sinh “25” và Đạt “23” ở trang 1 cộng với Kỳ này của dòng có Đơn vị “THPT Trần Phú” và Lớp “12C” và Thí sinh “39” và Đạt “30” ở trang 2. Kết quả là bao nhiêu?
+B-train-00810-q10,4,Lấy Hành khách của dòng có Tuyến “Nha Trang – Đà Lạt” và Số chuyến “25” ở trang 1 cộng với Hành khách của dòng có Tuyến “TP.HCM – Cần Thơ” và Số chuyến “39” ở trang 2. Kết quả là bao nhiêu?
+B-train-00818-q03,4,Lấy Sự cố của dòng có Trạm “Trạm 220kV Trung” và Sản lượng “7.059” ở trang 1 cộng với Sự cố của dòng có Trạm “Trạm 220kV Trung” và Sản lượng “6.743” ở trang 2. Kết quả là bao nhiêu?
+B-train-00845-q02,4,Lấy Số đơn của dòng có Điểm bán “Siêu thị trung tâm” và Lượt khách “5384” ở trang 1 cộng với Số đơn của dòng có Điểm bán “Siêu thị trung tâm” và Lượt khách “4989” ở trang 2. Kết quả là bao nhiêu?
+B-train-00852-q10,4,Lấy Thiếu/thừa của dòng có Phòng ban “Công nghệ” và Định biên “27” ở trang 1 cộng với Thiếu/thừa của dòng có Phòng ban “Kế toán” và Định biên “18” ở trang 2. Kết quả là bao nhiêu?
+B-train-00859-q01,4,Lấy Sản lượng (tấn) của dòng có Địa bàn “Đà Nẵng” và Cây trồng “Hồ tiêu” ở trang 1 cộng với Sản lượng (tấn) của dòng có Địa bàn “Khánh Hòa” và Cây trồng “Lúa” ở trang 2. Kết quả là bao nhiêu?
+B-train-00879-q01,4,"Lấy COD của dòng có Điểm quan trắc “Hồ Xuân Hương” và pH “6,39” ở trang 1 cộng với COD của dòng có Điểm quan trắc “Sông Hương” và pH “5,94” ở trang 2. Kết quả là bao nhiêu?"
+B-train-00881-q08,4,Lấy Doanh thu của dòng có Tuyến “Hà Nội – Hải Phòng” và Số chuyến “43” ở trang 1 cộng với Doanh thu của dòng có Tuyến “Hà Nội – Hải Phòng” và Số chuyến “40” ở trang 2. Kết quả là bao nhiêu?
+B-train-00899-q09,2,Lấy Chênh lệch của dòng có Khu vực “Tây Nguyên” ở trang 1 cộng với Chênh lệch của dòng có Khu vực “Miền Bắc” ở trang 2. Kết quả là bao nhiêu?
+B-train-00920-q03,4,Lấy Kế hoạch năm của dòng có Nhóm chế độ “Thất nghiệp” và Hồ sơ nhận “1734” ở trang 1 cộng với Kế hoạch năm của dòng có Nhóm chế độ “Tai nạn lao động” và Hồ sơ nhận “334” ở trang 2. Kết quả là bao nhiêu?
+B-train-00951-q04,2,Lấy Giá trúng của dòng có Gói thầu “GT83” ở trang 1 cộng với Giá trúng của dòng có Gói thầu “GT47” ở trang 2. Kết quả là bao nhiêu?
+B-train-00959-q01,4,Lấy Kỳ trước của dòng có Điểm bán “Điểm bán phía Nam” và Lượt khách “3000” ở trang 1 cộng với Kỳ trước của dòng có Điểm bán “Cửa hàng 02” và Lượt khách “1599” ở trang 2. Kết quả là bao nhiêu?
+B-train-00962-q02,6,Lấy Kỳ trước của dòng có Đơn vị “THPT Lê Quý Đôn” và Lớp “12B” và Thí sinh “40” ở trang 1 cộng với Kỳ trước của dòng có Đơn vị “THPT Trần Phú” và Lớp “12C” và Thí sinh “30” ở trang 2. Kết quả là bao nhiêu?
+B-train-00988-q01,4,Lấy Kỳ trước của dòng có Chi nhánh “Hải Phòng 02” và Dư nợ “2.900” ở trang 1 cộng với Kỳ trước của dòng có Chi nhánh “Đà Nẵng 01” và Dư nợ “5.780” ở trang 2. Kết quả là bao nhiêu?
+B-train-01032-q06,4,Lấy Doanh thu của dòng có Tuyến “TP.HCM – Cần Thơ” và Số chuyến “43” ở trang 1 cộng với Doanh thu của dòng có Tuyến “TP.HCM – Cần Thơ” và Số chuyến “37” ở trang 2. Kết quả là bao nhiêu?
+B-train-01070-q08,4,Lấy Tuyển mới của dòng có Phòng ban “Công nghệ” và Định biên “12” ở trang 1 cộng với Tuyển mới của dòng có Phòng ban “Kế toán” và Định biên “41” ở trang 2. Kết quả là bao nhiêu?
+B-train-01083-q04,4,Lấy Nhập viện của dòng có Khoa “Nhi” và Lượt khám “254” ở trang 1 cộng với Nhập viện của dòng có Khoa “Tai Mũi Họng” và Lượt khám “285” ở trang 2. Kết quả là bao nhiêu?
+B-train-01086-q01,4,Lấy Thực hiện của dòng có Khu vực “Miền Trung” và Kế hoạch “3.370” ở trang 1 cộng với Thực hiện của dòng có Khu vực “Miền Bắc” và Kế hoạch “2.430” ở trang 2. Kết quả là bao nhiêu?
+B-train-01091-q09,2,Lấy Nhập viện của dòng có Khoa “Tai Mũi Họng” ở trang 1 cộng với Nhập viện của dòng có Khoa “Nội tổng hợp” ở trang 2. Kết quả là bao nhiêu?
+B-train-01099-q07,6,Lấy Kỳ này của dòng có Đơn vị “THPT Chu Văn An” và Lớp “12E” và Thí sinh “47” ở trang 1 cộng với Kỳ này của dòng có Đơn vị “THPT Nguyễn Trãi” và Lớp “12A” và Thí sinh “32” ở trang 2. Kết quả là bao nhiêu?

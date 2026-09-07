@@ -1,0 +1,3773 @@
+document_id,page,table,value_column,reasoning_type,questions,correct,expected_rows,solver_rows,expected_row_count,solver_row_count
+B-train-00000,1,1,Tuyển mới,argmax,1,1,2,2,1,1
+B-train-00000,1,1,Hiện có,argmin,1,1,5,5,1,1
+B-train-00000,1,1,Định biên,argmin,1,1,4,4,1,1
+B-train-00000,1,1,Định biên,argmax,1,1,3,3,1,1
+B-train-00001,1,1,Diện tích (ha),argmin,1,1,1,1,1,1
+B-train-00001,1,1,Sản lượng (tấn),argmin,1,1,1,1,1,1
+B-train-00001,1,1,Diện tích (ha),argmax,1,1,5,5,1,1
+B-train-00002,1,1,Tổn thất,argmin,1,1,1,1,1,1
+B-train-00002,1,1,Công suất đỉnh,argmin,1,1,3,3,1,1
+B-train-00002,1,1,Tổn thất,argmax,1,1,3,3,1,1
+B-train-00002,1,1,Sự cố,argmax,1,1,1,1,1,1
+B-train-00003,1,1,Kế hoạch,argmax,1,1,5,5,1,1
+B-train-00003,1,1,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-00003,1,1,Chênh lệch,argmin,1,1,5,5,1,1
+B-train-00003,1,1,Kế hoạch,argmin,1,0,2,6,1,1
+B-train-00004,1,1,Giá trúng,argmin,1,1,4,4,1,1
+B-train-00004,1,1,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00004,1,1,Giá dự toán,argmax,1,1,5,5,1,1
+B-train-00005,1,1,Chi phí,argmin,1,1,6,6,1,1
+B-train-00005,1,1,Chi phí,argmax,1,1,8,8,1,1
+B-train-00005,1,1,Tồn cuối,argmax,1,1,7,7,1,1
+B-train-00005,1,1,Đúng hạn,argmin,1,1,7,7,1,1
+B-train-00006,1,1,Doanh thu,argmin,1,1,1,1,1,1
+B-train-00006,1,1,Khách nội địa,argmax,1,1,5,5,1,1
+B-train-00006,1,1,Công suất phòng,argmin,1,1,4,4,1,1
+B-train-00006,1,1,Khách quốc tế,argmax,1,1,3,3,1,1
+B-train-00007,1,1,Hoàn trả,argmax,1,1,5,5,1,1
+B-train-00007,1,1,Lượt khách,argmin,1,1,2,2,1,1
+B-train-00007,1,1,Giá trị bán,argmax,1,1,2,2,1,1
+B-train-00007,1,1,Số đơn,argmin,1,1,4,4,1,1
+B-train-00008,1,1,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00008,1,1,Giá dự toán,argmax,1,1,5,5,1,1
+B-train-00008,1,1,Giá trúng,argmin,1,1,2,2,1,1
+B-train-00008,1,1,Giá dự toán,argmin,1,1,2,2,1,1
+B-train-00009,1,1,Tiến độ,argmax,1,1,1,1,1,1
+B-train-00009,1,1,Tiến độ,argmin,1,1,7,7,1,1
+B-train-00009,1,1,Giải ngân,argmax,1,1,2,2,1,1
+B-train-00010,1,1,Xuất,argmax,1,1,5,5,1,1
+B-train-00010,1,1,Tồn đầu,argmin,1,1,5,5,1,1
+B-train-00010,1,1,Tồn đầu,argmax,1,1,4,4,1,1
+B-train-00011,1,1,Giá trị bán,argmax,1,1,4,4,1,1
+B-train-00011,1,1,Lượt khách,argmax,1,1,5,5,1,1
+B-train-00011,1,1,Lượt khách,argmin,1,1,1,1,1,1
+B-train-00011,1,1,Số đơn,argmin,1,1,1,1,1,1
+B-train-00012,1,1,Kế hoạch,argmin,1,1,4,4,1,1
+B-train-00012,1,1,Chênh lệch,argmax,1,1,3,3,1,1
+B-train-00012,1,1,Thực hiện,argmax,1,1,5,5,1,1
+B-train-00012,1,1,Tỷ lệ,argmin,1,1,2,2,1,1
+B-train-00013,1,1,Tỷ lệ rớt cuộc,argmax,1,1,2,2,1,1
+B-train-00013,1,1,Phản ánh,argmax,1,1,7,7,1,1
+B-train-00013,1,1,Lưu lượng,argmin,1,1,3,3,1,1
+B-train-00013,1,1,Phản ánh,argmin,1,1,6,6,1,1
+B-train-00014,1,1,Khách nội địa,argmin,1,1,2,2,1,1
+B-train-00014,1,1,Doanh thu,argmin,1,1,6,6,1,1
+B-train-00014,1,1,Khách quốc tế,argmax,1,1,6,6,1,1
+B-train-00015,1,1,Dư nợ,argmin,1,0,5,6,1,1
+B-train-00015,1,1,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-00015,1,1,Huy động,argmax,1,1,1,1,1,1
+B-train-00015,1,1,Tăng trưởng,argmax,1,1,1,1,1,1
+B-train-00016,1,1,Doanh thu,argmax,1,1,4,4,1,1
+B-train-00016,1,1,Doanh thu,argmin,1,1,5,5,1,1
+B-train-00016,1,1,Hành khách,argmax,1,1,4,4,1,1
+B-train-00016,1,1,Đúng giờ,argmin,1,1,5,5,1,1
+B-train-00017,1,1,Doanh thu,argmin,1,1,6,6,1,1
+B-train-00017,1,1,Khách quốc tế,argmax,1,1,5,5,1,1
+B-train-00017,1,1,Công suất phòng,argmax,1,1,6,6,1,1
+B-train-00017,1,1,Khách quốc tế,argmin,1,1,3,3,1,1
+B-train-00018,1,1,COD,argmin,1,1,3,3,1,1
+B-train-00018,1,1,BOD5,argmax,1,1,6,6,1,1
+B-train-00019,1,1,Lượt khám,argmin,1,0,3,1,1,1
+B-train-00019,1,1,Nhập viện,argmin,1,1,3,3,1,1
+B-train-00019,1,1,Lượt khám,argmax,1,0,2,7,1,1
+B-train-00020,1,1,Doanh thu,argmax,1,1,3,3,1,1
+B-train-00020,1,1,Khách quốc tế,argmin,1,1,2,2,1,1
+B-train-00020,1,1,Công suất phòng,argmax,1,1,4,4,1,1
+B-train-00020,1,1,Công suất phòng,argmin,1,1,7,7,1,1
+B-train-00021,1,1,Giá dự toán,argmin,1,1,5,5,1,1
+B-train-00021,1,1,Giá trúng,argmax,1,1,3,3,1,1
+B-train-00021,1,1,Giá trúng,argmin,1,1,5,5,1,1
+B-train-00022,1,1,Kế hoạch,argmin,1,1,2,2,1,1
+B-train-00022,1,1,Thực hiện,argmin,1,1,4,4,1,1
+B-train-00022,1,1,Thực hiện,argmax,1,1,3,3,1,1
+B-train-00022,1,1,Tỷ lệ,argmax,1,1,2,2,1,1
+B-train-00023,1,1,Thực hiện,argmin,1,1,2,2,1,1
+B-train-00023,1,1,Tỷ lệ,argmin,1,1,2,2,1,1
+B-train-00023,1,1,Thực hiện,argmax,1,1,1,1,1,1
+B-train-00023,1,1,Chênh lệch,argmax,1,1,5,5,1,1
+B-train-00024,1,1,Chi trả,argmax,1,1,2,2,1,1
+B-train-00024,1,1,Đã giải quyết,argmax,1,1,3,3,1,1
+B-train-00024,1,1,Trễ hạn,argmin,1,1,1,1,1,1
+B-train-00024,1,1,Hồ sơ nhận,argmin,1,0,5,7,1,1
+B-train-00025,1,1,Trễ hạn,argmin,1,1,4,4,1,1
+B-train-00025,1,1,Chi trả,argmin,1,1,3,3,1,1
+B-train-00025,1,1,Chi trả,argmax,1,1,2,2,1,1
+B-train-00025,1,1,Hồ sơ nhận,argmax,1,1,1,1,1,1
+B-train-00026,1,1,Chuyển tuyến,argmax,1,1,4,4,1,1
+B-train-00026,1,1,Lượt khám,argmin,1,1,5,5,1,1
+B-train-00026,1,1,Lượt khám,argmax,1,1,4,4,1,1
+B-train-00027,1,1,Hiện có,argmax,1,1,1,1,1,1
+B-train-00027,1,1,Tuyển mới,argmin,1,1,1,1,1,1
+B-train-00027,1,1,Định biên,argmin,1,1,5,5,1,1
+B-train-00027,1,1,Thiếu/thừa,argmax,1,1,1,1,1,1
+B-train-00028,1,1,Giá trị bán,argmin,1,1,6,6,1,1
+B-train-00028,1,1,Số đơn,argmax,1,1,2,2,1,1
+B-train-00028,1,1,Hoàn trả,argmin,1,1,7,7,1,1
+B-train-00029,1,1,Đạt,argmax,1,1,6,6,1,1
+B-train-00029,1,1,Tỷ lệ đạt,argmax,1,1,1,1,1,1
+B-train-00029,1,1,Thí sinh,argmin,1,1,3,3,1,1
+B-train-00030,1,1,Lượt khám,argmin,1,1,5,5,1,1
+B-train-00030,1,1,Lượt khám,argmax,1,0,6,2,1,1
+B-train-00030,1,1,Chuyển tuyến,argmin,1,1,4,4,1,1
+B-train-00031,1,1,Tỷ lệ rớt cuộc,argmax,1,1,3,3,1,1
+B-train-00031,1,1,Thuê bao,argmax,1,1,4,4,1,1
+B-train-00031,1,1,Lưu lượng,argmin,1,1,4,4,1,1
+B-train-00031,1,1,Thuê bao,argmin,1,1,5,5,1,1
+B-train-00032,1,1,Khách nội địa,argmax,1,0,3,6,1,1
+B-train-00032,1,1,Doanh thu,argmin,1,1,4,4,1,1
+B-train-00032,1,1,Khách quốc tế,argmin,1,1,4,4,1,1
+B-train-00032,1,1,Doanh thu,argmax,1,1,1,1,1,1
+B-train-00033,1,1,Hiện có,argmin,1,1,4,4,1,1
+B-train-00033,1,1,Thiếu/thừa,argmax,1,1,1,1,1,1
+B-train-00033,1,1,Định biên,argmin,1,1,6,6,1,1
+B-train-00033,1,1,Hiện có,argmax,1,1,7,7,1,1
+B-train-00034,1,1,pH,argmax,1,1,2,2,1,1
+B-train-00034,1,1,pH,argmin,1,1,4,4,1,1
+B-train-00034,1,1,COD,argmax,1,1,1,1,1,1
+B-train-00034,1,1,COD,argmin,1,1,6,6,1,1
+B-train-00035,1,1,Chi phí,argmin,1,1,1,1,1,1
+B-train-00035,1,1,Đúng hạn,argmin,1,1,1,1,1,1
+B-train-00035,1,1,Đơn xử lý,argmax,1,1,4,4,1,1
+B-train-00035,1,1,Đúng hạn,argmax,1,1,3,3,1,1
+B-train-00036,1,1,Thực hiện,argmin,1,1,6,6,1,1
+B-train-00036,1,1,Chênh lệch,argmax,1,1,5,5,1,1
+B-train-00036,1,1,Kế hoạch,argmin,1,0,3,6,1,1
+B-train-00037,1,1,Chuyển tuyến,argmax,1,1,4,4,1,1
+B-train-00037,1,1,Nhập viện,argmin,1,1,6,6,1,1
+B-train-00037,1,1,Lượt khám,argmin,1,1,6,6,1,1
+B-train-00037,1,1,Nhập viện,argmax,1,1,5,5,1,1
+B-train-00038,1,1,Giá dự toán,argmax,1,1,5,5,1,1
+B-train-00038,1,1,Giá dự toán,argmin,1,1,6,6,1,1
+B-train-00039,1,1,Hiện có,argmin,1,1,5,5,1,1
+B-train-00039,1,1,Định biên,argmax,1,1,2,2,1,1
+B-train-00039,1,1,Định biên,argmin,1,1,5,5,1,1
+B-train-00039,1,1,Tuyển mới,argmax,1,1,5,5,1,1
+B-train-00040,1,1,Lượt khám,argmax,1,1,1,1,1,1
+B-train-00040,1,1,Chuyển tuyến,argmax,1,1,2,2,1,1
+B-train-00040,1,1,Nhập viện,argmin,1,1,3,3,1,1
+B-train-00040,1,1,Lượt khám,argmin,1,1,2,2,1,1
+B-train-00041,1,1,Huy động,argmin,1,1,6,6,1,1
+B-train-00041,1,1,Huy động,argmax,1,1,8,8,1,1
+B-train-00041,1,1,Nợ quá hạn,argmin,1,1,5,5,1,1
+B-train-00041,1,1,Nợ quá hạn,argmax,1,1,1,1,1,1
+B-train-00042,1,1,Doanh thu,argmin,1,1,6,6,1,1
+B-train-00042,1,1,Đúng giờ,argmax,1,1,6,6,1,1
+B-train-00042,1,1,Hành khách,argmax,1,1,4,4,1,1
+B-train-00042,1,1,Đúng giờ,argmin,1,1,2,2,1,1
+B-train-00043,1,1,Doanh thu,argmin,1,1,4,4,1,1
+B-train-00043,1,1,Đúng giờ,argmax,1,1,3,3,1,1
+B-train-00043,1,1,Doanh thu,argmax,1,1,1,1,1,1
+B-train-00043,1,1,Đúng giờ,argmin,1,1,2,2,1,1
+B-train-00044,1,1,Tiến độ,argmin,1,1,1,1,1,1
+B-train-00044,1,1,Giá trị hợp đồng,argmax,1,1,4,4,1,1
+B-train-00044,1,1,Giá trị hợp đồng,argmin,1,1,1,1,1,1
+B-train-00044,1,1,Tiến độ,argmax,1,1,3,3,1,1
+B-train-00045,1,1,Lưu lượng,argmax,1,1,8,8,1,1
+B-train-00045,1,1,Phản ánh,argmin,1,1,4,4,1,1
+B-train-00045,1,1,Lưu lượng,argmin,1,1,6,6,1,1
+B-train-00045,1,1,Tỷ lệ rớt cuộc,argmax,1,1,2,2,1,1
+B-train-00046,1,1,Nợ quá hạn,argmin,1,1,2,2,1,1
+B-train-00046,1,1,Dư nợ,argmin,1,1,3,3,1,1
+B-train-00046,1,1,Nợ quá hạn,argmax,1,1,1,1,1,1
+B-train-00046,1,1,Tăng trưởng,argmax,1,1,3,3,1,1
+B-train-00047,1,1,Sản lượng,argmin,1,0,5,2,1,1
+B-train-00047,1,1,Tổn thất,argmax,1,1,5,5,1,1
+B-train-00047,1,1,Sản lượng,argmax,1,0,3,1,1,1
+B-train-00047,1,1,Sự cố,argmin,1,1,2,2,1,1
+B-train-00048,1,1,Nợ quá hạn,argmin,1,1,3,3,1,1
+B-train-00048,1,1,Dư nợ,argmin,1,1,3,3,1,1
+B-train-00048,1,1,Tăng trưởng,argmax,1,1,1,1,1,1
+B-train-00049,1,1,Lượt khám,argmin,1,1,4,4,1,1
+B-train-00049,1,1,Nhập viện,argmax,1,1,7,7,1,1
+B-train-00049,1,1,Lượt khám,argmax,1,0,3,8,1,1
+B-train-00049,1,1,Nhập viện,argmin,1,1,1,1,1,1
+B-train-00050,1,1,Lượt khám,argmax,1,1,4,4,1,1
+B-train-00050,1,1,Lượt khám,argmin,1,1,2,2,1,1
+B-train-00050,1,1,Chuyển tuyến,argmax,1,1,2,2,1,1
+B-train-00050,1,1,Chuyển tuyến,argmin,1,1,4,4,1,1
+B-train-00051,1,1,Huy động,argmin,1,1,5,5,1,1
+B-train-00051,1,1,Nợ quá hạn,argmin,1,1,5,5,1,1
+B-train-00051,1,1,Tăng trưởng,argmax,1,1,3,3,1,1
+B-train-00051,1,1,Huy động,argmax,1,1,6,6,1,1
+B-train-00052,1,1,Sản lượng,argmax,1,1,2,2,1,1
+B-train-00052,1,1,Sự cố,argmin,1,1,1,1,1,1
+B-train-00052,1,1,Công suất đỉnh,argmin,1,1,1,1,1,1
+B-train-00052,1,1,Công suất đỉnh,argmax,1,1,3,3,1,1
+B-train-00053,1,1,Định biên,argmax,1,1,1,1,1,1
+B-train-00053,1,1,Tuyển mới,argmax,1,1,2,2,1,1
+B-train-00053,1,1,Tuyển mới,argmin,1,1,5,5,1,1
+B-train-00053,1,1,Hiện có,argmin,1,1,5,5,1,1
+B-train-00054,1,1,Giá dự toán,argmax,1,1,2,2,1,1
+B-train-00054,1,1,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00055,1,1,Tiến độ,argmax,1,1,5,5,1,1
+B-train-00055,1,1,Giải ngân,argmin,1,1,3,3,1,1
+B-train-00055,1,1,Giá trị hợp đồng,argmax,1,1,5,5,1,1
+B-train-00055,1,1,Tiến độ,argmin,1,1,4,4,1,1
+B-train-00056,1,1,Bồi thường,argmax,1,1,3,3,1,1
+B-train-00056,1,1,Bồi thường,argmin,1,1,4,4,1,1
+B-train-00056,1,1,Tỷ lệ,argmin,1,1,4,4,1,1
+B-train-00056,1,1,Tỷ lệ,argmax,1,1,3,3,1,1
+B-train-00057,1,1,Huy động,argmin,1,1,6,6,1,1
+B-train-00057,1,1,Tăng trưởng,argmax,1,1,2,2,1,1
+B-train-00057,1,1,Nợ quá hạn,argmax,1,1,8,8,1,1
+B-train-00057,1,1,Nợ quá hạn,argmin,1,1,3,3,1,1
+B-train-00058,1,1,Tổn thất,argmin,1,1,2,2,1,1
+B-train-00058,1,1,Công suất đỉnh,argmin,1,1,6,6,1,1
+B-train-00058,1,1,Tổn thất,argmax,1,1,5,5,1,1
+B-train-00058,1,1,Sản lượng,argmax,1,1,5,5,1,1
+B-train-00059,1,1,Nợ quá hạn,argmax,1,1,7,7,1,1
+B-train-00059,1,1,Huy động,argmin,1,1,6,6,1,1
+B-train-00059,1,1,Tăng trưởng,argmax,1,1,3,3,1,1
+B-train-00059,1,1,Tăng trưởng,argmin,1,1,1,1,1,1
+B-train-00060,1,1,Công suất phòng,argmin,1,1,7,7,1,1
+B-train-00060,1,1,Khách quốc tế,argmin,1,1,2,2,1,1
+B-train-00060,1,1,Công suất phòng,argmax,1,1,4,4,1,1
+B-train-00061,1,1,Giá trị hợp đồng,argmin,1,1,5,5,1,1
+B-train-00061,1,1,Tiến độ,argmax,1,1,5,5,1,1
+B-train-00061,1,1,Tiến độ,argmin,1,1,4,4,1,1
+B-train-00061,1,1,Giải ngân,argmax,1,1,3,3,1,1
+B-train-00062,1,1,Giá trúng,argmin,1,1,3,3,1,1
+B-train-00062,1,1,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00062,1,1,Giá dự toán,argmin,1,1,3,3,1,1
+B-train-00062,1,1,Giá dự toán,argmax,1,1,5,5,1,1
+B-train-00063,1,1,Doanh thu,argmin,1,1,2,2,1,1
+B-train-00063,1,1,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-00063,1,1,Công suất phòng,argmax,1,1,1,1,1,1
+B-train-00063,1,1,Khách quốc tế,argmax,1,1,6,6,1,1
+B-train-00064,1,1,Hiện có,argmin,1,1,2,2,1,1
+B-train-00064,1,1,Thiếu/thừa,argmin,1,1,1,1,1,1
+B-train-00064,1,1,Tuyển mới,argmax,1,1,1,1,1,1
+B-train-00064,1,1,Hiện có,argmax,1,1,5,5,1,1
+B-train-00065,1,1,Giải ngân,argmax,1,1,5,5,1,1
+B-train-00065,1,1,Tiến độ,argmin,1,1,4,4,1,1
+B-train-00065,1,1,Giải ngân,argmin,1,1,2,2,1,1
+B-train-00065,1,1,Giá trị hợp đồng,argmax,1,1,4,4,1,1
+B-train-00066,1,1,Chuyển tuyến,argmax,1,1,3,3,1,1
+B-train-00066,1,1,Lượt khám,argmin,1,1,1,1,1,1
+B-train-00066,1,1,Nhập viện,argmin,1,1,2,2,1,1
+B-train-00066,1,1,Lượt khám,argmax,1,1,4,4,1,1
+B-train-00067,1,1,Giá trúng,argmax,1,1,6,6,1,1
+B-train-00067,1,1,Giá dự toán,argmin,1,1,2,2,1,1
+B-train-00067,1,1,Giá trúng,argmin,1,1,2,2,1,1
+B-train-00068,1,1,Doanh thu,argmin,1,1,2,2,1,1
+B-train-00068,1,1,Đúng giờ,argmin,1,1,6,6,1,1
+B-train-00068,1,1,Hành khách,argmax,1,1,5,5,1,1
+B-train-00069,1,1,Diện tích (ha),argmax,1,1,5,5,1,1
+B-train-00069,1,1,Sản lượng (tấn),argmax,1,1,5,5,1,1
+B-train-00069,1,1,Diện tích (ha),argmin,1,1,4,4,1,1
+B-train-00070,1,1,Lưu lượng,argmin,1,1,5,5,1,1
+B-train-00070,1,1,Phản ánh,argmax,1,1,1,1,1,1
+B-train-00070,1,1,Tỷ lệ rớt cuộc,argmax,1,1,5,5,1,1
+B-train-00071,1,1,Đúng giờ,argmax,1,1,4,4,1,1
+B-train-00071,1,1,Đúng giờ,argmin,1,1,5,5,1,1
+B-train-00071,1,1,Hành khách,argmax,1,1,6,6,1,1
+B-train-00071,1,1,Hành khách,argmin,1,1,1,1,1,1
+B-train-00072,1,1,Hành khách,argmax,1,1,5,5,1,1
+B-train-00072,1,1,Đúng giờ,argmax,1,1,5,5,1,1
+B-train-00072,1,1,Doanh thu,argmin,1,1,4,4,1,1
+B-train-00073,1,1,Tuyển mới,argmax,1,1,4,4,1,1
+B-train-00073,1,1,Hiện có,argmin,1,1,4,4,1,1
+B-train-00073,1,1,Thiếu/thừa,argmax,1,1,2,2,1,1
+B-train-00073,1,1,Định biên,argmin,1,1,4,4,1,1
+B-train-00074,1,1,Hồ sơ nhận,argmin,1,1,1,1,1,1
+B-train-00074,1,1,Trễ hạn,argmax,1,1,1,1,1,1
+B-train-00074,1,1,Hồ sơ nhận,argmax,1,1,5,5,1,1
+B-train-00075,1,1,Giá trị bán,argmin,1,1,1,1,1,1
+B-train-00075,1,1,Hoàn trả,argmax,1,1,6,6,1,1
+B-train-00075,1,1,Số đơn,argmin,1,1,8,8,1,1
+B-train-00075,1,1,Giá trị bán,argmax,1,1,5,5,1,1
+B-train-00076,1,1,Đạt,argmin,1,1,7,7,1,1
+B-train-00076,1,1,Tỷ lệ đạt,argmin,1,1,7,7,1,1
+B-train-00076,1,1,Đạt,argmax,1,1,3,3,1,1
+B-train-00076,1,1,Thí sinh,argmax,1,1,3,3,1,1
+B-train-00077,1,1,Đơn xử lý,argmin,1,1,2,2,1,1
+B-train-00077,1,1,Tồn cuối,argmin,1,1,3,3,1,1
+B-train-00077,1,1,Đúng hạn,argmax,1,1,5,5,1,1
+B-train-00077,1,1,Đơn xử lý,argmax,1,0,4,6,1,1
+B-train-00078,1,1,Đơn xử lý,argmax,1,0,3,6,1,1
+B-train-00078,1,1,Tồn cuối,argmax,1,1,2,2,1,1
+B-train-00078,1,1,Đơn xử lý,argmin,1,0,5,1,1,1
+B-train-00079,1,1,Hồ sơ nhận,argmax,1,1,2,2,1,1
+B-train-00079,1,1,Trễ hạn,argmin,1,1,3,3,1,1
+B-train-00079,1,1,Hồ sơ nhận,argmin,1,1,5,5,1,1
+B-train-00079,1,1,Chi trả,argmax,1,1,2,2,1,1
+B-train-00080,1,1,Thí sinh,argmin,1,1,2,2,1,1
+B-train-00080,1,1,Tỷ lệ đạt,argmax,1,1,2,2,1,1
+B-train-00080,1,1,Đạt,argmax,1,1,3,3,1,1
+B-train-00080,1,1,Tỷ lệ đạt,argmin,1,1,4,4,1,1
+B-train-00081,1,1,Tỷ lệ đạt,argmin,1,1,2,2,1,1
+B-train-00081,1,1,Thí sinh,argmax,1,1,4,4,1,1
+B-train-00081,1,1,Thí sinh,argmin,1,1,5,5,1,1
+B-train-00081,1,1,Tỷ lệ đạt,argmax,1,1,4,4,1,1
+B-train-00082,1,1,Dư nợ,argmin,1,0,5,6,1,1
+B-train-00082,1,1,Tăng trưởng,argmin,1,1,5,5,1,1
+B-train-00082,1,1,Tăng trưởng,argmax,1,1,6,6,1,1
+B-train-00083,1,1,Tuyển mới,argmax,1,1,3,3,1,1
+B-train-00083,1,1,Thiếu/thừa,argmax,1,1,4,4,1,1
+B-train-00083,1,1,Thiếu/thừa,argmin,1,1,3,3,1,1
+B-train-00083,1,1,Định biên,argmin,1,1,1,1,1,1
+B-train-00084,1,1,Tồn cuối,argmax,1,1,4,4,1,1
+B-train-00084,1,1,Đơn xử lý,argmax,1,1,2,2,1,1
+B-train-00084,1,1,Đúng hạn,argmin,1,1,5,5,1,1
+B-train-00085,1,1,Tiến độ,argmax,1,1,3,3,1,1
+B-train-00085,1,1,Giá trị hợp đồng,argmin,1,1,5,5,1,1
+B-train-00085,1,1,Giá trị hợp đồng,argmax,1,1,2,2,1,1
+B-train-00085,1,1,Tiến độ,argmin,1,1,1,1,1,1
+B-train-00086,1,1,Tỷ lệ đạt,argmin,1,1,2,2,1,1
+B-train-00086,1,1,Đạt,argmin,1,1,7,7,1,1
+B-train-00086,1,1,Đạt,argmax,1,1,8,8,1,1
+B-train-00087,1,1,Công suất phòng,argmin,1,1,4,4,1,1
+B-train-00087,1,1,Doanh thu,argmax,1,1,3,3,1,1
+B-train-00087,1,1,Khách quốc tế,argmax,1,1,4,4,1,1
+B-train-00087,1,1,Khách nội địa,argmin,1,1,4,4,1,1
+B-train-00088,1,1,Trễ hạn,argmin,1,1,7,7,1,1
+B-train-00088,1,1,Đã giải quyết,argmin,1,1,1,1,1,1
+B-train-00088,1,1,Đã giải quyết,argmax,1,1,5,5,1,1
+B-train-00089,1,1,Hợp đồng,argmin,1,1,2,2,1,1
+B-train-00089,1,1,Phí bảo hiểm,argmax,1,1,4,4,1,1
+B-train-00089,1,1,Bồi thường,argmin,1,1,2,2,1,1
+B-train-00089,1,1,Tỷ lệ,argmax,1,1,1,1,1,1
+B-train-00090,1,1,Hiện có,argmax,1,1,3,3,1,1
+B-train-00090,1,1,Tuyển mới,argmax,1,1,5,5,1,1
+B-train-00090,1,1,Thiếu/thừa,argmin,1,1,5,5,1,1
+B-train-00091,1,1,Thí sinh,argmin,1,1,4,4,1,1
+B-train-00091,1,1,Thí sinh,argmax,1,1,3,3,1,1
+B-train-00091,1,1,Đạt,argmax,1,1,1,1,1,1
+B-train-00091,1,1,Tỷ lệ đạt,argmin,1,1,3,3,1,1
+B-train-00092,1,1,Thực hiện,argmax,1,1,3,3,1,1
+B-train-00092,1,1,Chênh lệch,argmin,1,1,2,2,1,1
+B-train-00092,1,1,Chênh lệch,argmax,1,1,4,4,1,1
+B-train-00092,1,1,Thực hiện,argmin,1,1,5,5,1,1
+B-train-00093,1,1,Khách quốc tế,argmax,1,1,5,5,1,1
+B-train-00093,1,1,Công suất phòng,argmin,1,1,6,6,1,1
+B-train-00093,1,1,Doanh thu,argmax,1,1,6,6,1,1
+B-train-00093,1,1,Khách quốc tế,argmin,1,1,3,3,1,1
+B-train-00094,1,1,Giá dự toán,argmin,1,1,3,3,1,1
+B-train-00094,1,1,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00094,1,1,Giá trúng,argmin,1,1,3,3,1,1
+B-train-00095,1,1,Hành khách,argmin,1,1,1,1,1,1
+B-train-00095,1,1,Đúng giờ,argmin,1,1,2,2,1,1
+B-train-00095,1,1,Doanh thu,argmax,1,1,2,2,1,1
+B-train-00095,1,1,Đúng giờ,argmax,1,1,1,1,1,1
+B-train-00096,1,1,Nợ quá hạn,argmin,1,1,6,6,1,1
+B-train-00096,1,1,Huy động,argmin,1,1,4,4,1,1
+B-train-00096,1,1,Tăng trưởng,argmax,1,1,6,6,1,1
+B-train-00096,1,1,Dư nợ,argmax,1,0,4,1,1,1
+B-train-00097,1,1,Số chuyến,argmax,1,1,3,3,1,1
+B-train-00097,1,1,Doanh thu,argmax,1,1,1,1,1,1
+B-train-00097,1,1,Đúng giờ,argmin,1,1,4,4,1,1
+B-train-00097,1,1,Hành khách,argmin,1,1,4,4,1,1
+B-train-00098,1,1,Sự cố,argmin,1,1,4,4,1,1
+B-train-00098,1,1,Công suất đỉnh,argmax,1,1,7,7,1,1
+B-train-00098,1,1,Tổn thất,argmin,1,1,7,7,1,1
+B-train-00099,1,1,Giá trị bán,argmax,1,1,3,3,1,1
+B-train-00099,1,1,Số đơn,argmin,1,1,2,2,1,1
+B-train-00099,1,1,Số đơn,argmax,1,1,3,3,1,1
+B-train-00099,1,1,Lượt khách,argmin,1,1,4,4,1,1
+B-train-00100,1,1,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00100,1,1,Chi phí,argmin,1,1,8,8,1,1
+B-train-00100,1,1,Đúng hạn,argmin,1,1,13,13,1,1
+B-train-00101,1,2,Đã giải quyết,argmin,1,1,4,4,1,1
+B-train-00101,1,1,Tỷ lệ,argmax,1,1,10,10,1,1
+B-train-00101,1,1,Kế hoạch,argmax,1,0,9,6,1,1
+B-train-00101,1,1,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00102,1,1,Tỷ trọng (%),argmax,1,1,17,17,1,1
+B-train-00102,1,1,Nhập viện,argmin,1,1,7,7,1,1
+B-train-00103,2,1,Sản lượng (tấn),argmax,1,1,4,4,1,1
+B-train-00103,2,1,Sản lượng (tấn),argmin,1,1,3,3,1,1
+B-train-00103,2,1,Diện tích (ha),argmin,1,1,3,3,1,1
+B-train-00103,1,1,Diện tích (ha),argmax,1,1,11,11,1,1
+B-train-00104,1,1,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00104,1,1,Phản ánh,argmax,1,1,16,16,1,1
+B-train-00104,1,1,Tỷ lệ rớt cuộc,argmax,1,1,3,3,1,1
+B-train-00105,1,1,Tỷ lệ,argmax,1,1,11,11,1,1
+B-train-00105,1,1,Tỷ lệ,argmin,1,0,6,3,1,1
+B-train-00105,1,2,Khách quốc tế,argmax,1,1,7,7,1,1
+B-train-00105,1,1,Chênh lệch,argmin,1,0,6,3,1,1
+B-train-00106,1,2,Tỷ trọng (%),argmin,1,0,8,10,1,1
+B-train-00106,1,2,Tổn thất,argmax,1,1,13,13,1,1
+B-train-00106,1,1,Đúng giờ,argmin,1,1,8,8,1,1
+B-train-00106,1,2,Sự cố,argmax,1,1,4,4,1,1
+B-train-00107,1,1,Đúng hạn,argmax,1,1,7,7,1,1
+B-train-00107,1,1,Chi phí,argmax,1,1,11,11,1,1
+B-train-00107,1,1,Chi phí,argmin,1,1,16,16,1,1
+B-train-00107,1,1,Tồn cuối,argmin,1,1,10,10,1,1
+B-train-00108,1,1,Kỳ trước,argmax,1,1,9,9,1,1
+B-train-00108,1,1,Kỳ trước,argmin,1,1,15,15,1,1
+B-train-00108,1,1,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00108,1,1,Tỷ lệ đạt,argmin,1,1,10,10,1,1
+B-train-00109,1,1,Lượt khám,argmin,1,0,12,7,1,1
+B-train-00109,1,1,Lượt khám,argmax,1,1,11,11,1,1
+B-train-00109,1,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00109,1,1,Nhập viện,argmax,1,1,11,11,1,1
+B-train-00110,1,1,Tỷ lệ,argmin,1,1,4,4,1,1
+B-train-00110,1,1,Thực hiện,argmax,1,1,6,6,1,1
+B-train-00110,1,1,Lũy kế,argmax,1,1,18,18,1,1
+B-train-00111,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00111,1,1,Nhập,argmin,1,1,9,9,1,1
+B-train-00111,1,1,Nhập,argmax,1,1,13,13,1,1
+B-train-00111,1,1,Tồn đầu,argmin,1,1,9,9,1,1
+B-train-00112,2,1,Kế hoạch năm,argmin,1,1,13,13,1,1
+B-train-00112,2,1,Chuyển tuyến,argmax,1,1,10,10,1,1
+B-train-00112,2,1,Nhập viện,argmin,1,1,7,7,1,1
+B-train-00113,1,1,Hiện có,argmin,1,1,12,12,1,1
+B-train-00113,2,1,Thiếu/thừa,argmin,1,1,16,16,1,1
+B-train-00113,1,1,Thiếu/thừa,argmax,1,1,10,10,1,1
+B-train-00113,2,1,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00114,1,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00114,1,1,Giải ngân,argmax,1,1,11,11,1,1
+B-train-00114,1,1,Giải ngân,argmin,1,1,10,10,1,1
+B-train-00114,1,1,Tiến độ,argmax,1,1,3,3,1,1
+B-train-00115,1,2,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00115,1,2,Tồn đầu,argmin,1,1,9,9,1,1
+B-train-00115,1,1,Tồn cuối,argmax,1,1,4,4,1,1
+B-train-00115,1,1,Tồn đầu,argmax,1,1,4,4,1,1
+B-train-00116,1,2,Đúng hạn,argmax,1,1,11,11,1,1
+B-train-00116,1,2,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00116,1,1,BOD5,argmax,1,1,12,12,1,1
+B-train-00116,1,2,Tồn cuối,argmin,1,1,9,9,1,1
+B-train-00117,1,1,Nhập viện,argmax,1,1,13,13,1,1
+B-train-00117,1,1,Nhập viện,argmin,1,1,11,11,1,1
+B-train-00117,1,2,Sản lượng (tấn),argmin,1,1,6,6,1,1
+B-train-00118,1,2,Giá dự toán,argmax,1,1,8,8,1,1
+B-train-00118,1,2,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00119,1,1,Công suất phòng,argmax,1,1,6,6,1,1
+B-train-00119,1,1,Doanh thu,argmax,1,1,5,5,1,1
+B-train-00119,1,1,Khách quốc tế,argmin,1,1,9,9,1,1
+B-train-00120,1,1,Giá trị bán,argmin,1,0,14,15,1,1
+B-train-00120,1,1,Số đơn,argmax,1,1,15,15,1,1
+B-train-00120,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00121,1,1,Số đơn,argmin,1,1,13,13,1,1
+B-train-00121,1,1,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00121,1,1,Giá trị bán,argmax,1,1,7,7,1,1
+B-train-00121,1,1,Giá trị bán,argmin,1,1,13,13,1,1
+B-train-00122,1,1,Tỷ lệ,argmin,1,1,5,5,1,1
+B-train-00122,1,1,Bồi thường,argmax,1,1,6,6,1,1
+B-train-00122,1,1,Phí bảo hiểm,argmin,1,1,15,15,1,1
+B-train-00122,1,1,Phí bảo hiểm,argmax,1,1,6,6,1,1
+B-train-00123,1,1,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00123,1,1,Kế hoạch năm,argmin,1,0,10,4,1,1
+B-train-00123,1,1,Sản lượng (tấn),argmax,1,1,4,4,1,1
+B-train-00124,1,1,Tồn cuối,argmax,1,0,8,9,1,1
+B-train-00124,1,1,Chi phí,argmax,1,1,5,5,1,1
+B-train-00124,1,2,Lũy kế,argmin,1,0,7,8,1,1
+B-train-00125,1,2,Doanh thu,argmax,1,1,4,4,1,1
+B-train-00125,1,1,Giải ngân,argmax,1,1,8,8,1,1
+B-train-00125,1,2,Đúng giờ,argmin,1,1,4,4,1,1
+B-train-00125,1,2,Số chuyến,argmin,1,0,5,8,1,1
+B-train-00126,1,1,Huy động,argmax,1,1,7,7,1,1
+B-train-00126,1,1,Huy động,argmin,1,1,9,9,1,1
+B-train-00126,1,1,Nợ quá hạn,argmax,1,1,7,7,1,1
+B-train-00126,1,1,Nợ quá hạn,argmin,1,1,17,17,1,1
+B-train-00127,1,1,Giá dự toán,argmax,1,0,8,3,1,1
+B-train-00127,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00127,1,1,Giá trúng,argmin,1,1,5,5,1,1
+B-train-00128,1,2,Sản lượng (tấn),argmax,1,1,6,6,1,1
+B-train-00128,1,1,Sản lượng,argmax,1,1,10,10,1,1
+B-train-00128,1,1,Tổn thất,argmin,1,1,6,6,1,1
+B-train-00128,1,1,Sản lượng,argmin,1,1,7,7,1,1
+B-train-00129,1,1,Tổn thất,argmin,1,1,6,6,1,1
+B-train-00129,1,1,Sự cố,argmax,1,1,6,6,1,1
+B-train-00129,1,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00129,1,1,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00130,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00130,1,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00130,1,1,Thực hiện,argmax,1,1,5,5,1,1
+B-train-00130,1,1,Tỷ lệ,argmin,1,1,9,9,1,1
+B-train-00131,1,2,Giá trị hợp đồng,argmin,1,0,10,4,1,1
+B-train-00131,1,1,Hành khách,argmin,1,1,12,12,1,1
+B-train-00131,1,2,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00131,1,2,Giải ngân,argmax,1,1,5,5,1,1
+B-train-00132,1,1,Chi phí,argmax,1,1,13,13,1,1
+B-train-00132,1,1,Đúng hạn,argmin,1,0,10,3,1,1
+B-train-00132,1,1,Tồn cuối,argmin,1,1,6,6,1,1
+B-train-00133,1,1,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00133,1,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00133,1,1,COD,argmax,1,1,13,13,1,1
+B-train-00133,1,1,BOD5,argmax,1,1,3,3,1,1
+B-train-00134,1,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00134,1,1,Diện tích (ha),argmax,1,1,11,11,1,1
+B-train-00134,1,1,Diện tích (ha),argmin,1,1,4,4,1,1
+B-train-00135,1,2,Phí bảo hiểm,argmin,1,1,5,5,1,1
+B-train-00135,1,2,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00135,1,1,Chi phí,argmax,1,1,6,6,1,1
+B-train-00135,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00136,1,1,Chênh lệch,argmax,1,1,3,3,1,1
+B-train-00136,1,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00136,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00136,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00137,1,1,Phản ánh,argmax,1,1,8,8,1,1
+B-train-00137,1,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00137,1,1,Tỷ lệ rớt cuộc,argmin,1,1,7,7,1,1
+B-train-00137,1,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00138,1,1,Huy động,argmin,1,1,3,3,1,1
+B-train-00138,1,1,Nợ quá hạn,argmax,1,1,8,8,1,1
+B-train-00138,1,1,Tăng trưởng,argmax,1,1,8,8,1,1
+B-train-00138,1,1,Dư nợ,argmin,1,0,5,7,1,1
+B-train-00139,1,1,Chuyển tuyến,argmax,1,1,4,4,1,1
+B-train-00139,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00139,1,1,Tỷ trọng (%),argmin,1,1,14,14,1,1
+B-train-00139,1,1,Lượt khám,argmin,1,0,8,11,1,1
+B-train-00140,1,1,BOD5,argmin,1,1,9,9,1,1
+B-train-00140,1,1,COD,argmax,1,1,8,8,1,1
+B-train-00140,1,2,Huy động,argmin,1,1,9,9,1,1
+B-train-00141,1,2,Chuyển tuyến,argmax,1,1,3,3,1,1
+B-train-00141,1,1,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00141,1,1,Thực hiện,argmin,1,1,10,10,1,1
+B-train-00141,1,1,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00142,1,2,Lũy kế,argmin,1,0,13,4,1,1
+B-train-00142,1,2,Kỳ trước,argmax,1,0,3,4,1,1
+B-train-00142,1,1,Tỷ lệ,argmin,1,0,3,10,1,1
+B-train-00142,1,2,Bồi thường,argmax,1,1,13,13,1,1
+B-train-00143,1,2,Tỷ trọng (%),argmin,1,0,13,9,1,1
+B-train-00143,1,2,Số đơn,argmax,1,1,9,9,1,1
+B-train-00143,1,2,Hoàn trả,argmax,1,1,11,11,1,1
+B-train-00144,1,1,Tiến độ,argmax,1,1,4,4,1,1
+B-train-00144,1,1,Giải ngân,argmin,1,1,16,16,1,1
+B-train-00144,1,1,Lũy kế,argmin,1,1,17,17,1,1
+B-train-00145,1,2,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00145,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00145,1,2,Tỷ lệ,argmax,1,1,11,11,1,1
+B-train-00146,1,1,Huy động,argmax,1,1,17,17,1,1
+B-train-00146,1,1,Huy động,argmin,1,1,15,15,1,1
+B-train-00146,1,1,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00147,1,1,Trễ hạn,argmax,1,1,7,7,1,1
+B-train-00147,1,2,Giải ngân,argmin,1,1,9,9,1,1
+B-train-00147,1,2,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00148,1,1,Hoàn trả,argmax,1,1,13,13,1,1
+B-train-00148,1,1,Số đơn,argmax,1,1,10,10,1,1
+B-train-00148,1,1,Hoàn trả,argmin,1,1,14,14,1,1
+B-train-00149,1,1,Phản ánh,argmax,1,1,5,5,1,1
+B-train-00149,1,1,Lưu lượng,argmax,1,1,10,10,1,1
+B-train-00149,1,1,Lưu lượng,argmin,1,0,4,3,1,1
+B-train-00149,1,1,Tỷ lệ rớt cuộc,argmin,1,1,15,15,1,1
+B-train-00150,1,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00150,1,1,Lũy kế,argmax,1,1,17,17,1,1
+B-train-00150,1,1,Phản ánh,argmin,1,1,9,9,1,1
+B-train-00150,1,1,Phản ánh,argmax,1,1,5,5,1,1
+B-train-00151,1,1,Đạt,argmax,1,1,7,7,1,1
+B-train-00151,1,2,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00151,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00151,1,2,Đạt,argmin,1,1,9,9,1,1
+B-train-00152,1,2,Đúng giờ,argmin,1,1,3,3,1,1
+B-train-00152,1,1,Tỷ lệ,argmax,1,1,8,8,1,1
+B-train-00152,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00153,2,1,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00153,2,1,Công suất phòng,argmax,1,1,17,17,1,1
+B-train-00153,1,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00153,2,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-00154,1,2,Tăng trưởng,argmax,1,1,5,5,1,1
+B-train-00154,1,1,Kế hoạch,argmax,1,1,3,3,1,1
+B-train-00155,1,1,Kỳ trước,argmax,1,1,9,9,1,1
+B-train-00155,1,1,Công suất phòng,argmax,1,1,7,7,1,1
+B-train-00155,1,1,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-00155,1,1,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00156,1,1,Diện tích (ha),argmax,1,1,8,8,1,1
+B-train-00156,1,1,Sản lượng (tấn),argmin,1,1,6,6,1,1
+B-train-00156,1,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-00156,1,1,Kỳ này,argmax,1,1,5,5,1,1
+B-train-00157,1,2,Tiến độ,argmin,1,1,6,6,1,1
+B-train-00157,1,1,Đơn xử lý,argmax,1,0,10,12,1,1
+B-train-00157,1,1,Đúng hạn,argmax,1,1,7,7,1,1
+B-train-00157,1,1,Đúng hạn,argmin,1,1,13,13,1,1
+B-train-00158,1,1,Số đơn,argmin,1,1,8,8,1,1
+B-train-00158,1,1,Hoàn trả,argmin,1,1,7,7,1,1
+B-train-00158,1,1,Hoàn trả,argmax,1,0,6,3,1,1
+B-train-00158,1,1,Số đơn,argmax,1,1,7,7,1,1
+B-train-00159,1,2,Tồn cuối,argmax,1,1,4,4,1,1
+B-train-00159,1,2,Đơn xử lý,argmax,1,0,7,13,1,1
+B-train-00159,1,2,Chi phí,argmin,1,1,11,11,1,1
+B-train-00159,1,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00160,1,1,Tăng trưởng,argmax,1,1,6,6,1,1
+B-train-00160,1,1,Tăng trưởng,argmin,1,1,9,9,1,1
+B-train-00160,1,1,Huy động,argmax,1,0,9,4,1,1
+B-train-00161,1,2,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00161,1,1,Dư nợ,argmax,1,1,10,10,1,1
+B-train-00161,1,2,Tỷ trọng (%),argmax,1,1,10,5,1,1
+B-train-00161,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00162,1,1,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00162,1,1,Sản lượng (tấn),argmin,1,1,8,8,1,1
+B-train-00162,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00162,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00163,1,1,Tỷ lệ đạt,argmin,1,1,20,20,1,1
+B-train-00163,1,1,Đạt,argmax,1,1,18,18,1,1
+B-train-00163,1,1,Kế hoạch năm,argmin,1,1,17,17,1,1
+B-train-00163,1,1,Kỳ trước,argmax,1,1,19,19,1,1
+B-train-00164,1,1,Tỷ lệ,argmin,1,1,3,3,1,1
+B-train-00164,2,1,Tỷ lệ,argmax,1,1,4,4,1,1
+B-train-00164,2,1,Phí bảo hiểm,argmin,1,1,6,6,1,1
+B-train-00165,1,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-00165,1,1,Công suất phòng,argmin,1,1,13,13,1,1
+B-train-00165,1,1,Doanh thu,argmax,1,1,13,13,1,1
+B-train-00165,1,1,Lũy kế,argmax,1,1,15,15,1,1
+B-train-00166,1,2,Lũy kế,argmax,1,0,6,7,1,1
+B-train-00166,1,1,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00166,1,2,Thiếu/thừa,argmin,1,0,4,8,1,1
+B-train-00166,1,2,Thiếu/thừa,argmax,1,1,5,5,1,1
+B-train-00167,1,1,Giá trúng,argmin,1,1,6,6,1,1
+B-train-00167,1,1,Giá trúng,argmax,1,0,17,15,1,1
+B-train-00167,1,1,Giá dự toán,argmin,1,1,6,6,1,1
+B-train-00167,1,1,Giá dự toán,argmax,1,0,17,15,1,1
+B-train-00168,1,1,Tỷ lệ,argmax,1,0,10,3,1,1
+B-train-00168,1,1,Kỳ trước,argmax,1,1,15,15,1,1
+B-train-00168,1,1,Lũy kế,argmin,1,1,14,14,1,1
+B-train-00169,1,1,Chênh lệch,argmin,1,1,4,4,1,1
+B-train-00169,1,1,Thực hiện,argmax,1,1,13,13,1,1
+B-train-00169,1,1,Tỷ lệ,argmin,1,0,4,7,1,1
+B-train-00169,1,1,Tỷ lệ,argmax,1,1,9,9,1,1
+B-train-00170,1,1,Kỳ này,argmax,1,1,5,5,1,1
+B-train-00170,1,1,Phản ánh,argmin,1,1,9,9,1,1
+B-train-00171,1,1,Chênh lệch,argmin,1,1,12,12,1,1
+B-train-00171,1,1,Tỷ lệ,argmin,1,1,10,10,1,1
+B-train-00171,1,1,Chênh lệch,argmax,1,1,7,7,1,1
+B-train-00171,2,1,Tỷ lệ,argmax,1,1,12,12,1,1
+B-train-00172,1,1,Số đơn,argmin,1,1,6,6,1,1
+B-train-00172,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00172,1,1,Lũy kế,argmin,1,0,13,8,1,1
+B-train-00173,1,2,Chênh lệch,argmax,1,1,7,7,1,1
+B-train-00173,1,1,Lưu lượng,argmin,1,1,8,8,1,1
+B-train-00173,1,2,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00173,1,1,Thuê bao,argmax,1,0,10,3,1,1
+B-train-00174,1,1,Đã giải quyết,argmax,1,1,10,10,1,1
+B-train-00174,1,2,Công suất phòng,argmax,1,1,10,10,1,1
+B-train-00174,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00174,1,2,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00175,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00175,1,1,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-00175,1,1,Số đơn,argmin,1,1,15,15,1,1
+B-train-00175,1,1,Số đơn,argmax,1,1,9,9,1,1
+B-train-00176,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00176,1,1,Tỷ trọng (%),argmin,1,1,3,3,1,1
+B-train-00176,1,1,Chênh lệch,argmax,1,1,4,4,1,1
+B-train-00176,1,1,Chênh lệch,argmin,1,1,16,16,1,1
+B-train-00177,1,1,BOD5,argmax,1,1,8,8,1,1
+B-train-00177,1,1,COD,argmax,1,1,10,10,1,1
+B-train-00177,1,1,BOD5,argmin,1,1,5,5,1,1
+B-train-00177,1,2,Sản lượng (tấn),argmin,1,1,7,7,1,1
+B-train-00178,1,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00178,1,1,Thực hiện,argmin,1,1,18,18,1,1
+B-train-00179,1,1,Doanh thu,argmin,1,1,4,4,1,1
+B-train-00179,1,1,Công suất phòng,argmax,1,1,10,10,1,1
+B-train-00179,1,1,Lũy kế,argmax,1,0,8,5,1,1
+B-train-00179,1,1,Khách quốc tế,argmin,1,1,14,14,1,1
+B-train-00180,1,1,Kỳ này,argmin,1,1,4,4,1,1
+B-train-00180,1,1,Giá dự toán,argmin,1,1,15,15,1,1
+B-train-00180,1,1,Giá trúng,argmax,1,1,14,14,1,1
+B-train-00180,1,1,Kỳ này,argmax,1,1,12,12,1,1
+B-train-00181,1,1,Số đơn,argmin,1,1,14,14,1,1
+B-train-00181,1,1,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00181,1,1,Giá trị bán,argmax,1,0,6,8,1,1
+B-train-00181,1,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-00182,1,1,Đúng giờ,argmax,1,1,9,9,1,1
+B-train-00182,1,1,Doanh thu,argmax,1,1,14,14,1,1
+B-train-00182,1,1,Hành khách,argmin,1,1,11,11,1,1
+B-train-00182,1,1,Doanh thu,argmin,1,1,11,11,1,1
+B-train-00183,1,1,Số đơn,argmin,1,1,3,3,1,1
+B-train-00183,1,2,Giá trị bán,argmin,1,1,8,8,1,1
+B-train-00183,1,1,Số đơn,argmax,1,1,4,4,1,1
+B-train-00183,1,2,Giá trị bán,argmax,1,1,13,13,1,1
+B-train-00184,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00184,1,1,Diện tích (ha),argmin,1,1,14,14,1,1
+B-train-00184,1,1,Sản lượng (tấn),argmin,1,1,14,14,1,1
+B-train-00185,1,1,Chi trả,argmax,1,1,8,8,1,1
+B-train-00185,1,1,Đã giải quyết,argmin,1,1,15,15,1,1
+B-train-00185,1,1,Trễ hạn,argmin,1,1,6,6,1,1
+B-train-00185,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00186,1,1,Phí bảo hiểm,argmin,1,1,7,7,1,1
+B-train-00186,1,1,Lũy kế,argmax,1,1,17,17,1,1
+B-train-00186,1,1,Phí bảo hiểm,argmax,1,1,17,17,1,1
+B-train-00186,1,1,Bồi thường,argmin,1,1,20,20,1,1
+B-train-00187,1,1,Sản lượng (tấn),argmax,1,1,10,10,1,1
+B-train-00187,1,1,Sản lượng (tấn),argmin,1,1,18,18,1,1
+B-train-00187,1,1,Diện tích (ha),argmax,1,1,7,7,1,1
+B-train-00187,1,1,Diện tích (ha),argmin,1,1,18,18,1,1
+B-train-00188,1,1,Tăng trưởng,argmax,1,1,3,3,1,1
+B-train-00188,1,1,Huy động,argmin,1,0,15,7,1,1
+B-train-00188,1,1,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00189,2,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00189,2,1,BOD5,argmax,1,1,10,10,1,1
+B-train-00189,2,1,COD,argmax,1,1,3,3,1,1
+B-train-00190,1,1,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00190,1,2,Sản lượng (tấn),argmax,1,1,6,6,1,1
+B-train-00191,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00191,1,1,Tổn thất,argmax,1,0,9,11,1,1
+B-train-00191,1,1,Tổn thất,argmin,1,1,6,6,1,1
+B-train-00192,1,1,Tỷ lệ rớt cuộc,argmin,1,1,7,7,1,1
+B-train-00192,2,1,Tỷ lệ rớt cuộc,argmax,1,1,6,6,1,1
+B-train-00192,1,1,Lưu lượng,argmax,1,1,3,3,1,1
+B-train-00193,1,1,Công suất đỉnh,argmax,1,1,5,5,1,1
+B-train-00193,1,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00193,1,1,Công suất đỉnh,argmin,1,1,9,9,1,1
+B-train-00193,1,1,Lũy kế,argmin,1,1,14,14,1,1
+B-train-00194,1,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00194,1,1,Tỷ lệ,argmin,1,1,14,14,1,1
+B-train-00194,1,1,Lũy kế,argmin,1,1,17,17,1,1
+B-train-00195,1,1,Doanh thu,argmax,1,1,12,12,1,1
+B-train-00195,1,2,Tồn cuối,argmin,1,1,12,12,1,1
+B-train-00195,1,2,Tồn cuối,argmax,1,1,10,10,1,1
+B-train-00195,1,1,Đúng giờ,argmin,1,1,3,3,1,1
+B-train-00196,1,1,Tỷ lệ đạt,argmin,1,1,8,8,1,1
+B-train-00196,1,2,Sản lượng (tấn),argmax,1,0,6,4,1,1
+B-train-00197,1,1,Số đơn,argmin,1,1,11,11,1,1
+B-train-00197,2,1,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00197,2,1,Số đơn,argmax,1,0,4,6,1,1
+B-train-00197,1,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00198,1,1,Giải ngân,argmax,1,1,14,14,1,1
+B-train-00198,1,1,Giải ngân,argmin,1,1,3,3,1,1
+B-train-00198,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00198,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00199,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00199,1,1,Tiến độ,argmin,1,1,15,15,1,1
+B-train-00199,1,1,Tiến độ,argmax,1,1,10,10,1,1
+B-train-00199,1,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00200,1,1,Giá trúng,argmax,1,1,7,7,1,1
+B-train-00200,1,1,Giá trúng,argmin,1,1,6,6,1,1
+B-train-00200,1,1,Giá dự toán,argmin,1,1,6,6,1,1
+B-train-00201,1,2,Phản ánh,argmin,1,1,7,7,1,1
+B-train-00201,1,2,Phản ánh,argmax,1,0,9,5,1,1
+B-train-00201,1,1,Kế hoạch năm,argmin,1,0,10,9,1,1
+B-train-00202,1,1,Tiến độ,argmin,1,0,12,10,1,1
+B-train-00202,1,1,Giải ngân,argmin,1,0,12,10,1,1
+B-train-00203,1,1,Sản lượng (tấn),argmax,1,0,10,3,1,1
+B-train-00203,1,1,Tỷ trọng (%),argmin,1,1,14,14,1,1
+B-train-00203,1,1,Diện tích (ha),argmax,1,0,5,3,1,1
+B-train-00203,1,1,Kỳ trước,argmin,1,0,18,3,1,1
+B-train-00204,1,1,Giải ngân,argmin,1,1,8,8,1,1
+B-train-00204,1,1,Giải ngân,argmax,1,1,13,13,1,1
+B-train-00204,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00205,1,1,Tồn đầu,argmin,1,1,12,12,1,1
+B-train-00205,1,1,Nhập,argmax,1,0,5,9,1,1
+B-train-00205,1,1,Tồn cuối,argmax,1,1,13,13,1,1
+B-train-00205,1,1,Tồn cuối,argmin,1,1,17,17,1,1
+B-train-00206,1,1,Hành khách,argmax,1,1,5,5,1,1
+B-train-00206,1,1,Hành khách,argmin,1,1,8,8,1,1
+B-train-00206,1,1,Doanh thu,argmin,1,1,8,8,1,1
+B-train-00207,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00207,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00207,1,1,Diện tích (ha),argmax,1,1,12,12,1,1
+B-train-00208,1,1,Tỷ lệ rớt cuộc,argmax,1,1,4,4,1,1
+B-train-00208,2,1,Lưu lượng,argmax,1,1,8,8,1,1
+B-train-00208,2,1,Tỷ lệ rớt cuộc,argmin,1,1,5,5,1,1
+B-train-00209,1,2,Đơn xử lý,argmin,1,0,6,10,1,1
+B-train-00209,1,1,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00209,1,2,Đúng hạn,argmax,1,1,12,12,1,1
+B-train-00209,1,1,Sản lượng,argmin,1,1,3,3,1,1
+B-train-00210,1,2,Đúng giờ,argmax,1,1,6,6,1,1
+B-train-00210,1,1,Hoàn trả,argmax,1,1,9,9,1,1
+B-train-00210,1,1,Hoàn trả,argmin,1,0,3,7,1,1
+B-train-00210,1,1,Giá trị bán,argmin,1,0,3,11,1,1
+B-train-00211,1,1,Giá trị bán,argmax,1,1,7,7,1,1
+B-train-00211,1,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00211,1,1,Lượt khách,argmin,1,0,6,11,1,1
+B-train-00211,1,1,Hoàn trả,argmax,1,1,14,14,1,1
+B-train-00212,1,1,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00212,1,1,Đạt,argmin,1,1,4,4,1,1
+B-train-00212,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00212,1,1,Tỷ lệ đạt,argmax,1,1,4,4,1,1
+B-train-00213,1,1,Tồn cuối,argmin,1,1,12,12,1,1
+B-train-00213,1,1,Nhập,argmin,1,1,7,7,1,1
+B-train-00213,1,1,Tồn cuối,argmax,1,1,6,6,1,1
+B-train-00214,1,1,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00214,2,1,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00214,1,1,Số đơn,argmin,1,1,13,13,1,1
+B-train-00215,1,2,Hành khách,argmin,1,1,10,10,1,1
+B-train-00215,1,2,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00215,1,1,Tổn thất,argmax,1,1,10,10,1,1
+B-train-00215,1,1,Công suất đỉnh,argmin,1,1,12,12,1,1
+B-train-00216,1,1,Tồn cuối,argmax,1,1,5,5,1,1
+B-train-00216,1,2,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00216,1,1,Tồn đầu,argmin,1,1,6,6,1,1
+B-train-00216,1,1,Nhập,argmin,1,0,8,9,1,1
+B-train-00217,1,1,Tồn đầu,argmax,1,1,4,4,1,1
+B-train-00217,1,1,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00218,2,1,Lưu lượng,argmax,1,1,5,5,1,1
+B-train-00218,1,1,Tỷ lệ rớt cuộc,argmin,1,1,9,9,1,1
+B-train-00218,1,1,Lũy kế,argmin,1,1,15,15,1,1
+B-train-00219,1,1,Kỳ này,argmin,1,1,18,18,1,1
+B-train-00219,1,1,Tăng trưởng,argmax,1,1,6,6,1,1
+B-train-00219,1,1,Tăng trưởng,argmin,1,1,4,4,1,1
+B-train-00220,1,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00220,1,1,Tuyển mới,argmax,1,1,10,10,1,1
+B-train-00220,1,1,Hiện có,argmin,1,1,16,16,1,1
+B-train-00221,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00221,1,2,Phí bảo hiểm,argmin,1,1,4,4,1,1
+B-train-00221,1,2,Bồi thường,argmax,1,1,6,6,1,1
+B-train-00221,1,2,Phí bảo hiểm,argmax,1,1,7,7,1,1
+B-train-00222,1,2,Đã giải quyết,argmax,1,1,8,8,1,1
+B-train-00222,1,1,Huy động,argmin,1,1,10,5,1,1
+B-train-00222,1,2,Kỳ này,argmax,1,1,5,5,1,1
+B-train-00223,1,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00223,1,1,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-00223,1,1,Phí bảo hiểm,argmax,1,1,14,14,1,1
+B-train-00223,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00224,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00224,1,1,Hành khách,argmin,1,1,3,3,1,1
+B-train-00224,1,1,Hành khách,argmax,1,1,8,8,1,1
+B-train-00225,1,1,Đơn xử lý,argmin,1,0,11,5,1,1
+B-train-00225,1,1,Tồn cuối,argmax,1,1,11,11,1,1
+B-train-00225,1,1,Đơn xử lý,argmax,1,0,7,8,1,1
+B-train-00225,1,1,Tồn cuối,argmin,1,1,13,13,1,1
+B-train-00226,1,1,Số đơn,argmin,1,0,9,5,1,1
+B-train-00226,1,1,Hoàn trả,argmax,1,1,4,4,1,1
+B-train-00226,1,1,Hoàn trả,argmin,1,1,5,5,1,1
+B-train-00227,1,1,Hồ sơ nhận,argmin,1,1,10,10,1,1
+B-train-00227,1,2,BOD5,argmax,1,1,6,6,1,1
+B-train-00227,1,1,Tỷ trọng (%),argmax,1,1,12,12,1,1
+B-train-00227,1,2,BOD5,argmin,1,1,7,7,1,1
+B-train-00228,1,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00228,1,1,Tồn cuối,argmin,1,1,7,7,1,1
+B-train-00228,1,2,Diện tích (ha),argmax,1,1,11,11,1,1
+B-train-00228,1,1,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-00229,1,1,Chi trả,argmin,1,1,10,10,1,1
+B-train-00229,1,1,Kỳ trước,argmax,1,1,15,15,1,1
+B-train-00229,1,1,Chi trả,argmax,1,1,15,15,1,1
+B-train-00229,1,1,Đã giải quyết,argmin,1,1,5,5,1,1
+B-train-00230,1,2,Hoàn trả,argmin,1,1,13,13,1,1
+B-train-00230,1,1,Chi phí,argmin,1,1,7,7,1,1
+B-train-00230,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00231,1,1,Tồn cuối,argmax,1,1,7,7,1,1
+B-train-00231,1,1,Xuất,argmin,1,1,8,8,1,1
+B-train-00231,1,1,Nhập,argmax,1,1,7,7,1,1
+B-train-00231,1,1,Tồn đầu,argmin,1,1,16,16,1,1
+B-train-00232,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00232,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00232,1,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00233,1,1,Chi phí,argmax,1,1,9,9,1,1
+B-train-00233,1,1,Chi phí,argmin,1,1,4,4,1,1
+B-train-00233,1,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00233,1,1,Kế hoạch năm,argmin,1,1,13,13,1,1
+B-train-00234,1,1,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00234,1,2,Giá trúng,argmin,1,1,7,7,1,1
+B-train-00234,1,1,BOD5,argmax,1,1,10,10,1,1
+B-train-00234,1,1,Lũy kế,argmin,1,1,10,10,1,1
+B-train-00235,1,1,BOD5,argmax,1,1,4,4,1,1
+B-train-00235,1,2,Sản lượng (tấn),argmin,1,1,12,12,1,1
+B-train-00235,1,2,Sản lượng (tấn),argmax,1,1,4,4,1,1
+B-train-00235,1,1,COD,argmin,1,1,4,4,1,1
+B-train-00236,1,2,Thực hiện,argmax,1,1,6,6,1,1
+B-train-00236,1,2,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00236,1,2,Thực hiện,argmin,1,1,5,5,1,1
+B-train-00237,1,1,Công suất đỉnh,argmin,1,1,16,16,1,1
+B-train-00237,1,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00237,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00237,1,1,Công suất đỉnh,argmax,1,1,14,14,1,1
+B-train-00238,1,2,Lưu lượng,argmin,1,0,4,9,1,1
+B-train-00238,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00238,1,1,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00238,1,2,Lưu lượng,argmax,1,1,11,11,1,1
+B-train-00239,1,1,BOD5,argmax,1,1,15,15,1,1
+B-train-00239,1,1,COD,argmax,1,1,20,20,1,1
+B-train-00239,1,1,BOD5,argmin,1,1,20,20,1,1
+B-train-00239,1,1,COD,argmin,1,1,19,19,1,1
+B-train-00240,1,1,Chuyển tuyến,argmax,1,1,7,7,1,1
+B-train-00240,1,1,Nhập viện,argmax,1,1,16,16,1,1
+B-train-00240,2,1,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00240,1,1,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00241,2,1,Đã giải quyết,argmin,1,1,12,12,1,1
+B-train-00241,2,1,Trễ hạn,argmax,1,1,13,13,1,1
+B-train-00241,1,1,Đã giải quyết,argmin,1,1,13,13,1,1
+B-train-00242,1,2,Chênh lệch,argmax,1,1,4,4,1,1
+B-train-00242,1,2,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00242,1,2,Kế hoạch,argmax,1,0,8,5,1,1
+B-train-00242,1,1,Hành khách,argmin,1,1,10,10,1,1
+B-train-00243,1,2,Doanh thu,argmin,1,0,12,4,1,1
+B-train-00243,1,1,Diện tích (ha),argmin,1,1,10,10,1,1
+B-train-00243,1,1,Diện tích (ha),argmax,1,1,13,13,1,1
+B-train-00244,1,1,Nhập,argmin,1,1,10,10,1,1
+B-train-00244,1,1,Tồn cuối,argmin,1,1,5,5,1,1
+B-train-00244,1,1,Nhập,argmax,1,1,15,15,1,1
+B-train-00245,1,1,Khách quốc tế,argmax,1,1,3,3,1,1
+B-train-00245,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00245,1,2,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00245,1,1,Doanh thu,argmax,1,1,6,6,1,1
+B-train-00246,2,1,Tiến độ,argmin,1,1,4,4,1,1
+B-train-00246,1,1,Giải ngân,argmin,1,1,5,5,1,1
+B-train-00247,1,2,Huy động,argmax,1,1,13,13,1,1
+B-train-00247,1,1,Huy động,argmax,1,1,10,10,1,1
+B-train-00247,1,2,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-00247,1,2,Huy động,argmin,1,1,12,12,1,1
+B-train-00248,2,1,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00248,2,1,Tỷ lệ,argmin,1,1,6,6,1,1
+B-train-00249,1,1,Chênh lệch,argmax,1,1,6,6,1,1
+B-train-00249,1,1,Kế hoạch năm,argmax,1,1,17,17,1,1
+B-train-00249,1,1,Kế hoạch năm,argmin,1,1,14,14,1,1
+B-train-00249,1,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00250,1,1,Chuyển tuyến,argmax,1,1,10,10,1,1
+B-train-00250,1,1,Nhập viện,argmax,1,1,11,11,1,1
+B-train-00251,1,1,Chuyển tuyến,argmin,1,1,17,17,1,1
+B-train-00251,1,1,Chuyển tuyến,argmax,1,1,3,3,1,1
+B-train-00251,1,1,Nhập viện,argmax,1,1,5,5,1,1
+B-train-00251,1,1,Kỳ này,argmin,1,1,18,18,1,1
+B-train-00252,1,1,Tổn thất,argmin,1,1,10,10,1,1
+B-train-00252,1,2,Bồi thường,argmax,1,1,14,14,1,1
+B-train-00252,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00252,1,2,Hợp đồng,argmin,1,1,10,10,1,1
+B-train-00253,1,2,Sản lượng,argmin,1,1,6,6,1,1
+B-train-00253,1,2,Kế hoạch năm,argmin,1,0,5,8,1,1
+B-train-00253,1,2,Sự cố,argmax,1,1,8,8,1,1
+B-train-00253,1,1,Tỷ lệ,argmax,1,1,5,5,1,1
+B-train-00254,1,1,Lũy kế,argmin,1,1,13,13,1,1
+B-train-00254,1,1,Kỳ này,argmin,1,1,19,19,1,1
+B-train-00254,1,1,Lũy kế,argmax,1,1,15,15,1,1
+B-train-00255,1,1,Hồ sơ nhận,argmax,1,0,3,7,1,1
+B-train-00255,1,2,Giá trị hợp đồng,argmax,1,0,6,9,1,1
+B-train-00255,1,2,Giá trị hợp đồng,argmin,1,1,10,10,1,1
+B-train-00255,1,1,Trễ hạn,argmin,1,1,4,4,1,1
+B-train-00256,1,1,COD,argmax,1,1,10,10,1,1
+B-train-00256,1,2,Thiếu/thừa,argmin,1,0,6,3,1,1
+B-train-00257,2,1,Chi trả,argmin,1,1,9,9,1,1
+B-train-00257,1,1,Chi trả,argmax,1,1,10,10,1,1
+B-train-00257,1,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00257,1,1,Trễ hạn,argmin,1,1,14,14,1,1
+B-train-00258,1,1,Giá dự toán,argmax,1,1,15,15,1,1
+B-train-00258,1,1,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00258,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00259,2,1,Nhập viện,argmax,1,1,13,13,1,1
+B-train-00259,1,1,Nhập viện,argmin,1,1,9,9,1,1
+B-train-00259,1,1,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00260,1,1,Đúng hạn,argmax,1,1,6,6,1,1
+B-train-00260,1,1,Chi phí,argmin,1,1,12,12,1,1
+B-train-00260,1,2,Hành khách,argmax,1,1,13,13,1,1
+B-train-00260,1,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00261,1,1,Giá trị hợp đồng,argmax,1,0,6,10,1,1
+B-train-00261,1,1,Giải ngân,argmax,1,1,3,3,1,1
+B-train-00261,1,2,Số chuyến,argmin,1,1,4,4,1,1
+B-train-00261,1,1,Giải ngân,argmin,1,1,6,6,1,1
+B-train-00262,1,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00262,1,1,Kỳ trước,argmin,1,0,6,15,1,1
+B-train-00262,1,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00262,1,1,Thực hiện,argmax,1,1,3,3,1,1
+B-train-00263,1,1,Kế hoạch năm,argmax,1,0,10,7,1,1
+B-train-00263,1,1,Sản lượng (tấn),argmax,1,1,13,13,1,1
+B-train-00263,1,2,Tăng trưởng,argmin,1,1,4,4,1,1
+B-train-00263,1,1,Lũy kế,argmin,1,0,13,7,1,1
+B-train-00264,1,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00264,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00264,1,1,Chi trả,argmax,1,1,9,9,1,1
+B-train-00264,1,1,Đã giải quyết,argmin,1,1,14,14,1,1
+B-train-00265,1,1,Hiện có,argmin,1,1,12,12,1,1
+B-train-00265,1,1,Thiếu/thừa,argmax,1,1,9,9,1,1
+B-train-00265,1,1,Hiện có,argmax,1,1,4,4,1,1
+B-train-00266,1,1,Kế hoạch năm,argmax,1,1,12,12,1,1
+B-train-00266,1,1,Đạt,argmin,1,1,8,8,1,1
+B-train-00266,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00266,1,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00267,1,2,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00267,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00267,1,2,Đúng hạn,argmax,1,1,5,5,1,1
+B-train-00267,1,2,Tồn cuối,argmax,1,0,5,10,1,1
+B-train-00268,1,1,Tỷ lệ đạt,argmin,1,1,5,5,1,1
+B-train-00268,1,1,Đạt,argmin,1,1,5,5,1,1
+B-train-00268,1,2,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00269,1,2,Khách nội địa,argmax,1,0,10,5,1,1
+B-train-00269,1,1,Tổn thất,argmax,1,1,4,4,1,1
+B-train-00269,1,2,Công suất phòng,argmin,1,1,7,7,1,1
+B-train-00270,1,1,COD,argmin,1,1,10,10,1,1
+B-train-00270,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00270,1,1,BOD5,argmax,1,1,13,13,1,1
+B-train-00271,1,1,Đạt,argmax,1,1,4,4,1,1
+B-train-00271,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00271,1,1,Đạt,argmin,1,1,11,11,1,1
+B-train-00272,1,1,Dư nợ,argmax,1,0,6,9,1,1
+B-train-00272,1,1,Nợ quá hạn,argmin,1,1,4,4,1,1
+B-train-00272,1,2,Diện tích (ha),argmin,1,1,9,9,1,1
+B-train-00273,1,1,Thực hiện,argmin,1,1,16,16,1,1
+B-train-00273,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00273,1,1,Chênh lệch,argmax,1,0,15,11,1,1
+B-train-00273,1,1,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00274,1,1,Kỳ này,argmin,1,1,15,15,1,1
+B-train-00274,1,1,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00274,1,1,Công suất đỉnh,argmax,1,1,15,15,1,1
+B-train-00274,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00275,1,1,Nhập viện,argmin,1,1,9,9,1,1
+B-train-00275,1,1,Chuyển tuyến,argmax,1,1,6,6,1,1
+B-train-00275,1,2,Đúng giờ,argmax,1,1,6,6,1,1
+B-train-00276,1,1,Doanh thu,argmax,1,1,10,10,1,1
+B-train-00276,1,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00276,1,1,Hành khách,argmax,1,1,10,10,1,1
+B-train-00277,1,1,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00277,1,1,Tồn cuối,argmax,1,1,10,10,1,1
+B-train-00277,1,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00278,1,1,Thực hiện,argmin,1,1,14,14,1,1
+B-train-00278,1,1,Tỷ lệ,argmax,1,1,4,4,1,1
+B-train-00278,1,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00278,2,1,Thực hiện,argmin,1,1,4,4,1,1
+B-train-00279,1,1,Công suất đỉnh,argmin,1,0,13,17,1,1
+B-train-00279,1,1,Tổn thất,argmax,1,1,15,15,1,1
+B-train-00279,1,1,Tổn thất,argmin,1,1,9,9,1,1
+B-train-00279,1,1,Công suất đỉnh,argmax,1,1,7,7,1,1
+B-train-00280,1,1,Tổn thất,argmax,1,1,7,7,1,1
+B-train-00280,1,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00280,1,2,Lượt khám,argmax,1,1,9,9,1,1
+B-train-00280,1,2,Nhập viện,argmin,1,1,7,7,1,1
+B-train-00281,1,1,Giá dự toán,argmin,1,1,12,12,1,1
+B-train-00281,1,1,Giá dự toán,argmax,1,1,11,11,1,1
+B-train-00281,1,1,Giá trúng,argmin,1,1,12,12,1,1
+B-train-00281,1,1,Giá trúng,argmax,1,0,11,8,1,1
+B-train-00282,1,1,Bồi thường,argmax,1,1,13,13,1,1
+B-train-00282,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00282,1,1,Tỷ lệ,argmin,1,1,11,11,1,1
+B-train-00283,1,1,Nhập viện,argmin,1,1,17,17,1,1
+B-train-00283,1,1,Lượt khám,argmax,1,0,8,13,1,1
+B-train-00283,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00284,1,1,Tỷ trọng (%),argmax,1,1,14,14,1,1
+B-train-00284,1,1,Tồn cuối,argmax,1,1,10,10,1,1
+B-train-00284,1,1,Tồn đầu,argmin,1,1,3,3,1,1
+B-train-00284,1,1,Nhập,argmin,1,1,9,9,1,1
+B-train-00285,1,1,Kế hoạch năm,argmin,1,0,6,4,1,1
+B-train-00285,1,1,Tuyển mới,argmax,1,1,3,3,1,1
+B-train-00285,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00286,2,1,Bồi thường,argmax,1,1,3,3,1,1
+B-train-00286,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00286,1,1,Tỷ lệ,argmin,1,1,9,9,1,1
+B-train-00286,2,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00287,1,1,Tổn thất,argmax,1,1,13,13,1,1
+B-train-00287,1,1,Công suất đỉnh,argmax,1,1,12,12,1,1
+B-train-00287,1,1,Tổn thất,argmin,1,1,3,3,1,1
+B-train-00287,1,1,Kỳ trước,argmin,1,1,20,20,1,1
+B-train-00288,2,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00288,1,1,Lũy kế,argmax,1,1,4,4,1,1
+B-train-00288,2,1,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-00289,1,2,Kỳ này,argmax,1,1,5,5,1,1
+B-train-00289,1,2,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00289,1,1,Đúng giờ,argmin,1,1,11,11,1,1
+B-train-00289,1,1,Đúng giờ,argmax,1,1,5,5,1,1
+B-train-00290,1,2,Phản ánh,argmax,1,1,3,3,1,1
+B-train-00290,1,2,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00290,1,2,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00291,1,1,Lưu lượng,argmin,1,1,13,13,1,1
+B-train-00291,1,1,Phản ánh,argmax,1,1,8,8,1,1
+B-train-00291,1,1,Tỷ lệ rớt cuộc,argmin,1,1,5,5,1,1
+B-train-00291,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00292,1,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-00292,1,1,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00293,1,1,Tỷ lệ,argmin,1,1,3,3,1,1
+B-train-00293,1,1,Bồi thường,argmin,1,1,3,3,1,1
+B-train-00293,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00293,1,1,Phí bảo hiểm,argmax,1,1,14,14,1,1
+B-train-00294,1,1,Tỷ lệ đạt,argmax,1,1,3,3,1,1
+B-train-00294,1,2,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00294,1,2,Kế hoạch,argmin,1,1,6,6,1,1
+B-train-00294,1,2,Tỷ lệ,argmax,1,1,10,10,1,1
+B-train-00295,1,1,Tiến độ,argmax,1,1,8,8,1,1
+B-train-00295,1,1,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00295,1,2,Kỳ này,argmax,1,1,14,14,1,1
+B-train-00295,1,2,Tổn thất,argmin,1,1,14,14,1,1
+B-train-00296,1,1,Lũy kế,argmin,1,1,16,16,1,1
+B-train-00296,1,1,Hoàn trả,argmax,1,1,9,9,1,1
+B-train-00296,2,1,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00297,1,2,Hiện có,argmin,1,0,7,3,1,1
+B-train-00297,1,1,Diện tích (ha),argmax,1,1,5,5,1,1
+B-train-00297,1,2,Định biên,argmin,1,0,6,3,1,1
+B-train-00297,1,2,Thiếu/thừa,argmax,1,1,8,8,1,1
+B-train-00298,1,1,Đạt,argmin,1,1,17,17,1,1
+B-train-00298,1,1,Kỳ này,argmax,1,0,5,16,1,1
+B-train-00298,1,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-00298,1,1,Đạt,argmax,1,1,3,3,1,1
+B-train-00299,1,1,Kỳ này,argmax,1,1,20,20,1,1
+B-train-00299,1,1,Kế hoạch năm,argmin,1,1,18,18,1,1
+B-train-00299,1,1,Công suất phòng,argmin,1,1,14,14,1,1
+B-train-00299,1,1,Khách quốc tế,argmax,1,1,9,9,1,1
+B-train-00300,1,1,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00300,1,1,Số chuyến,argmax,1,1,9,9,1,1
+B-train-00301,1,1,Giá trị bán,argmin,1,1,7,7,1,1
+B-train-00301,1,1,Số đơn,argmin,1,1,7,7,1,1
+B-train-00301,1,1,Số đơn,argmax,1,1,4,4,1,1
+B-train-00301,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00302,1,1,Giá trị hợp đồng,argmin,1,0,10,4,1,1
+B-train-00302,1,1,Tiến độ,argmax,1,1,10,10,1,1
+B-train-00302,1,2,Chuyển tuyến,argmin,1,1,7,7,1,1
+B-train-00302,1,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-00303,1,1,Phí bảo hiểm,argmax,1,1,3,3,1,1
+B-train-00303,1,1,Bồi thường,argmin,1,1,7,7,1,1
+B-train-00303,1,1,Bồi thường,argmax,1,0,10,4,1,1
+B-train-00303,1,1,Hợp đồng,argmin,1,0,4,6,1,1
+B-train-00304,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00304,1,1,Công suất phòng,argmax,1,1,11,11,1,1
+B-train-00304,1,1,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00305,1,1,Công suất phòng,argmax,1,1,13,13,1,1
+B-train-00305,1,1,Công suất phòng,argmin,1,1,7,7,1,1
+B-train-00305,1,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00305,1,1,Doanh thu,argmax,1,1,9,9,1,1
+B-train-00306,1,2,Tăng trưởng,argmax,1,1,9,9,1,1
+B-train-00306,1,1,Hiện có,argmin,1,1,11,11,1,1
+B-train-00306,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00306,1,1,Thiếu/thừa,argmin,1,1,11,11,1,1
+B-train-00307,1,2,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00307,1,1,Đã giải quyết,argmin,1,1,9,9,1,1
+B-train-00307,1,2,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00307,1,1,Chi trả,argmax,1,1,3,3,1,1
+B-train-00308,1,1,Tỷ trọng (%),argmax,1,0,13,14,1,1
+B-train-00308,1,1,Lưu lượng,argmax,1,1,6,6,1,1
+B-train-00308,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00308,1,1,Lưu lượng,argmin,1,1,5,5,1,1
+B-train-00309,1,1,Kỳ trước,argmax,1,1,15,15,1,1
+B-train-00309,1,1,Bồi thường,argmin,1,1,16,16,1,1
+B-train-00309,1,1,Phí bảo hiểm,argmax,1,1,9,9,1,1
+B-train-00309,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00310,1,2,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00310,1,1,Đạt,argmin,1,1,13,13,1,1
+B-train-00310,1,2,Khách nội địa,argmax,1,0,10,7,1,1
+B-train-00310,1,2,Lũy kế,argmax,1,0,14,10,1,1
+B-train-00311,2,1,BOD5,argmin,1,1,14,14,1,1
+B-train-00311,1,1,BOD5,argmin,1,1,12,12,1,1
+B-train-00312,1,1,Phản ánh,argmax,1,1,15,15,1,1
+B-train-00312,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00312,1,1,Lưu lượng,argmax,1,1,19,19,1,1
+B-train-00313,1,1,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00313,1,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-00313,1,1,Kỳ này,argmin,1,1,4,4,1,1
+B-train-00313,1,1,Tỷ trọng (%),argmin,1,0,3,10,1,1
+B-train-00314,1,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00314,1,1,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00314,1,1,Thực hiện,argmin,1,1,6,6,1,1
+B-train-00315,1,1,Chuyển tuyến,argmax,1,1,11,11,1,1
+B-train-00315,1,1,Chuyển tuyến,argmin,1,1,5,5,1,1
+B-train-00315,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00315,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00316,1,1,Kỳ trước,argmax,1,1,6,6,1,1
+B-train-00316,1,1,Huy động,argmin,1,1,13,13,1,1
+B-train-00316,1,1,Tăng trưởng,argmax,1,1,14,14,1,1
+B-train-00317,1,1,Đã giải quyết,argmin,1,1,14,14,1,1
+B-train-00317,1,1,Lũy kế,argmax,1,1,4,4,1,1
+B-train-00317,1,1,Kế hoạch năm,argmax,1,1,16,16,1,1
+B-train-00317,1,1,Kế hoạch năm,argmin,1,1,9,9,1,1
+B-train-00318,1,2,Giá trúng,argmin,1,1,4,4,1,1
+B-train-00318,1,2,Giá dự toán,argmax,1,1,7,7,1,1
+B-train-00319,1,1,Thực hiện,argmin,1,1,11,11,1,1
+B-train-00319,1,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00319,2,1,Thực hiện,argmax,1,1,10,10,1,1
+B-train-00320,1,1,Sản lượng (tấn),argmax,1,1,8,8,1,1
+B-train-00320,1,1,Diện tích (ha),argmax,1,1,8,8,1,1
+B-train-00320,1,1,Sản lượng (tấn),argmin,1,0,13,15,1,1
+B-train-00321,1,2,Thực hiện,argmax,1,1,9,9,1,1
+B-train-00321,1,1,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00321,1,1,Tiến độ,argmin,1,1,5,5,1,1
+B-train-00321,1,2,Chênh lệch,argmax,1,0,11,12,1,1
+B-train-00322,1,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00322,1,1,Nhập viện,argmax,1,1,12,12,1,1
+B-train-00323,1,1,Kỳ này,argmax,1,1,16,16,1,1
+B-train-00323,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00323,1,1,Lưu lượng,argmin,1,1,6,6,1,1
+B-train-00323,1,1,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00324,1,1,Giá trị bán,argmin,1,1,13,13,1,1
+B-train-00324,1,1,Số đơn,argmax,1,1,6,6,1,1
+B-train-00324,1,1,Hoàn trả,argmax,1,1,11,11,1,1
+B-train-00325,1,1,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00325,1,1,COD,argmin,1,1,12,12,1,1
+B-train-00325,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00326,1,1,Kỳ này,argmax,1,1,14,14,1,1
+B-train-00326,1,2,Lưu lượng,argmax,1,1,4,4,1,1
+B-train-00326,1,2,Phản ánh,argmin,1,1,3,3,1,1
+B-train-00327,1,2,Bồi thường,argmax,1,1,6,6,1,1
+B-train-00327,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00327,1,2,Phí bảo hiểm,argmin,1,1,9,9,1,1
+B-train-00327,1,1,Kỳ trước,argmin,1,0,7,8,1,1
+B-train-00328,1,1,Số đơn,argmax,1,1,13,13,1,1
+B-train-00328,1,1,Giá trị bán,argmin,1,1,10,10,1,1
+B-train-00328,1,1,Số đơn,argmin,1,1,9,9,1,1
+B-train-00328,1,1,Giá trị bán,argmax,1,1,13,13,1,1
+B-train-00329,1,1,Kế hoạch năm,argmin,1,1,19,19,1,1
+B-train-00329,1,1,Kế hoạch năm,argmax,1,1,4,4,1,1
+B-train-00329,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00330,1,1,Tỷ trọng (%),argmin,1,1,17,17,1,1
+B-train-00330,1,1,Kỳ này,argmax,1,0,3,4,1,1
+B-train-00330,1,1,Lưu lượng,argmax,1,1,10,10,1,1
+B-train-00330,1,1,Kỳ này,argmin,1,1,14,14,1,1
+B-train-00331,1,1,Tồn cuối,argmin,1,0,6,9,1,1
+B-train-00331,1,2,Kỳ trước,argmax,1,0,7,8,1,1
+B-train-00331,1,1,Tồn cuối,argmax,1,0,11,3,1,1
+B-train-00332,1,1,Diện tích (ha),argmax,1,1,15,15,1,1
+B-train-00332,1,1,Sản lượng (tấn),argmin,1,1,7,7,1,1
+B-train-00332,1,1,Diện tích (ha),argmin,1,1,7,7,1,1
+B-train-00333,1,1,Kỳ này,argmax,1,1,10,10,1,1
+B-train-00333,1,1,Công suất đỉnh,argmin,1,1,5,5,1,1
+B-train-00333,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00333,1,1,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00334,1,1,Nhập viện,argmin,1,1,8,8,1,1
+B-train-00334,1,1,Chuyển tuyến,argmin,1,1,17,17,1,1
+B-train-00334,1,1,Nhập viện,argmax,1,1,3,3,1,1
+B-train-00335,1,1,Kỳ trước,argmax,1,0,13,11,1,1
+B-train-00335,1,1,Hiện có,argmin,1,1,16,16,1,1
+B-train-00335,1,1,Tỷ trọng (%),argmin,1,1,17,17,1,1
+B-train-00335,1,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00336,1,1,Tăng trưởng,argmin,1,1,10,10,1,1
+B-train-00336,1,1,Huy động,argmax,1,1,7,7,1,1
+B-train-00336,1,1,Nợ quá hạn,argmin,1,1,13,13,1,1
+B-train-00336,1,1,Tăng trưởng,argmax,1,1,4,4,1,1
+B-train-00337,1,1,Đạt,argmin,1,1,4,4,1,1
+B-train-00337,1,2,Thí sinh,argmin,1,1,7,7,1,1
+B-train-00337,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00338,1,1,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00338,1,1,Tiến độ,argmax,1,1,6,6,1,1
+B-train-00338,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00339,1,1,Tỷ lệ,argmax,1,1,10,10,1,1
+B-train-00339,1,1,Chênh lệch,argmax,1,1,3,3,1,1
+B-train-00339,1,1,Chênh lệch,argmin,1,0,7,5,1,1
+B-train-00339,1,1,Tỷ lệ,argmin,1,0,8,5,1,1
+B-train-00340,1,1,Lưu lượng,argmax,1,1,5,5,1,1
+B-train-00340,2,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00340,2,1,Lưu lượng,argmin,1,1,14,14,1,1
+B-train-00341,1,2,Giải ngân,argmax,1,0,7,10,1,1
+B-train-00341,1,1,Tỷ lệ rớt cuộc,argmax,1,1,6,6,1,1
+B-train-00341,1,1,Tỷ lệ rớt cuộc,argmin,1,1,8,8,1,1
+B-train-00341,1,2,Giải ngân,argmin,1,1,5,5,1,1
+B-train-00342,1,1,Đúng giờ,argmax,1,1,3,3,1,1
+B-train-00342,1,1,Đúng giờ,argmin,1,1,4,4,1,1
+B-train-00342,1,1,Hành khách,argmin,1,1,8,8,1,1
+B-train-00343,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00343,1,1,Đúng giờ,argmin,1,1,3,3,1,1
+B-train-00343,1,1,Tỷ trọng (%),argmax,1,1,19,19,1,1
+B-train-00343,1,1,Kế hoạch năm,argmin,1,1,18,18,1,1
+B-train-00344,1,1,Hiện có,argmin,1,1,8,8,1,1
+B-train-00344,1,1,Thiếu/thừa,argmin,1,1,3,3,1,1
+B-train-00344,1,1,Thiếu/thừa,argmax,1,0,11,13,1,1
+B-train-00345,1,1,Tỷ lệ,argmax,1,1,12,12,1,1
+B-train-00345,1,1,Phí bảo hiểm,argmax,1,1,5,5,1,1
+B-train-00345,1,1,Bồi thường,argmin,1,0,13,6,1,1
+B-train-00345,1,1,Phí bảo hiểm,argmin,1,1,11,11,1,1
+B-train-00346,1,1,Tiến độ,argmax,1,1,8,8,1,1
+B-train-00346,1,1,Giải ngân,argmin,1,1,10,10,1,1
+B-train-00347,2,1,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-00348,1,2,Sản lượng (tấn),argmin,1,1,7,7,1,1
+B-train-00348,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00349,1,2,Doanh thu,argmax,1,0,12,8,1,1
+B-train-00349,1,1,Diện tích (ha),argmax,1,1,9,9,1,1
+B-train-00349,1,2,Khách nội địa,argmin,1,1,6,6,1,1
+B-train-00349,1,2,Công suất phòng,argmin,1,1,5,5,1,1
+B-train-00350,1,1,Tỷ lệ,argmax,1,1,4,4,1,1
+B-train-00350,1,1,Chênh lệch,argmin,1,1,6,6,1,1
+B-train-00350,1,1,Thực hiện,argmin,1,0,5,8,1,1
+B-train-00350,1,1,Thực hiện,argmax,1,1,12,12,1,1
+B-train-00351,1,2,Công suất phòng,argmax,1,1,9,9,1,1
+B-train-00351,1,2,Doanh thu,argmax,1,1,7,7,1,1
+B-train-00351,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00351,1,2,Công suất phòng,argmin,1,1,6,6,1,1
+B-train-00352,1,2,Doanh thu,argmax,1,1,4,4,1,1
+B-train-00352,1,1,Thực hiện,argmin,1,0,7,8,1,1
+B-train-00352,1,1,Tỷ lệ,argmax,1,1,5,5,1,1
+B-train-00353,1,1,Tồn đầu,argmax,1,1,12,12,1,1
+B-train-00353,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00353,1,1,Kế hoạch năm,argmin,1,1,16,16,1,1
+B-train-00353,1,1,Nhập,argmax,1,1,13,13,1,1
+B-train-00354,1,1,Lũy kế,argmin,1,1,10,10,1,1
+B-train-00354,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00355,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00355,1,1,Giá trị hợp đồng,argmin,1,0,5,4,1,1
+B-train-00355,1,2,pH,argmax,1,1,4,4,1,1
+B-train-00355,1,2,COD,argmin,1,1,3,3,1,1
+B-train-00356,1,1,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00356,1,1,COD,argmin,1,1,6,6,1,1
+B-train-00357,1,2,Nhập,argmax,1,1,13,13,1,1
+B-train-00357,1,2,Nhập,argmin,1,1,9,9,1,1
+B-train-00357,1,1,Giá trúng,argmax,1,1,11,11,1,1
+B-train-00357,1,1,Giá trúng,argmin,1,1,3,3,1,1
+B-train-00358,1,2,Lưu lượng,argmin,1,1,9,9,1,1
+B-train-00358,1,2,Thuê bao,argmax,1,1,9,9,1,1
+B-train-00358,1,2,Phản ánh,argmax,1,1,3,3,1,1
+B-train-00359,1,1,Giải ngân,argmin,1,1,8,8,1,1
+B-train-00359,1,2,Đã giải quyết,argmin,1,1,9,9,1,1
+B-train-00360,1,1,Tồn cuối,argmax,1,1,14,14,1,1
+B-train-00360,1,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00360,1,1,Kỳ này,argmax,1,1,17,17,1,1
+B-train-00360,1,1,Tồn cuối,argmin,1,1,12,12,1,1
+B-train-00361,1,1,Tăng trưởng,argmin,1,1,11,11,1,1
+B-train-00361,1,1,Kỳ trước,argmax,1,1,6,6,1,1
+B-train-00361,2,1,Huy động,argmax,1,1,13,13,1,1
+B-train-00362,1,1,Tỷ lệ,argmin,1,1,9,9,1,1
+B-train-00362,1,1,Bồi thường,argmin,1,1,9,9,1,1
+B-train-00362,1,2,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00363,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00363,1,1,Đã giải quyết,argmin,1,1,10,10,1,1
+B-train-00363,1,1,Đã giải quyết,argmax,1,1,15,15,1,1
+B-train-00363,1,1,Chi trả,argmin,1,1,3,3,1,1
+B-train-00364,1,1,Tồn cuối,argmin,1,1,18,18,1,1
+B-train-00364,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00365,1,1,COD,argmax,1,1,17,17,1,1
+B-train-00365,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00365,1,1,Kỳ này,argmin,1,1,17,17,1,1
+B-train-00366,1,2,Tăng trưởng,argmin,1,1,5,5,1,1
+B-train-00366,1,1,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00366,1,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00366,1,2,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00367,1,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00367,1,1,Nhập viện,argmax,1,1,3,3,1,1
+B-train-00367,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00367,1,1,Lượt khám,argmin,1,0,8,15,1,1
+B-train-00368,1,1,Tồn đầu,argmin,1,1,9,9,1,1
+B-train-00368,1,1,Tồn đầu,argmax,1,1,10,10,1,1
+B-train-00368,1,1,Nhập,argmax,1,1,11,11,1,1
+B-train-00369,1,1,Khách quốc tế,argmax,1,1,6,6,1,1
+B-train-00369,1,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00369,1,1,Công suất phòng,argmax,1,1,7,7,1,1
+B-train-00369,1,1,Khách quốc tế,argmin,1,1,13,13,1,1
+B-train-00370,1,1,Lưu lượng,argmin,1,1,6,6,1,1
+B-train-00370,1,1,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00370,1,1,Lũy kế,argmin,1,1,13,13,1,1
+B-train-00370,2,1,Tỷ lệ rớt cuộc,argmax,1,1,14,14,1,1
+B-train-00371,1,1,Kỳ này,argmax,1,1,17,17,1,1
+B-train-00371,1,1,Công suất phòng,argmin,1,1,9,9,1,1
+B-train-00371,1,1,Doanh thu,argmax,1,1,15,15,1,1
+B-train-00371,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00372,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00372,1,1,Định biên,argmin,1,0,5,6,1,1
+B-train-00372,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00373,1,2,Phản ánh,argmax,1,0,3,4,1,1
+B-train-00373,1,2,Lưu lượng,argmax,1,1,7,7,1,1
+B-train-00373,1,1,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-00373,1,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00374,1,1,Tỷ trọng (%),argmax,1,0,9,7,1,1
+B-train-00374,1,2,Xuất,argmax,1,1,11,11,1,1
+B-train-00374,1,2,Tồn đầu,argmin,1,1,6,6,1,1
+B-train-00374,1,2,Xuất,argmin,1,0,13,4,1,1
+B-train-00375,1,1,Tiến độ,argmin,1,1,3,3,1,1
+B-train-00375,1,2,COD,argmax,1,1,7,7,1,1
+B-train-00375,1,2,BOD5,argmax,1,1,14,14,1,1
+B-train-00375,1,1,Giải ngân,argmin,1,1,5,5,1,1
+B-train-00376,1,1,pH,argmin,1,1,8,8,1,1
+B-train-00376,1,2,BOD5,argmax,1,1,12,12,1,1
+B-train-00376,1,1,Tỷ trọng (%),argmin,1,0,7,9,1,1
+B-train-00377,1,1,Tỷ lệ đạt,argmax,1,1,4,4,1,1
+B-train-00377,1,2,Kỳ trước,argmin,1,0,9,3,1,1
+B-train-00377,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00377,1,1,Thí sinh,argmin,1,0,5,12,1,1
+B-train-00378,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00378,1,1,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00378,1,1,Tỷ lệ,argmax,1,1,5,5,1,1
+B-train-00379,1,1,Huy động,argmax,1,1,11,11,1,1
+B-train-00379,1,1,Tỷ trọng (%),argmin,1,0,8,10,1,1
+B-train-00379,1,1,Huy động,argmin,1,0,5,10,1,1
+B-train-00379,1,1,Tăng trưởng,argmax,1,1,3,3,1,1
+B-train-00380,1,1,Chi phí,argmax,1,1,9,9,1,1
+B-train-00380,1,1,Chi phí,argmin,1,1,4,4,1,1
+B-train-00380,1,2,Chuyển tuyến,argmin,1,1,10,10,1,1
+B-train-00381,1,2,Nhập viện,argmax,1,1,4,4,1,1
+B-train-00381,1,2,Lượt khám,argmin,1,1,7,7,1,1
+B-train-00381,1,1,Công suất đỉnh,argmax,1,0,13,3,1,1
+B-train-00382,1,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00382,1,1,Lượt khám,argmax,1,0,9,11,1,1
+B-train-00383,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00383,1,1,Công suất đỉnh,argmax,1,1,10,10,1,1
+B-train-00383,1,1,Kỳ này,argmin,1,1,14,14,1,1
+B-train-00383,1,1,Sự cố,argmin,1,0,13,5,1,1
+B-train-00384,1,1,Hoàn trả,argmax,1,1,5,5,1,1
+B-train-00384,1,1,Số đơn,argmin,1,1,14,14,1,1
+B-train-00384,1,1,Giá trị bán,argmax,1,1,5,5,1,1
+B-train-00385,1,2,Phản ánh,argmin,1,1,7,7,1,1
+B-train-00385,1,2,Tỷ lệ rớt cuộc,argmax,1,1,11,11,1,1
+B-train-00385,1,2,Phản ánh,argmax,1,1,10,10,1,1
+B-train-00385,1,2,Thuê bao,argmin,1,1,7,7,1,1
+B-train-00386,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00386,1,2,Giá trị hợp đồng,argmin,1,1,6,6,1,1
+B-train-00386,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00386,1,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00387,1,1,Phản ánh,argmin,1,1,7,7,1,1
+B-train-00387,1,1,Lưu lượng,argmin,1,1,11,11,1,1
+B-train-00387,1,2,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00387,1,2,Giá trúng,argmax,1,1,4,4,1,1
+B-train-00388,1,1,Tỷ trọng (%),argmin,1,1,3,3,1,1
+B-train-00388,1,1,Nhập viện,argmax,1,1,8,8,1,1
+B-train-00389,1,2,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00389,1,2,COD,argmax,1,0,9,3,1,1
+B-train-00389,1,2,pH,argmin,1,0,11,5,1,1
+B-train-00389,1,2,BOD5,argmin,1,1,8,8,1,1
+B-train-00390,1,2,Đã giải quyết,argmin,1,1,11,11,1,1
+B-train-00390,1,2,Hồ sơ nhận,argmin,1,0,8,3,1,1
+B-train-00390,1,2,Hồ sơ nhận,argmax,1,1,7,7,1,1
+B-train-00391,1,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00391,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00391,1,1,Phí bảo hiểm,argmax,1,1,3,3,1,1
+B-train-00392,1,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00392,1,1,Nhập viện,argmax,1,1,17,17,1,1
+B-train-00392,1,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00392,1,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00393,1,1,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00393,1,2,Doanh thu,argmax,1,1,7,7,1,1
+B-train-00393,1,2,Khách quốc tế,argmin,1,1,9,9,1,1
+B-train-00393,1,2,Khách nội địa,argmin,1,1,5,5,1,1
+B-train-00394,1,1,Giải ngân,argmax,1,1,10,10,1,1
+B-train-00394,1,1,Giá trị hợp đồng,argmin,1,0,11,3,1,1
+B-train-00394,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00394,1,2,Đơn xử lý,argmax,1,1,9,9,1,1
+B-train-00395,1,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00395,1,2,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00395,1,1,Tỷ lệ,argmax,1,0,6,11,1,1
+B-train-00395,1,1,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00396,1,2,Lũy kế,argmin,1,1,14,14,1,1
+B-train-00396,1,1,Khách quốc tế,argmin,1,1,10,10,1,1
+B-train-00396,1,1,Khách quốc tế,argmax,1,1,5,5,1,1
+B-train-00397,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00397,1,1,Giải ngân,argmin,1,1,5,5,1,1
+B-train-00397,1,1,Tiến độ,argmin,1,1,19,19,1,1
+B-train-00397,1,1,Tiến độ,argmax,1,1,16,16,1,1
+B-train-00398,1,1,BOD5,argmax,1,1,9,9,1,1
+B-train-00398,1,1,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00398,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00398,1,1,Kế hoạch năm,argmin,1,1,15,15,1,1
+B-train-00399,1,1,Số đơn,argmax,1,1,3,3,1,1
+B-train-00399,1,1,Giá trị bán,argmax,1,1,7,7,1,1
+B-train-00399,1,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00399,1,2,Lượt khám,argmin,1,0,7,9,1,1
+B-train-00400,1,1,Huy động,argmax,1,1,3,3,1,1
+B-train-00400,1,1,Tăng trưởng,argmin,1,1,14,14,1,1
+B-train-00401,1,1,Giá trị hợp đồng,argmax,1,0,5,4,1,1
+B-train-00401,1,2,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00401,1,2,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00401,1,1,Giá trị hợp đồng,argmin,1,1,11,11,1,1
+B-train-00402,1,1,Tồn đầu,argmin,1,1,6,6,1,1
+B-train-00402,1,2,Giải ngân,argmin,1,0,6,8,1,1
+B-train-00402,1,2,Giải ngân,argmax,1,1,4,4,1,1
+B-train-00402,1,1,Nhập,argmax,1,1,8,8,1,1
+B-train-00403,1,1,Chuyển tuyến,argmax,1,1,15,15,1,1
+B-train-00403,1,1,Nhập viện,argmax,1,1,10,10,1,1
+B-train-00404,2,1,Đúng hạn,argmin,1,1,8,8,1,1
+B-train-00404,1,1,Đúng hạn,argmin,1,1,11,11,1,1
+B-train-00404,2,1,Kế hoạch năm,argmax,1,1,13,3,1,1
+B-train-00404,1,1,Chi phí,argmax,1,1,5,5,1,1
+B-train-00405,1,2,Lưu lượng,argmax,1,1,3,3,1,1
+B-train-00405,1,1,Tiến độ,argmin,1,1,9,9,1,1
+B-train-00405,1,1,Tiến độ,argmax,1,1,10,10,1,1
+B-train-00405,1,1,Tỷ trọng (%),argmin,1,1,3,3,1,1
+B-train-00406,1,1,Chênh lệch,argmax,1,1,14,14,1,1
+B-train-00406,1,1,Thực hiện,argmax,1,1,8,8,1,1
+B-train-00406,1,1,Chênh lệch,argmin,1,1,5,5,1,1
+B-train-00407,1,2,Lũy kế,argmin,1,0,7,3,1,1
+B-train-00407,1,1,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00407,1,2,Huy động,argmax,1,1,3,3,1,1
+B-train-00408,1,1,Đúng giờ,argmin,1,1,9,9,1,1
+B-train-00408,1,1,Doanh thu,argmin,1,1,10,10,1,1
+B-train-00408,1,1,Hành khách,argmax,1,1,8,8,1,1
+B-train-00409,1,1,Kế hoạch năm,argmax,1,0,3,10,1,1
+B-train-00409,1,1,Hành khách,argmin,1,1,10,10,1,1
+B-train-00409,1,1,Đúng giờ,argmin,1,1,12,12,1,1
+B-train-00410,2,1,Tăng trưởng,argmax,1,1,10,10,1,1
+B-train-00410,2,1,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00411,1,1,Tỷ trọng (%),argmax,1,1,17,17,1,1
+B-train-00411,1,1,Diện tích (ha),argmin,1,1,14,14,1,1
+B-train-00411,1,1,Sản lượng (tấn),argmin,1,1,14,14,1,1
+B-train-00412,1,1,Giá trúng,argmax,1,1,9,9,1,1
+B-train-00412,1,1,Kỳ trước,argmin,1,1,12,12,1,1
+B-train-00412,1,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00413,1,1,Giải ngân,argmax,1,0,14,6,1,1
+B-train-00413,1,1,Lũy kế,argmin,1,0,17,6,1,1
+B-train-00413,1,1,Tiến độ,argmax,1,1,10,10,1,1
+B-train-00413,1,1,Kỳ này,argmin,1,0,11,12,1,1
+B-train-00414,1,1,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00414,1,1,Đạt,argmin,1,1,6,6,1,1
+B-train-00414,1,2,Tỷ lệ đạt,argmin,1,1,6,6,1,1
+B-train-00415,1,1,Hành khách,argmin,1,1,14,14,1,1
+B-train-00415,1,1,Đúng giờ,argmax,1,1,3,3,1,1
+B-train-00415,1,1,Doanh thu,argmin,1,1,14,14,1,1
+B-train-00415,1,1,Doanh thu,argmax,1,1,7,7,1,1
+B-train-00416,1,1,Xuất,argmax,1,1,16,16,1,1
+B-train-00416,1,1,Tồn đầu,argmin,1,1,13,13,1,1
+B-train-00416,1,1,Tồn cuối,argmax,1,1,4,4,1,1
+B-train-00417,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00417,1,1,Tồn đầu,argmax,1,1,6,6,1,1
+B-train-00417,1,1,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00418,2,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00418,1,1,Lưu lượng,argmin,1,1,6,6,1,1
+B-train-00418,1,1,Tỷ trọng (%),argmin,1,1,15,15,1,1
+B-train-00418,1,1,Tỷ lệ rớt cuộc,argmax,1,1,3,3,1,1
+B-train-00419,1,1,Tổn thất,argmin,1,1,14,14,1,1
+B-train-00419,1,1,Tổn thất,argmax,1,1,9,9,1,1
+B-train-00419,1,1,Công suất đỉnh,argmax,1,1,3,3,1,1
+B-train-00419,1,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00420,1,2,Hành khách,argmin,1,1,6,6,1,1
+B-train-00420,1,1,Sản lượng (tấn),argmax,1,1,10,10,1,1
+B-train-00421,1,2,Huy động,argmin,1,1,5,5,1,1
+B-train-00421,1,2,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00421,1,2,Tỷ trọng (%),argmax,1,0,7,3,1,1
+B-train-00422,1,1,Chi trả,argmin,1,1,10,10,1,1
+B-train-00422,1,1,Tỷ trọng (%),argmax,1,0,8,3,1,1
+B-train-00422,1,1,Đã giải quyết,argmax,1,1,9,9,1,1
+B-train-00423,1,2,Lũy kế,argmin,1,0,7,10,1,1
+B-train-00423,1,1,Phí bảo hiểm,argmin,1,1,4,4,1,1
+B-train-00423,1,2,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00424,1,1,Khách quốc tế,argmin,1,0,16,11,1,1
+B-train-00424,1,1,Công suất phòng,argmin,1,1,14,14,1,1
+B-train-00424,1,1,Doanh thu,argmax,1,1,18,18,1,1
+B-train-00424,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00425,1,1,Tồn cuối,argmax,1,1,7,7,1,1
+B-train-00425,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00425,1,1,Tồn đầu,argmax,1,0,7,4,1,1
+B-train-00426,1,1,Phản ánh,argmin,1,1,9,9,1,1
+B-train-00426,2,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00426,1,1,Tỷ lệ rớt cuộc,argmax,1,1,7,7,1,1
+B-train-00427,1,1,Kế hoạch,argmax,1,1,6,6,1,1
+B-train-00427,1,1,Chênh lệch,argmax,1,1,10,10,1,1
+B-train-00427,1,2,Kỳ này,argmin,1,1,4,4,1,1
+B-train-00427,1,1,Tỷ lệ,argmin,1,1,4,4,1,1
+B-train-00428,1,1,Giá trúng,argmax,1,1,9,9,1,1
+B-train-00428,1,1,Lũy kế,argmin,1,1,17,17,1,1
+B-train-00428,1,1,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00429,1,1,Tồn cuối,argmin,1,1,9,9,1,1
+B-train-00429,1,1,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00429,1,2,Trễ hạn,argmin,1,1,3,3,1,1
+B-train-00430,1,1,Công suất đỉnh,argmin,1,1,6,6,1,1
+B-train-00430,1,1,Lũy kế,argmax,1,1,12,12,1,1
+B-train-00430,1,1,Sự cố,argmax,1,1,5,5,1,1
+B-train-00431,1,2,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00431,1,2,Diện tích (ha),argmin,1,1,7,7,1,1
+B-train-00431,1,1,Công suất phòng,argmin,1,1,10,10,1,1
+B-train-00431,1,1,Doanh thu,argmax,1,1,9,9,1,1
+B-train-00432,1,1,Giải ngân,argmax,1,1,4,4,1,1
+B-train-00432,1,1,Tiến độ,argmin,1,1,5,5,1,1
+B-train-00432,1,1,Giá trị hợp đồng,argmax,1,0,7,4,1,1
+B-train-00432,1,1,Giá trị hợp đồng,argmin,1,0,12,11,1,1
+B-train-00433,1,2,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00433,1,1,Doanh thu,argmin,1,1,8,8,1,1
+B-train-00433,1,2,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00433,1,2,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00434,1,1,Công suất phòng,argmax,1,1,3,3,1,1
+B-train-00434,1,1,Công suất phòng,argmin,1,1,8,8,1,1
+B-train-00434,1,1,Doanh thu,argmax,1,1,3,3,1,1
+B-train-00435,1,1,Đã giải quyết,argmax,1,1,12,12,1,1
+B-train-00435,1,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00435,1,1,Đã giải quyết,argmin,1,1,3,3,1,1
+B-train-00435,1,1,Trễ hạn,argmax,1,1,19,19,1,1
+B-train-00436,1,2,Doanh thu,argmax,1,0,3,11,1,1
+B-train-00436,1,1,Hành khách,argmax,1,1,4,4,1,1
+B-train-00437,1,1,Tiến độ,argmin,1,1,3,3,1,1
+B-train-00437,1,1,Giải ngân,argmax,1,1,11,11,1,1
+B-train-00437,1,1,Giải ngân,argmin,1,1,9,9,1,1
+B-train-00437,1,1,Tiến độ,argmax,1,1,20,20,1,1
+B-train-00438,1,1,Công suất phòng,argmax,1,1,4,4,1,1
+B-train-00438,1,2,Diện tích (ha),argmin,1,1,10,10,1,1
+B-train-00438,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00439,2,1,Tỷ trọng (%),argmax,1,1,14,14,1,1
+B-train-00439,2,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00439,2,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00440,1,1,Chuyển tuyến,argmin,1,1,9,9,1,1
+B-train-00440,1,1,Nhập viện,argmin,1,1,11,11,1,1
+B-train-00441,1,1,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00441,2,1,Giải ngân,argmax,1,1,10,10,1,1
+B-train-00441,2,1,Tỷ trọng (%),argmin,1,1,14,14,1,1
+B-train-00441,2,1,Tiến độ,argmax,1,1,15,15,1,1
+B-train-00442,1,1,Hồ sơ nhận,argmax,1,1,11,11,1,1
+B-train-00442,1,1,Chi trả,argmin,1,1,8,8,1,1
+B-train-00442,1,2,Chi phí,argmin,1,1,3,3,1,1
+B-train-00442,1,2,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00443,1,1,Sản lượng (tấn),argmax,1,1,13,13,1,1
+B-train-00443,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00443,1,1,Kế hoạch năm,argmin,1,1,14,14,1,1
+B-train-00444,2,1,Tỷ lệ rớt cuộc,argmin,1,1,4,4,1,1
+B-train-00444,2,1,Phản ánh,argmax,1,0,6,14,1,1
+B-train-00444,2,1,Lưu lượng,argmin,1,1,16,16,1,1
+B-train-00444,2,1,Lưu lượng,argmax,1,1,6,6,1,1
+B-train-00445,2,1,Tỷ lệ,argmin,1,1,5,5,1,1
+B-train-00445,2,1,Chênh lệch,argmax,1,1,10,10,1,1
+B-train-00445,1,1,Chênh lệch,argmin,1,1,3,3,1,1
+B-train-00445,2,1,Tỷ lệ,argmax,1,1,10,10,1,1
+B-train-00446,1,1,Diện tích (ha),argmin,1,1,8,8,1,1
+B-train-00446,1,2,Kỳ này,argmax,1,1,12,12,1,1
+B-train-00447,1,1,Đạt,argmin,1,1,14,14,1,1
+B-train-00447,1,1,Tỷ lệ đạt,argmax,1,0,15,4,1,1
+B-train-00447,1,1,Tỷ lệ đạt,argmin,1,1,16,16,1,1
+B-train-00448,1,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00448,1,1,Giải ngân,argmin,1,1,3,3,1,1
+B-train-00448,1,1,Tiến độ,argmax,1,1,11,11,1,1
+B-train-00449,1,1,Tồn đầu,argmin,1,1,8,8,1,1
+B-train-00449,1,1,Tồn cuối,argmin,1,1,6,6,1,1
+B-train-00449,1,1,Tồn cuối,argmax,1,1,8,8,1,1
+B-train-00449,1,1,Nhập,argmax,1,1,10,10,1,1
+B-train-00450,1,1,Tỷ lệ đạt,argmin,1,1,10,10,1,1
+B-train-00450,1,1,Thí sinh,argmax,1,0,10,4,1,1
+B-train-00451,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00451,1,2,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00451,1,1,Tiến độ,argmin,1,1,8,8,1,1
+B-train-00451,1,2,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00452,1,1,Chi phí,argmin,1,0,4,7,1,1
+B-train-00452,1,1,Kỳ này,argmax,1,0,5,7,1,1
+B-train-00452,1,1,Chi phí,argmax,1,1,3,3,1,1
+B-train-00453,1,2,Tồn cuối,argmin,1,1,6,6,1,1
+B-train-00453,1,2,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00453,1,2,Chi phí,argmax,1,1,10,10,1,1
+B-train-00453,1,1,Tăng trưởng,argmin,1,1,5,5,1,1
+B-train-00454,1,2,Lưu lượng,argmax,1,1,3,3,1,1
+B-train-00454,1,1,Chi trả,argmax,1,1,9,9,1,1
+B-train-00454,1,2,Kế hoạch năm,argmin,1,0,5,7,1,1
+B-train-00454,1,1,Trễ hạn,argmin,1,0,12,3,1,1
+B-train-00455,1,1,Kỳ trước,argmin,1,1,15,15,1,1
+B-train-00455,1,1,Nhập viện,argmax,1,1,5,5,1,1
+B-train-00455,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00455,1,1,Nhập viện,argmin,1,1,11,11,1,1
+B-train-00456,1,1,COD,argmin,1,1,3,3,1,1
+B-train-00456,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00456,1,1,pH,argmax,1,1,12,12,1,1
+B-train-00456,1,1,COD,argmax,1,1,13,13,1,1
+B-train-00457,1,2,Hành khách,argmin,1,1,3,3,1,1
+B-train-00457,1,2,Doanh thu,argmin,1,0,6,9,1,1
+B-train-00457,1,2,Đúng giờ,argmax,1,1,3,3,1,1
+B-train-00457,1,2,Số chuyến,argmax,1,1,5,5,1,1
+B-train-00458,1,1,Tồn đầu,argmin,1,1,7,7,1,1
+B-train-00458,1,2,Lưu lượng,argmax,1,1,11,11,1,1
+B-train-00459,1,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00459,1,1,Diện tích (ha),argmax,1,1,6,6,1,1
+B-train-00459,1,1,Diện tích (ha),argmin,1,1,3,3,1,1
+B-train-00460,1,1,Phí bảo hiểm,argmin,1,1,14,14,1,1
+B-train-00460,1,1,Bồi thường,argmax,1,1,15,15,1,1
+B-train-00460,1,1,Tỷ lệ,argmin,1,1,7,7,1,1
+B-train-00460,1,1,Kế hoạch năm,argmax,1,1,16,16,1,1
+B-train-00461,1,2,BOD5,argmax,1,1,6,6,1,1
+B-train-00461,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00461,1,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00461,1,2,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00462,1,1,Phí bảo hiểm,argmax,1,1,11,11,1,1
+B-train-00462,1,1,Tỷ lệ,argmin,1,1,4,4,1,1
+B-train-00462,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00462,1,1,Bồi thường,argmin,1,1,6,6,1,1
+B-train-00463,1,2,Kỳ này,argmax,1,1,10,10,1,1
+B-train-00463,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00463,1,1,Đúng giờ,argmax,1,1,8,8,1,1
+B-train-00463,1,2,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00464,1,1,Kỳ trước,argmax,1,1,20,20,1,1
+B-train-00464,1,1,Tiến độ,argmin,1,0,12,8,1,1
+B-train-00464,1,1,Giải ngân,argmin,1,1,8,8,1,1
+B-train-00465,1,2,Thực hiện,argmax,1,1,5,5,1,1
+B-train-00465,1,1,Tỷ lệ rớt cuộc,argmin,1,1,3,3,1,1
+B-train-00465,1,2,Chênh lệch,argmin,1,1,11,11,1,1
+B-train-00465,1,2,Tỷ lệ,argmax,1,1,12,12,1,1
+B-train-00466,1,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00466,1,1,Tăng trưởng,argmax,1,1,12,12,1,1
+B-train-00466,1,1,Huy động,argmin,1,1,11,11,1,1
+B-train-00467,1,2,Tồn cuối,argmax,1,1,10,10,1,1
+B-train-00467,1,2,Chi phí,argmin,1,1,10,10,1,1
+B-train-00467,1,2,Tồn cuối,argmin,1,1,5,5,1,1
+B-train-00467,1,2,Đúng hạn,argmax,1,1,5,5,1,1
+B-train-00468,1,1,Bồi thường,argmin,1,1,10,10,1,1
+B-train-00468,1,1,Phí bảo hiểm,argmax,1,1,6,6,1,1
+B-train-00468,1,1,Phí bảo hiểm,argmin,1,1,10,10,1,1
+B-train-00469,1,1,Tiến độ,argmin,1,1,14,14,1,1
+B-train-00469,1,1,Giải ngân,argmin,1,1,9,9,1,1
+B-train-00469,1,1,Tiến độ,argmax,1,1,16,16,1,1
+B-train-00469,1,1,Giải ngân,argmax,1,1,3,3,1,1
+B-train-00470,1,2,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00470,1,2,Đơn xử lý,argmin,1,1,4,4,1,1
+B-train-00470,1,2,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00470,1,2,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00471,1,1,Tỷ lệ rớt cuộc,argmax,1,1,9,9,1,1
+B-train-00471,1,1,Thuê bao,argmin,1,0,5,10,1,1
+B-train-00471,1,2,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-00471,1,1,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00472,1,1,Khách quốc tế,argmin,1,0,13,3,1,1
+B-train-00472,1,1,Khách quốc tế,argmax,1,1,3,3,1,1
+B-train-00472,1,1,Doanh thu,argmin,1,1,3,3,1,1
+B-train-00473,2,1,Nợ quá hạn,argmin,1,1,7,7,1,1
+B-train-00473,2,1,Nợ quá hạn,argmax,1,1,3,3,1,1
+B-train-00473,2,1,Tăng trưởng,argmax,1,1,4,4,1,1
+B-train-00473,2,1,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00474,1,2,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-00474,1,1,Số chuyến,argmax,1,0,4,3,1,1
+B-train-00474,1,1,Hành khách,argmax,1,1,9,9,1,1
+B-train-00475,1,1,Huy động,argmin,1,1,10,10,1,1
+B-train-00475,1,1,Tăng trưởng,argmax,1,1,5,5,1,1
+B-train-00475,1,1,Lũy kế,argmax,1,0,9,5,1,1
+B-train-00475,1,1,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00476,1,1,Kế hoạch năm,argmax,1,1,4,4,1,1
+B-train-00476,1,2,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00476,1,2,Giá trị bán,argmin,1,1,9,9,1,1
+B-train-00476,1,2,Giá trị bán,argmax,1,1,4,4,1,1
+B-train-00477,1,2,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00477,1,2,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00477,1,2,Hoàn trả,argmax,1,1,11,11,1,1
+B-train-00478,1,1,Phản ánh,argmax,1,1,10,10,1,1
+B-train-00478,1,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00478,1,1,Kế hoạch năm,argmin,1,1,9,9,1,1
+B-train-00479,1,1,Nhập,argmax,1,1,3,3,1,1
+B-train-00479,1,2,Chuyển tuyến,argmin,1,0,11,6,1,1
+B-train-00479,1,2,Lượt khám,argmin,1,0,10,6,1,1
+B-train-00480,1,1,Đã giải quyết,argmax,1,1,12,12,1,1
+B-train-00480,1,1,Tỷ trọng (%),argmax,1,1,5,5,1,1
+B-train-00480,1,1,Đã giải quyết,argmin,1,1,10,10,1,1
+B-train-00480,1,1,Chi trả,argmin,1,1,10,10,1,1
+B-train-00481,1,1,Kỳ trước,argmin,1,1,16,16,1,1
+B-train-00481,1,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00481,1,1,Nợ quá hạn,argmin,1,1,14,14,1,1
+B-train-00481,1,1,Nợ quá hạn,argmax,1,1,13,13,1,1
+B-train-00482,1,1,Phản ánh,argmin,1,1,9,9,1,1
+B-train-00482,1,1,Tỷ lệ rớt cuộc,argmin,1,1,10,10,1,1
+B-train-00482,1,1,Lưu lượng,argmax,1,1,9,9,1,1
+B-train-00482,1,1,Tỷ lệ rớt cuộc,argmax,1,1,4,4,1,1
+B-train-00483,1,1,Giải ngân,argmin,1,1,3,3,1,1
+B-train-00483,1,1,Tiến độ,argmin,1,1,3,3,1,1
+B-train-00483,1,2,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00483,1,1,Tiến độ,argmax,1,1,7,7,1,1
+B-train-00484,2,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00484,2,1,Công suất phòng,argmax,1,1,15,15,1,1
+B-train-00484,1,1,Khách quốc tế,argmin,1,1,13,13,1,1
+B-train-00484,2,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00485,1,2,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00485,1,1,Khách nội địa,argmax,1,1,7,7,1,1
+B-train-00485,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00486,1,1,Chênh lệch,argmin,1,1,3,3,1,1
+B-train-00486,2,1,Thực hiện,argmin,1,1,9,9,1,1
+B-train-00486,2,1,Tỷ lệ,argmax,1,1,4,4,1,1
+B-train-00487,1,1,BOD5,argmin,1,1,19,19,1,1
+B-train-00487,1,1,Lũy kế,argmin,1,1,13,13,1,1
+B-train-00487,1,1,Lũy kế,argmax,1,1,18,18,1,1
+B-train-00488,1,1,Tổn thất,argmax,1,1,12,12,1,1
+B-train-00488,1,1,Công suất đỉnh,argmin,1,1,17,17,1,1
+B-train-00488,1,1,Tổn thất,argmin,1,1,4,4,1,1
+B-train-00489,1,1,Tăng trưởng,argmin,1,1,4,4,1,1
+B-train-00489,1,1,Tăng trưởng,argmax,1,1,5,5,1,1
+B-train-00489,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00490,1,2,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00490,1,2,Lượt khám,argmin,1,1,9,9,1,1
+B-train-00490,1,2,Lượt khám,argmax,1,1,3,3,1,1
+B-train-00490,1,1,Giá trị bán,argmin,1,1,5,5,1,1
+B-train-00491,1,2,Giá trúng,argmin,1,1,6,6,1,1
+B-train-00491,1,2,Giá dự toán,argmax,1,1,4,4,1,1
+B-train-00491,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00491,1,2,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00492,1,1,Tỷ lệ đạt,argmin,1,1,15,15,1,1
+B-train-00492,1,1,Kế hoạch năm,argmax,1,1,13,13,1,1
+B-train-00493,1,1,Kỳ trước,argmax,1,1,6,6,1,1
+B-train-00493,1,1,Tổn thất,argmin,1,1,15,15,1,1
+B-train-00493,1,1,Tổn thất,argmax,1,1,8,8,1,1
+B-train-00493,1,1,Kỳ trước,argmin,1,1,12,12,1,1
+B-train-00494,1,1,Tăng trưởng,argmax,1,1,10,10,1,1
+B-train-00494,1,1,Huy động,argmin,1,1,7,7,1,1
+B-train-00494,1,1,Nợ quá hạn,argmax,1,1,10,10,1,1
+B-train-00495,1,1,Giá dự toán,argmax,1,1,13,13,1,1
+B-train-00495,1,1,Kỳ trước,argmin,1,1,12,12,1,1
+B-train-00495,1,1,Giá trúng,argmax,1,1,13,13,1,1
+B-train-00495,1,1,Giá dự toán,argmin,1,1,4,4,1,1
+B-train-00496,2,1,Giá dự toán,argmax,1,1,11,11,1,1
+B-train-00496,2,1,Giá trúng,argmax,1,1,11,11,1,1
+B-train-00496,2,1,Giá trúng,argmin,1,1,5,5,1,1
+B-train-00496,1,1,Giá dự toán,argmin,1,1,5,5,1,1
+B-train-00497,1,1,Kỳ này,argmin,1,1,4,4,1,1
+B-train-00497,1,1,Giải ngân,argmin,1,1,11,11,1,1
+B-train-00497,1,1,Giải ngân,argmax,1,1,10,10,1,1
+B-train-00498,2,1,Chi phí,argmin,1,1,11,11,1,1
+B-train-00498,2,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00498,1,1,Tồn cuối,argmax,1,1,13,13,1,1
+B-train-00498,1,1,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00499,1,1,Khách quốc tế,argmin,1,1,3,3,1,1
+B-train-00499,1,1,Công suất phòng,argmax,1,1,4,4,1,1
+B-train-00499,1,1,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00500,1,2,Tồn cuối,argmin,1,1,12,12,1,1
+B-train-00500,1,2,Đúng hạn,argmax,1,1,4,4,1,1
+B-train-00500,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00501,1,1,Tỷ trọng (%),argmin,1,0,8,9,1,1
+B-train-00501,1,1,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-00501,1,2,Doanh thu,argmax,1,1,5,5,1,1
+B-train-00501,1,2,Hành khách,argmin,1,1,10,10,1,1
+B-train-00502,2,1,Đã giải quyết,argmin,1,1,10,10,1,1
+B-train-00502,1,1,Tỷ trọng (%),argmin,1,1,3,3,1,1
+B-train-00502,1,1,Chi trả,argmax,1,1,5,5,1,1
+B-train-00502,2,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00503,1,2,Kỳ này,argmax,1,0,10,8,1,1
+B-train-00503,1,2,Giá trúng,argmax,1,0,7,8,1,1
+B-train-00504,1,2,Lũy kế,argmax,1,0,11,8,1,1
+B-train-00504,1,1,Định biên,argmax,1,1,9,9,1,1
+B-train-00505,1,1,Công suất phòng,argmin,1,1,4,4,1,1
+B-train-00505,1,1,Công suất phòng,argmax,1,1,13,13,1,1
+B-train-00505,1,1,Khách nội địa,argmin,1,0,6,3,1,1
+B-train-00505,1,1,Khách quốc tế,argmax,1,1,4,4,1,1
+B-train-00506,1,1,Tỷ trọng (%),argmax,1,1,12,12,1,1
+B-train-00506,1,1,Chênh lệch,argmin,1,1,14,14,1,1
+B-train-00506,1,1,Tỷ lệ,argmax,1,1,9,9,1,1
+B-train-00507,1,1,Sản lượng,argmax,1,1,6,6,1,1
+B-train-00507,1,1,Tổn thất,argmin,1,1,10,10,1,1
+B-train-00507,1,1,Công suất đỉnh,argmax,1,1,11,11,1,1
+B-train-00508,1,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00508,2,1,COD,argmax,1,1,10,10,1,1
+B-train-00508,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00509,1,2,Chênh lệch,argmax,1,1,6,6,1,1
+B-train-00509,1,1,Giá trúng,argmin,1,1,9,9,1,1
+B-train-00509,1,2,Tỷ trọng (%),argmin,1,1,3,9,1,1
+B-train-00509,1,2,Thực hiện,argmax,1,1,6,6,1,1
+B-train-00510,1,1,Kế hoạch năm,argmax,1,1,13,13,1,1
+B-train-00510,1,1,Tiến độ,argmin,1,1,4,4,1,1
+B-train-00511,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00511,1,1,Đạt,argmax,1,1,12,12,1,1
+B-train-00511,1,1,Lũy kế,argmin,1,0,17,14,1,1
+B-train-00512,1,2,Tỷ trọng (%),argmax,1,0,7,12,1,1
+B-train-00512,1,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00512,1,2,Thiếu/thừa,argmin,1,1,6,6,1,1
+B-train-00512,1,1,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00513,1,1,Nhập,argmin,1,1,13,13,1,1
+B-train-00513,1,2,Hiện có,argmin,1,0,6,3,1,1
+B-train-00513,1,2,Định biên,argmax,1,1,3,3,1,1
+B-train-00513,1,1,Xuất,argmax,1,1,7,7,1,1
+B-train-00514,1,1,Thực hiện,argmin,1,1,3,3,1,1
+B-train-00514,1,1,Tỷ lệ,argmin,1,1,3,3,1,1
+B-train-00514,1,1,Thực hiện,argmax,1,0,14,3,1,1
+B-train-00515,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00515,1,2,Chênh lệch,argmin,1,1,5,5,1,1
+B-train-00515,1,1,Chi trả,argmax,1,1,8,8,1,1
+B-train-00515,1,1,Đã giải quyết,argmax,1,1,8,8,1,1
+B-train-00516,1,1,Chi phí,argmin,1,1,9,9,1,1
+B-train-00516,1,1,Tồn cuối,argmax,1,1,7,7,1,1
+B-train-00516,1,2,Tồn cuối,argmax,1,1,10,10,1,1
+B-train-00517,1,2,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00517,1,2,Kế hoạch năm,argmax,1,0,7,11,1,1
+B-train-00517,1,2,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00518,1,1,Chênh lệch,argmax,1,0,13,5,1,1
+B-train-00518,1,1,Chênh lệch,argmin,1,0,3,7,1,1
+B-train-00518,1,1,Thực hiện,argmin,1,1,10,10,1,1
+B-train-00519,1,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00519,1,1,Thực hiện,argmin,1,1,4,4,1,1
+B-train-00519,1,1,Thực hiện,argmax,1,1,3,3,1,1
+B-train-00519,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00520,1,2,Tuyển mới,argmax,1,1,11,11,1,1
+B-train-00520,1,2,Kế hoạch năm,argmax,1,0,8,5,1,1
+B-train-00521,2,1,Kế hoạch năm,argmin,1,1,15,15,1,1
+B-train-00521,2,1,Giá trị bán,argmax,1,1,5,5,1,1
+B-train-00521,1,1,Giá trị bán,argmax,1,1,10,10,1,1
+B-train-00522,1,1,Tiến độ,argmin,1,1,5,5,1,1
+B-train-00522,1,1,Giá trị hợp đồng,argmin,1,0,10,7,1,1
+B-train-00523,1,2,Tiến độ,argmax,1,1,8,8,1,1
+B-train-00523,1,2,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00523,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00523,1,1,Giá trúng,argmax,1,1,8,8,1,1
+B-train-00524,1,2,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00524,1,2,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00524,2,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00525,2,1,Phí bảo hiểm,argmax,1,1,8,8,1,1
+B-train-00525,1,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00525,1,1,Bồi thường,argmin,1,1,14,14,1,1
+B-train-00526,1,1,Đúng giờ,argmin,1,1,6,6,1,1
+B-train-00526,2,1,Công suất đỉnh,argmax,1,0,3,9,1,1
+B-train-00526,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00527,1,1,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00527,1,1,Lũy kế,argmax,1,1,22,22,1,1
+B-train-00527,2,1,Số đơn,argmin,1,1,13,13,1,1
+B-train-00527,2,1,Tỷ trọng (%),argmax,1,1,23,23,1,1
+B-train-00528,2,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00528,1,1,Lũy kế,argmin,1,1,10,10,1,1
+B-train-00528,1,1,Phí bảo hiểm,argmin,1,1,14,14,1,1
+B-train-00528,2,1,Bồi thường,argmax,1,1,9,9,1,1
+B-train-00529,2,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00529,1,1,Lũy kế,argmin,1,1,18,18,1,1
+B-train-00529,2,1,Tỷ trọng (%),argmax,1,1,22,22,1,1
+B-train-00529,1,1,Đạt,argmax,1,1,20,20,1,1
+B-train-00530,1,2,Tồn cuối,argmin,1,1,11,11,1,1
+B-train-00530,1,2,Chi phí,argmax,1,1,15,15,1,1
+B-train-00530,1,2,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00530,1,2,Kế hoạch năm,argmax,1,0,9,12,1,1
+B-train-00531,1,2,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00531,1,1,Xuất,argmax,1,1,7,7,1,1
+B-train-00531,1,2,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00531,1,1,Xuất,argmin,1,1,5,5,1,1
+B-train-00532,1,2,Thuê bao,argmax,1,1,5,5,1,1
+B-train-00532,1,2,Lưu lượng,argmax,1,1,3,3,1,1
+B-train-00533,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00533,1,1,Doanh thu,argmin,1,1,6,11,1,1
+B-train-00533,1,1,Tỷ trọng (%),argmax,1,1,12,12,1,1
+B-train-00533,1,2,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00534,1,2,Lũy kế,argmax,1,0,11,8,1,1
+B-train-00534,1,1,Giá trúng,argmin,1,1,7,7,1,1
+B-train-00534,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00535,1,2,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-00535,1,2,Hợp đồng,argmax,1,1,6,6,1,1
+B-train-00535,1,2,Bồi thường,argmin,1,1,7,7,1,1
+B-train-00535,1,1,Doanh thu,argmin,1,1,12,12,1,1
+B-train-00536,1,1,Giá trúng,argmax,1,1,5,5,1,1
+B-train-00536,1,1,Giá trúng,argmin,1,1,10,10,1,1
+B-train-00536,1,2,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00537,1,2,Tổn thất,argmax,1,1,13,13,1,1
+B-train-00537,1,1,COD,argmin,1,1,5,5,1,1
+B-train-00537,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00537,1,2,Sự cố,argmin,1,0,11,3,1,1
+B-train-00538,1,2,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00538,1,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00538,1,1,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00538,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00539,1,1,Tồn cuối,argmin,1,1,3,3,1,1
+B-train-00539,1,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00539,1,1,Chi phí,argmax,1,1,4,4,1,1
+B-train-00540,2,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00540,1,1,Tỷ lệ rớt cuộc,argmin,1,1,8,8,1,1
+B-train-00540,1,1,Phản ánh,argmax,1,1,3,3,1,1
+B-train-00540,2,1,Phản ánh,argmax,1,1,9,9,1,1
+B-train-00541,1,1,Công suất đỉnh,argmax,1,1,4,4,1,1
+B-train-00541,1,1,Sản lượng,argmin,1,0,4,6,1,1
+B-train-00541,1,1,Sự cố,argmin,1,1,6,6,1,1
+B-train-00542,1,1,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-00542,1,1,Hành khách,argmin,1,1,4,4,1,1
+B-train-00543,2,1,Hiện có,argmax,1,1,4,4,1,1
+B-train-00543,1,1,Thiếu/thừa,argmin,1,1,17,17,1,1
+B-train-00543,1,1,Hiện có,argmin,1,1,17,17,1,1
+B-train-00543,1,1,Hiện có,argmax,1,1,6,6,1,1
+B-train-00544,1,2,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00544,1,2,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00544,1,1,Lũy kế,argmin,1,1,10,10,1,1
+B-train-00545,2,1,Sản lượng,argmax,1,0,5,13,1,1
+B-train-00545,2,1,Công suất đỉnh,argmin,1,1,8,8,1,1
+B-train-00545,1,2,Đã giải quyết,argmin,1,1,7,7,1,1
+B-train-00546,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00546,1,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00546,1,1,Khách quốc tế,argmax,1,1,13,13,1,1
+B-train-00546,1,1,Doanh thu,argmin,1,1,15,15,1,1
+B-train-00547,1,2,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00547,1,2,Tổn thất,argmax,1,1,6,6,1,1
+B-train-00548,1,1,Chuyển tuyến,argmin,1,1,3,3,1,1
+B-train-00548,1,2,Hành khách,argmax,1,1,5,5,1,1
+B-train-00548,1,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00548,1,1,Lượt khám,argmax,1,1,7,7,1,1
+B-train-00549,1,1,Số đơn,argmin,1,1,12,12,1,1
+B-train-00549,1,2,Kế hoạch,argmin,1,0,7,5,1,1
+B-train-00549,1,2,Tỷ lệ,argmax,1,1,7,7,1,1
+B-train-00549,1,1,Giá trị bán,argmax,1,1,9,9,1,1
+B-train-00550,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00550,1,2,Kỳ này,argmax,1,1,10,10,1,1
+B-train-00550,1,2,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00550,1,2,Kỳ này,argmin,1,0,5,6,1,1
+B-train-00551,1,1,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-00551,1,1,Nhập,argmin,1,1,5,5,1,1
+B-train-00551,2,1,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00551,1,1,Tồn đầu,argmax,1,1,8,8,1,1
+B-train-00552,1,2,Nhập,argmax,1,0,15,8,1,1
+B-train-00552,1,2,Nhập,argmin,1,1,8,8,1,1
+B-train-00552,1,1,Nợ quá hạn,argmin,1,1,15,15,1,1
+B-train-00553,2,1,Giá dự toán,argmax,1,1,4,4,1,1
+B-train-00553,1,1,Kỳ trước,argmin,1,1,16,16,1,1
+B-train-00554,1,2,Tỷ lệ,argmax,1,1,9,9,1,1
+B-train-00554,1,2,Chênh lệch,argmin,1,1,7,7,1,1
+B-train-00554,1,1,Đơn xử lý,argmin,1,1,4,4,1,1
+B-train-00554,1,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00555,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00555,2,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00555,1,2,Tỷ lệ,argmin,1,1,7,7,1,1
+B-train-00555,1,2,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00556,1,2,Nhập viện,argmax,1,1,10,10,1,1
+B-train-00556,1,2,Nhập viện,argmin,1,1,11,11,1,1
+B-train-00556,2,1,Định biên,argmax,1,0,5,4,1,1
+B-train-00557,2,1,Kế hoạch năm,argmin,1,1,20,20,1,1
+B-train-00557,2,1,Tổn thất,argmax,1,1,14,14,1,1
+B-train-00557,1,1,Kỳ này,argmin,1,1,18,18,1,1
+B-train-00557,1,1,Kỳ trước,argmax,1,1,17,17,1,1
+B-train-00558,1,2,Thiếu/thừa,argmin,1,1,5,5,1,1
+B-train-00558,1,1,COD,argmax,1,1,3,3,1,1
+B-train-00558,1,2,Tuyển mới,argmin,1,1,6,6,1,1
+B-train-00559,1,2,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00559,1,2,Thực hiện,argmax,1,1,5,5,1,1
+B-train-00559,1,1,Nợ quá hạn,argmax,1,1,12,12,1,1
+B-train-00559,1,1,Tăng trưởng,argmin,1,1,9,9,1,1
+B-train-00560,1,2,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00560,1,2,Công suất đỉnh,argmax,1,1,7,7,1,1
+B-train-00561,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00561,1,2,Tỷ trọng (%),argmin,1,0,7,3,1,1
+B-train-00561,1,1,Giải ngân,argmax,1,1,5,5,1,1
+B-train-00562,1,2,Sự cố,argmax,1,0,11,3,1,1
+B-train-00562,1,1,Hành khách,argmax,1,1,8,8,1,1
+B-train-00563,1,2,Doanh thu,argmin,1,0,4,10,1,1
+B-train-00563,1,1,Số đơn,argmin,1,1,7,7,1,1
+B-train-00563,1,1,Giá trị bán,argmax,1,1,15,15,1,1
+B-train-00564,2,1,Đã giải quyết,argmin,1,1,18,18,1,1
+B-train-00564,2,1,Chi trả,argmax,1,1,19,19,1,1
+B-train-00564,2,1,Kỳ này,argmin,1,1,16,16,1,1
+B-train-00564,2,1,Kế hoạch năm,argmax,1,1,17,17,1,1
+B-train-00565,1,1,Trễ hạn,argmax,1,1,15,15,1,1
+B-train-00565,2,1,Chi trả,argmin,1,1,16,16,1,1
+B-train-00565,1,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00565,2,1,Đã giải quyết,argmax,1,1,8,8,1,1
+B-train-00566,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00566,1,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00566,1,1,Tỷ trọng (%),argmax,1,0,8,4,1,1
+B-train-00567,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00567,1,2,Kỳ trước,argmax,1,0,8,6,1,1
+B-train-00567,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00568,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00568,1,2,Công suất phòng,argmax,1,0,9,13,1,1
+B-train-00568,1,2,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00568,1,2,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00569,2,1,Nhập,argmax,1,1,10,10,1,1
+B-train-00569,1,1,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00569,1,1,Lũy kế,argmin,1,1,13,13,1,1
+B-train-00569,1,2,Tồn cuối,argmin,1,0,14,7,1,1
+B-train-00570,2,1,Giải ngân,argmax,1,1,11,11,1,1
+B-train-00570,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00570,1,1,Diện tích (ha),argmin,1,1,6,6,1,1
+B-train-00570,2,1,Giải ngân,argmin,1,1,8,8,1,1
+B-train-00571,1,1,Giá trị bán,argmax,1,1,15,15,1,1
+B-train-00571,2,1,Giá trị bán,argmin,1,1,16,16,1,1
+B-train-00571,2,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00572,2,1,Doanh thu,argmin,1,1,9,9,1,1
+B-train-00572,1,2,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00573,1,2,COD,argmin,1,1,9,9,1,1
+B-train-00573,1,2,BOD5,argmax,1,1,11,11,1,1
+B-train-00573,1,1,Lưu lượng,argmax,1,1,4,4,1,1
+B-train-00574,1,2,Sự cố,argmin,1,1,4,4,1,1
+B-train-00574,1,2,Kỳ trước,argmin,1,0,6,13,1,1
+B-train-00574,1,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00575,1,1,Kế hoạch năm,argmax,1,0,14,7,1,1
+B-train-00575,1,1,Kế hoạch năm,argmin,1,1,13,13,1,1
+B-train-00575,1,1,Giá dự toán,argmin,1,0,19,7,1,1
+B-train-00576,1,1,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00576,1,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00577,1,1,Số chuyến,argmax,1,1,5,5,1,1
+B-train-00577,1,1,Doanh thu,argmin,1,0,9,8,1,1
+B-train-00577,1,1,Đúng giờ,argmin,1,0,10,5,1,1
+B-train-00577,1,1,Hành khách,argmax,1,1,10,10,1,1
+B-train-00578,1,1,Doanh thu,argmin,1,1,12,12,1,1
+B-train-00578,1,2,Thuê bao,argmin,1,1,6,6,1,1
+B-train-00578,1,2,Tỷ lệ rớt cuộc,argmax,1,1,7,7,1,1
+B-train-00579,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00579,1,1,Chi phí,argmin,1,1,8,8,1,1
+B-train-00579,1,2,Kế hoạch năm,argmin,1,0,3,5,1,1
+B-train-00579,1,1,Chi phí,argmax,1,1,16,16,1,1
+B-train-00580,2,1,Lượt khách,argmax,1,0,7,4,1,1
+B-train-00580,1,1,Khách quốc tế,argmax,1,1,6,6,1,1
+B-train-00580,2,1,Lượt khách,argmin,1,0,11,9,1,1
+B-train-00581,1,1,Công suất phòng,argmin,1,1,7,7,1,1
+B-train-00581,1,2,Giá trúng,argmax,1,1,10,10,1,1
+B-train-00581,1,2,Giá dự toán,argmin,1,1,7,7,1,1
+B-train-00581,1,2,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00582,1,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00582,2,1,Kỳ trước,argmin,1,1,23,23,1,1
+B-train-00582,2,1,Tỷ trọng (%),argmax,1,1,21,21,1,1
+B-train-00583,1,2,Doanh thu,argmax,1,0,13,10,1,1
+B-train-00583,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00583,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00583,1,1,Nhập,argmax,1,1,9,9,1,1
+B-train-00584,1,1,Đạt,argmin,1,1,6,6,1,1
+B-train-00584,1,1,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00584,1,2,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00585,1,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00585,1,1,Giá trị bán,argmax,1,1,7,7,1,1
+B-train-00585,1,1,Giá trị bán,argmin,1,1,22,22,1,1
+B-train-00585,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00586,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00586,1,1,Tỷ lệ rớt cuộc,argmin,1,1,5,5,1,1
+B-train-00586,1,2,Tồn đầu,argmax,1,1,3,3,1,1
+B-train-00586,1,1,Kế hoạch năm,argmin,1,0,10,8,1,1
+B-train-00587,1,1,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00587,1,1,Thiếu/thừa,argmin,1,1,8,8,1,1
+B-train-00587,1,1,Kỳ này,argmax,1,1,16,16,1,1
+B-train-00588,1,2,Số đơn,argmax,1,0,8,11,1,1
+B-train-00588,1,2,Giá trị bán,argmin,1,1,10,10,1,1
+B-train-00588,1,2,Lượt khách,argmax,1,1,6,6,1,1
+B-train-00589,1,1,pH,argmin,1,0,6,4,1,1
+B-train-00589,1,1,pH,argmax,1,1,11,11,1,1
+B-train-00589,1,2,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00589,1,1,Kỳ này,argmax,1,0,3,11,1,1
+B-train-00590,1,1,Huy động,argmin,1,1,4,4,1,1
+B-train-00590,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00590,1,2,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00591,1,2,Lượt khám,argmin,1,1,3,3,1,1
+B-train-00591,1,2,Chuyển tuyến,argmin,1,1,10,10,1,1
+B-train-00591,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00591,1,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00592,2,1,Kế hoạch năm,argmin,1,1,14,14,1,1
+B-train-00592,2,1,Lũy kế,argmin,1,1,15,15,1,1
+B-train-00592,1,1,Tổn thất,argmax,1,1,14,14,1,1
+B-train-00592,2,1,Lũy kế,argmax,1,1,18,18,1,1
+B-train-00593,2,1,Chi trả,argmax,1,1,10,10,1,1
+B-train-00593,1,1,Chi trả,argmax,1,1,11,11,1,1
+B-train-00593,2,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00594,1,1,Kế hoạch năm,argmax,1,1,12,12,1,1
+B-train-00594,1,1,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00594,2,1,Lũy kế,argmin,1,1,15,15,1,1
+B-train-00595,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00595,1,1,Giá trúng,argmin,1,1,10,10,1,1
+B-train-00595,1,2,Tồn cuối,argmax,1,1,9,9,1,1
+B-train-00596,1,1,Chuyển tuyến,argmax,1,1,15,15,1,1
+B-train-00596,1,2,Tồn cuối,argmin,1,1,14,14,1,1
+B-train-00596,1,2,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00597,1,1,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00597,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00597,2,1,Công suất đỉnh,argmin,1,1,11,11,1,1
+B-train-00597,1,1,Kế hoạch năm,argmin,1,1,23,23,1,1
+B-train-00598,1,2,Phí bảo hiểm,argmax,1,1,13,13,1,1
+B-train-00598,1,2,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00598,1,2,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00599,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00599,1,2,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00599,1,1,Tồn cuối,argmin,1,1,6,6,1,1
+B-train-00599,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00600,2,1,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00600,2,1,Tỷ lệ,argmax,1,1,18,18,1,1
+B-train-00600,1,1,Bồi thường,argmax,1,1,10,10,1,1
+B-train-00600,2,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00601,1,2,Giá trị bán,argmin,1,1,11,11,1,1
+B-train-00601,1,2,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00601,1,1,Thuê bao,argmin,1,1,7,7,1,1
+B-train-00601,1,2,Kỳ trước,argmax,1,0,14,7,1,1
+B-train-00602,1,1,Tỷ lệ rớt cuộc,argmax,1,1,20,20,1,1
+B-train-00602,1,1,Kế hoạch năm,argmin,1,1,17,17,1,1
+B-train-00602,1,1,Phản ánh,argmin,1,1,17,17,1,1
+B-train-00602,2,1,Lưu lượng,argmax,1,1,13,13,1,1
+B-train-00603,1,2,Phí bảo hiểm,argmax,1,1,10,10,1,1
+B-train-00603,1,2,Tỷ trọng (%),argmax,1,0,3,5,1,1
+B-train-00603,1,2,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00603,1,2,Phí bảo hiểm,argmin,1,0,13,5,1,1
+B-train-00604,2,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00604,2,1,Doanh thu,argmax,1,1,7,7,1,1
+B-train-00604,2,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00604,1,1,Công suất phòng,argmin,1,1,6,6,1,1
+B-train-00605,1,2,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00605,1,2,Xuất,argmin,1,1,3,3,1,1
+B-train-00605,1,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00605,1,2,Tồn đầu,argmin,1,1,7,7,1,1
+B-train-00606,1,2,Lũy kế,argmin,1,0,7,11,1,1
+B-train-00606,1,1,Tồn đầu,argmax,1,0,7,10,1,1
+B-train-00606,1,2,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00606,1,1,Tồn cuối,argmin,1,1,3,3,1,1
+B-train-00607,2,1,Doanh thu,argmax,1,1,17,17,1,1
+B-train-00607,1,1,Doanh thu,argmin,1,1,13,13,1,1
+B-train-00607,2,1,Hành khách,argmin,1,1,4,4,1,1
+B-train-00607,1,1,Doanh thu,argmax,1,1,17,17,1,1
+B-train-00608,2,1,Kỳ này,argmin,1,0,5,13,1,1
+B-train-00608,2,1,Kỳ này,argmax,1,1,20,20,1,1
+B-train-00608,2,1,Số đơn,argmin,1,1,8,8,1,1
+B-train-00608,2,1,Số đơn,argmax,1,1,15,15,1,1
+B-train-00609,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00609,1,2,Tiến độ,argmin,1,1,9,9,1,1
+B-train-00610,1,2,Hợp đồng,argmax,1,1,8,8,1,1
+B-train-00610,1,2,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00610,1,2,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00611,2,1,COD,argmax,1,1,8,8,1,1
+B-train-00611,1,1,Tỷ trọng (%),argmax,1,1,21,21,1,1
+B-train-00612,1,1,Đạt,argmin,1,1,8,8,1,1
+B-train-00612,1,2,Xuất,argmin,1,1,13,13,1,1
+B-train-00612,1,1,Kế hoạch năm,argmax,1,1,15,15,1,1
+B-train-00612,1,1,Kỳ này,argmax,1,0,15,6,1,1
+B-train-00613,1,1,Tỷ trọng (%),argmin,1,1,8,9,1,1
+B-train-00613,1,2,Giá trúng,argmax,1,1,8,8,1,1
+B-train-00613,1,2,Giá dự toán,argmin,1,1,5,5,1,1
+B-train-00614,1,2,Số đơn,argmin,1,1,5,5,1,1
+B-train-00614,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00614,1,1,Xuất,argmax,1,1,10,10,1,1
+B-train-00614,1,1,Kỳ này,argmax,1,0,4,15,1,1
+B-train-00615,1,1,Tổn thất,argmin,1,0,11,12,1,1
+B-train-00615,1,2,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00615,1,2,Giải ngân,argmin,1,0,8,11,1,1
+B-train-00616,1,2,Hồ sơ nhận,argmin,1,0,6,3,1,1
+B-train-00616,2,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00616,2,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00616,1,2,Kỳ này,argmin,1,1,14,14,1,1
+B-train-00617,1,2,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-00617,1,2,Nợ quá hạn,argmax,1,1,8,8,1,1
+B-train-00617,2,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00617,1,1,Lượt khám,argmin,1,0,7,5,1,1
+B-train-00618,1,2,Tồn cuối,argmin,1,0,5,12,1,1
+B-train-00618,1,2,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00618,1,2,Tồn cuối,argmax,1,1,13,13,1,1
+B-train-00619,1,2,Kỳ này,argmin,1,1,14,14,1,1
+B-train-00619,1,2,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00619,1,2,Công suất phòng,argmax,1,1,10,10,1,1
+B-train-00619,1,2,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00620,2,1,Công suất phòng,argmin,1,1,4,4,1,1
+B-train-00620,1,1,Khách quốc tế,argmin,1,1,16,16,1,1
+B-train-00620,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00620,1,1,Doanh thu,argmax,1,1,8,8,1,1
+B-train-00621,1,1,Khách nội địa,argmin,1,0,6,14,1,1
+B-train-00621,1,2,Số đơn,argmax,1,1,7,7,1,1
+B-train-00621,1,1,Khách quốc tế,argmax,1,1,4,4,1,1
+B-train-00621,1,2,Số đơn,argmin,1,1,3,3,1,1
+B-train-00622,2,1,Xuất,argmax,1,1,5,5,1,1
+B-train-00622,1,1,Xuất,argmax,1,1,11,11,1,1
+B-train-00623,1,2,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-00623,1,2,Công suất đỉnh,argmax,1,1,11,11,1,1
+B-train-00624,1,2,Huy động,argmin,1,1,9,9,1,1
+B-train-00624,1,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00624,1,1,Hiện có,argmax,1,1,4,4,1,1
+B-train-00624,1,1,Hiện có,argmin,1,1,10,10,1,1
+B-train-00625,2,1,Kỳ này,argmax,1,1,5,5,1,1
+B-train-00625,1,2,Thực hiện,argmin,1,1,7,7,1,1
+B-train-00625,1,2,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00626,1,2,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00626,2,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00626,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00627,1,1,Chuyển tuyến,argmin,1,1,6,6,1,1
+B-train-00627,1,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-00628,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00628,2,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00628,1,1,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00628,2,1,Kỳ này,argmax,1,1,18,18,1,1
+B-train-00629,2,1,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00629,2,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00629,2,1,Hành khách,argmin,1,1,9,9,1,1
+B-train-00629,1,1,Đúng giờ,argmin,1,1,4,4,1,1
+B-train-00630,1,2,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00630,1,2,Chi trả,argmin,1,1,13,13,1,1
+B-train-00631,1,2,Đạt,argmax,1,1,13,13,1,1
+B-train-00631,1,2,Đạt,argmin,1,1,7,7,1,1
+B-train-00631,1,1,Số đơn,argmax,1,1,12,12,1,1
+B-train-00632,1,1,Tổn thất,argmax,1,1,9,9,1,1
+B-train-00632,1,2,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00632,1,2,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00632,1,2,pH,argmin,1,0,7,3,1,1
+B-train-00633,1,2,Nhập viện,argmin,1,1,7,7,1,1
+B-train-00633,1,2,Chuyển tuyến,argmax,1,1,11,11,1,1
+B-train-00633,1,1,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00634,2,1,Hành khách,argmin,1,1,4,4,1,1
+B-train-00634,1,1,Đúng giờ,argmax,1,0,15,14,1,1
+B-train-00634,1,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00635,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00635,1,2,Kế hoạch năm,argmax,1,1,16,16,1,1
+B-train-00635,1,2,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00636,1,2,Lũy kế,argmax,1,0,6,10,1,1
+B-train-00636,1,2,Kế hoạch năm,argmin,1,1,9,9,1,1
+B-train-00636,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00636,1,1,Lũy kế,argmin,1,0,9,16,1,1
+B-train-00637,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00637,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00637,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00638,1,1,Công suất phòng,argmin,1,1,6,6,1,1
+B-train-00638,1,1,Công suất phòng,argmax,1,1,3,3,1,1
+B-train-00638,2,1,Doanh thu,argmin,1,1,18,18,1,1
+B-train-00638,1,1,Doanh thu,argmax,1,1,3,3,1,1
+B-train-00639,1,1,Khách quốc tế,argmax,1,1,5,5,1,1
+B-train-00639,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00639,1,2,Số đơn,argmax,1,1,10,10,1,1
+B-train-00640,1,2,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00640,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00640,1,1,Giá trị hợp đồng,argmin,1,1,10,10,1,1
+B-train-00640,1,1,Giải ngân,argmax,1,1,5,5,1,1
+B-train-00641,2,1,Chi phí,argmin,1,1,8,8,1,1
+B-train-00641,2,1,Tồn cuối,argmin,1,1,5,5,1,1
+B-train-00641,2,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00642,2,1,Chi phí,argmax,1,1,7,7,1,1
+B-train-00642,2,1,Tỷ trọng (%),argmin,1,1,18,18,1,1
+B-train-00642,2,1,Đúng hạn,argmin,1,1,12,12,1,1
+B-train-00642,1,1,Tồn cuối,argmax,1,1,6,6,1,1
+B-train-00643,1,1,Giá trúng,argmax,1,1,14,14,1,1
+B-train-00643,2,1,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-00643,2,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00644,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00644,1,1,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00644,1,1,Giá trị bán,argmin,1,1,4,4,1,1
+B-train-00644,1,1,Lượt khách,argmin,1,1,5,5,1,1
+B-train-00645,1,2,Đơn xử lý,argmin,1,0,7,8,1,1
+B-train-00645,1,2,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00645,1,1,Tỷ lệ đạt,argmin,1,1,7,7,1,1
+B-train-00645,1,2,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00646,1,1,Giá trúng,argmin,1,1,5,5,1,1
+B-train-00646,1,1,Giá trúng,argmax,1,1,4,4,1,1
+B-train-00646,1,1,Giá dự toán,argmax,1,1,4,4,1,1
+B-train-00646,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00647,1,2,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00647,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00647,1,2,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00648,2,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00648,2,1,Tỷ trọng (%),argmin,1,1,19,19,1,1
+B-train-00648,1,1,Tỷ trọng (%),argmin,1,1,20,20,1,1
+B-train-00649,1,2,Lũy kế,argmin,1,1,15,15,1,1
+B-train-00649,1,1,Kỳ trước,argmax,1,1,14,14,1,1
+B-train-00649,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00650,2,1,Kế hoạch năm,argmax,1,1,13,13,1,1
+B-train-00650,2,1,Lũy kế,argmin,1,1,14,14,1,1
+B-train-00650,1,1,Chênh lệch,argmin,1,1,9,9,1,1
+B-train-00650,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00651,1,1,Kế hoạch năm,argmax,1,0,7,10,1,1
+B-train-00651,1,2,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00651,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00651,1,1,Lưu lượng,argmin,1,1,9,9,1,1
+B-train-00652,1,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00652,2,1,Kỳ trước,argmax,1,1,16,16,1,1
+B-train-00653,1,2,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00653,1,1,Diện tích (ha),argmin,1,1,9,9,1,1
+B-train-00653,1,1,Sản lượng (tấn),argmax,1,1,11,11,1,1
+B-train-00654,2,1,Doanh thu,argmax,1,1,12,12,1,1
+B-train-00654,2,1,Doanh thu,argmin,1,1,11,11,1,1
+B-train-00654,1,2,Xuất,argmin,1,1,11,11,1,1
+B-train-00654,2,1,Công suất phòng,argmax,1,1,12,12,1,1
+B-train-00655,2,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00655,2,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00655,2,1,Hoàn trả,argmax,1,1,6,6,1,1
+B-train-00655,1,1,BOD5,argmin,1,1,10,10,1,1
+B-train-00656,2,1,Tỷ lệ đạt,argmin,1,1,6,6,1,1
+B-train-00656,2,1,Tỷ lệ đạt,argmax,1,0,12,11,1,1
+B-train-00656,1,2,Kỳ này,argmin,1,0,9,5,1,1
+B-train-00657,2,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00657,2,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00657,2,1,Đã giải quyết,argmax,1,1,3,3,1,1
+B-train-00657,1,2,Kế hoạch năm,argmin,1,1,9,9,1,1
+B-train-00658,1,2,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00658,1,1,Tuyển mới,argmax,1,1,3,3,1,1
+B-train-00658,1,1,Hiện có,argmax,1,1,10,10,1,1
+B-train-00658,1,2,Kỳ trước,argmin,1,1,16,16,1,1
+B-train-00659,1,1,Nợ quá hạn,argmax,1,1,17,17,1,1
+B-train-00659,2,1,Tỷ trọng (%),argmax,1,1,16,16,1,1
+B-train-00659,2,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00659,1,1,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-00660,1,1,Giá trúng,argmin,1,1,3,3,1,1
+B-train-00660,1,2,Lũy kế,argmax,1,0,3,6,1,1
+B-train-00660,1,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00660,1,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00661,1,1,Chuyển tuyến,argmax,1,1,13,13,1,1
+B-train-00661,1,2,Định biên,argmin,1,1,11,11,1,1
+B-train-00662,1,1,Kỳ này,argmin,1,1,15,15,1,1
+B-train-00662,1,1,Kỳ trước,argmax,1,0,4,13,1,1
+B-train-00662,1,2,Tỷ lệ,argmin,1,0,16,7,1,1
+B-train-00662,1,1,Giá trúng,argmax,1,1,9,9,1,1
+B-train-00663,1,2,Lũy kế,argmax,1,0,6,11,1,1
+B-train-00663,1,2,Tồn cuối,argmin,1,1,9,9,1,1
+B-train-00663,2,1,Hoàn trả,argmin,1,1,4,4,1,1
+B-train-00664,1,1,Phí bảo hiểm,argmax,1,1,17,17,1,1
+B-train-00664,2,1,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00664,1,1,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-00664,1,1,Kỳ trước,argmin,1,1,16,16,1,1
+B-train-00665,1,1,Tồn cuối,argmin,1,1,14,14,1,1
+B-train-00665,1,2,Lũy kế,argmin,1,0,9,7,1,1
+B-train-00665,1,2,Định biên,argmax,1,1,4,4,1,1
+B-train-00665,1,2,Thiếu/thừa,argmax,1,0,6,4,1,1
+B-train-00666,1,1,Tiến độ,argmin,1,1,9,9,1,1
+B-train-00666,1,2,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00666,1,2,Sản lượng,argmax,1,0,11,5,1,1
+B-train-00666,1,1,Giá trị hợp đồng,argmin,1,1,3,3,1,1
+B-train-00667,1,2,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00667,1,2,Lũy kế,argmin,1,0,4,11,1,1
+B-train-00667,1,2,Phản ánh,argmax,1,1,13,13,1,1
+B-train-00667,1,1,Đúng hạn,argmax,1,1,14,14,1,1
+B-train-00668,2,1,Định biên,argmin,1,0,7,3,1,1
+B-train-00668,1,2,Tiến độ,argmax,1,1,12,12,1,1
+B-train-00668,2,1,Kỳ này,argmax,1,0,9,3,1,1
+B-train-00669,1,1,Thực hiện,argmax,1,1,6,6,1,1
+B-train-00669,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00669,1,2,Hợp đồng,argmin,1,1,8,8,1,1
+B-train-00669,1,2,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00670,1,1,BOD5,argmax,1,1,14,14,1,1
+B-train-00670,2,1,Kế hoạch năm,argmin,1,0,9,5,1,1
+B-train-00670,1,1,COD,argmin,1,1,11,11,1,1
+B-train-00671,1,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00671,2,1,Lũy kế,argmax,1,1,13,13,1,1
+B-train-00671,1,1,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00671,1,1,Thiếu/thừa,argmin,1,1,9,9,1,1
+B-train-00672,1,1,Khách quốc tế,argmin,1,1,16,16,1,1
+B-train-00672,2,1,Doanh thu,argmin,1,1,15,15,1,1
+B-train-00672,1,1,Kỳ trước,argmax,1,1,6,6,1,1
+B-train-00672,1,1,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-00673,1,2,Chênh lệch,argmin,1,0,7,8,1,1
+B-train-00673,1,1,Doanh thu,argmax,1,1,6,6,1,1
+B-train-00673,1,2,Lũy kế,argmax,1,1,4,4,1,1
+B-train-00674,1,1,Thuê bao,argmin,1,0,6,4,1,1
+B-train-00674,1,1,Phản ánh,argmin,1,1,6,6,1,1
+B-train-00674,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00675,1,2,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00675,1,1,Hoàn trả,argmin,1,1,11,11,1,1
+B-train-00675,1,2,Tồn đầu,argmax,1,1,9,9,1,1
+B-train-00675,1,2,Xuất,argmax,1,1,7,7,1,1
+B-train-00676,1,2,Phản ánh,argmin,1,1,11,11,1,1
+B-train-00676,1,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00676,1,1,Thuê bao,argmax,1,0,5,3,1,1
+B-train-00677,1,1,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00677,1,1,Lượt khách,argmin,1,1,6,6,1,1
+B-train-00677,1,2,Tồn đầu,argmax,1,0,6,3,1,1
+B-train-00677,1,1,Giá trị bán,argmax,1,1,12,12,1,1
+B-train-00678,1,2,Tỷ trọng (%),argmin,1,1,13,13,1,1
+B-train-00678,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00678,1,1,Định biên,argmin,1,1,4,4,1,1
+B-train-00678,1,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00679,1,2,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00679,1,2,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00679,1,1,Nhập viện,argmin,1,0,11,13,1,1
+B-train-00679,1,1,Nhập viện,argmax,1,1,13,13,1,1
+B-train-00680,1,2,Khách nội địa,argmax,1,1,7,7,1,1
+B-train-00680,1,2,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00681,1,1,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00681,1,1,Đúng hạn,argmax,1,1,10,10,1,1
+B-train-00681,1,1,Kỳ này,argmax,1,0,3,5,1,1
+B-train-00682,2,1,Công suất phòng,argmin,1,1,9,9,1,1
+B-train-00682,1,1,Khách quốc tế,argmax,1,1,12,12,1,1
+B-train-00682,2,1,Khách quốc tế,argmin,1,1,9,9,1,1
+B-train-00682,2,1,Khách quốc tế,argmax,1,0,4,15,1,1
+B-train-00683,1,2,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00683,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00683,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00683,1,1,Kế hoạch năm,argmin,1,1,15,15,1,1
+B-train-00684,1,2,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00684,1,1,Phản ánh,argmax,1,1,10,10,1,1
+B-train-00684,1,1,Lưu lượng,argmax,1,1,4,4,1,1
+B-train-00684,1,1,Tỷ lệ rớt cuộc,argmin,1,1,5,5,1,1
+B-train-00685,1,1,Kỳ trước,argmin,1,1,14,14,1,1
+B-train-00685,1,2,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00685,1,1,Tồn đầu,argmax,1,1,5,5,1,1
+B-train-00685,1,1,Tồn cuối,argmax,1,0,6,11,1,1
+B-train-00686,2,1,Nhập viện,argmin,1,1,5,5,1,1
+B-train-00686,2,1,Kỳ này,argmax,1,1,10,10,1,1
+B-train-00686,2,1,Nhập viện,argmax,1,1,10,10,1,1
+B-train-00686,1,1,Lũy kế,argmin,1,1,14,14,1,1
+B-train-00687,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00687,1,1,Tồn đầu,argmax,1,1,13,13,1,1
+B-train-00687,1,1,Tồn đầu,argmin,1,1,16,16,1,1
+B-train-00687,1,1,Tồn cuối,argmin,1,1,6,6,1,1
+B-train-00688,2,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00688,1,1,Lũy kế,argmin,1,0,10,3,1,1
+B-train-00688,2,1,Lũy kế,argmax,1,0,11,8,1,1
+B-train-00688,2,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00689,2,1,Diện tích (ha),argmin,1,1,6,6,1,1
+B-train-00689,1,1,Sản lượng (tấn),argmax,1,0,15,16,1,1
+B-train-00689,2,1,Diện tích (ha),argmax,1,1,22,22,1,1
+B-train-00690,1,2,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00690,1,2,Tỷ lệ,argmin,1,0,9,7,1,1
+B-train-00690,1,2,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00690,1,2,Thực hiện,argmax,1,1,10,10,1,1
+B-train-00691,2,1,Khách quốc tế,argmin,1,1,7,7,1,1
+B-train-00691,2,1,Công suất phòng,argmin,1,1,12,12,1,1
+B-train-00691,1,2,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00692,1,1,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00692,1,1,Hành khách,argmin,1,1,11,11,1,1
+B-train-00692,1,1,Kỳ này,argmax,1,1,14,14,1,1
+B-train-00693,1,1,Diện tích (ha),argmin,1,1,7,7,1,1
+B-train-00693,1,1,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00693,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00693,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00694,2,1,Lũy kế,argmin,1,1,21,21,1,1
+B-train-00694,1,1,Kỳ trước,argmax,1,1,21,21,1,1
+B-train-00694,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00694,1,1,Giá trúng,argmax,1,1,16,16,1,1
+B-train-00695,2,1,Giá dự toán,argmax,1,1,9,9,1,1
+B-train-00695,1,1,Tổn thất,argmax,1,1,11,11,1,1
+B-train-00695,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00696,1,1,Tỷ trọng (%),argmin,1,1,14,14,1,1
+B-train-00696,1,2,Lũy kế,argmax,1,1,12,12,1,1
+B-train-00696,1,2,Kỳ này,argmax,1,1,10,10,1,1
+B-train-00697,2,1,Giá trị hợp đồng,argmax,1,0,10,8,1,1
+B-train-00697,1,2,Đơn xử lý,argmax,1,0,11,4,1,1
+B-train-00697,2,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00697,2,1,Giá trị hợp đồng,argmin,1,0,6,12,1,1
+B-train-00698,1,1,Tỷ trọng (%),argmin,1,1,14,14,1,1
+B-train-00698,1,2,Lũy kế,argmax,1,1,14,14,1,1
+B-train-00698,1,2,Tỷ trọng (%),argmax,1,0,14,6,1,1
+B-train-00698,1,2,Chênh lệch,argmin,1,1,3,3,1,1
+B-train-00699,1,1,Kế hoạch năm,argmin,1,1,16,16,1,1
+B-train-00699,1,1,Kỳ trước,argmax,1,1,18,18,1,1
+B-train-00699,1,1,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00700,1,1,Kỳ này,argmax,1,1,10,10,1,1
+B-train-00700,1,1,Doanh thu,argmax,1,1,5,5,1,1
+B-train-00700,1,1,Khách quốc tế,argmin,1,1,17,17,1,1
+B-train-00700,2,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00701,1,1,Phí bảo hiểm,argmin,1,0,7,8,1,1
+B-train-00701,1,2,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00701,1,1,Tỷ lệ,argmax,1,1,5,5,1,1
+B-train-00701,1,1,Kỳ trước,argmin,1,1,6,11,1,1
+B-train-00702,2,1,Nhập,argmin,1,0,13,3,1,1
+B-train-00702,1,1,Tồn cuối,argmin,1,1,3,3,1,1
+B-train-00702,2,1,Tồn đầu,argmax,1,1,8,8,1,1
+B-train-00702,2,1,Nhập,argmax,1,1,9,9,1,1
+B-train-00703,1,1,Giá trúng,argmin,1,1,5,5,1,1
+B-train-00703,1,2,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00703,1,1,Giá dự toán,argmax,1,1,4,4,1,1
+B-train-00704,1,1,Doanh thu,argmax,1,1,13,13,1,1
+B-train-00704,2,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00704,1,1,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00704,1,1,Kỳ trước,argmin,1,0,7,4,1,1
+B-train-00705,1,1,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00705,1,2,Công suất phòng,argmin,1,1,10,10,1,1
+B-train-00706,1,1,Giá trị bán,argmin,1,1,11,11,1,1
+B-train-00706,1,1,Hoàn trả,argmax,1,1,9,9,1,1
+B-train-00706,1,1,Số đơn,argmax,1,1,9,9,1,1
+B-train-00706,1,1,Số đơn,argmin,1,1,11,11,1,1
+B-train-00707,2,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00707,1,1,Sản lượng (tấn),argmin,1,1,3,3,1,1
+B-train-00707,1,1,Kỳ trước,argmax,1,1,16,16,1,1
+B-train-00708,1,1,Phí bảo hiểm,argmax,1,0,12,6,1,1
+B-train-00708,1,1,Phí bảo hiểm,argmin,1,1,4,4,1,1
+B-train-00708,1,1,Hợp đồng,argmax,1,0,12,9,1,1
+B-train-00708,1,1,Bồi thường,argmin,1,1,9,9,1,1
+B-train-00709,1,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00709,1,2,Nợ quá hạn,argmax,1,1,5,5,1,1
+B-train-00709,1,1,Giá trị bán,argmin,1,1,9,9,1,1
+B-train-00709,1,1,Số đơn,argmax,1,1,10,10,1,1
+B-train-00710,1,1,Sản lượng,argmax,1,1,4,4,1,1
+B-train-00710,1,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00711,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00711,1,1,Khách nội địa,argmax,1,0,6,4,1,1
+B-train-00711,1,1,Doanh thu,argmax,1,1,6,6,1,1
+B-train-00712,2,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00712,1,1,Nợ quá hạn,argmax,1,1,4,4,1,1
+B-train-00712,1,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00712,2,1,Tăng trưởng,argmin,1,1,13,13,1,1
+B-train-00713,1,1,Chi phí,argmin,1,1,11,11,1,1
+B-train-00713,1,2,Đơn xử lý,argmax,1,1,6,6,1,1
+B-train-00713,1,2,Kỳ này,argmin,1,1,4,4,1,1
+B-train-00714,1,2,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00714,1,2,Tỷ lệ đạt,argmin,1,1,6,6,1,1
+B-train-00714,1,2,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00715,1,2,Nợ quá hạn,argmax,1,1,3,3,1,1
+B-train-00715,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00715,1,2,Kỳ này,argmax,1,0,12,10,1,1
+B-train-00716,1,1,COD,argmax,1,1,5,10,1,1
+B-train-00716,1,1,BOD5,argmax,1,0,12,10,1,1
+B-train-00716,1,2,Giá trị bán,argmin,1,1,11,11,1,1
+B-train-00717,1,2,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00717,2,1,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00717,2,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00717,1,1,Tồn cuối,argmax,1,1,5,5,1,1
+B-train-00718,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00718,1,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00718,1,2,Kế hoạch năm,argmin,1,0,9,10,1,1
+B-train-00719,2,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00719,1,1,Lũy kế,argmax,1,1,12,12,1,1
+B-train-00719,2,1,Diện tích (ha),argmin,1,1,3,3,1,1
+B-train-00719,2,1,Diện tích (ha),argmax,1,1,10,10,1,1
+B-train-00720,1,1,Tỷ lệ,argmax,1,1,13,13,1,1
+B-train-00720,1,1,Chênh lệch,argmax,1,1,13,13,1,1
+B-train-00720,1,2,Dư nợ,argmin,1,1,10,10,1,1
+B-train-00721,2,1,Nhập,argmin,1,1,9,9,1,1
+B-train-00721,2,1,Nhập,argmax,1,1,5,5,1,1
+B-train-00721,1,1,Xuất,argmin,1,1,5,5,1,1
+B-train-00721,2,1,Tồn cuối,argmax,1,1,14,14,1,1
+B-train-00722,1,2,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00722,1,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00722,1,1,Kế hoạch năm,argmax,1,1,15,15,1,1
+B-train-00723,1,1,Lũy kế,argmax,1,1,18,18,1,1
+B-train-00723,2,1,Hiện có,argmax,1,1,11,11,1,1
+B-train-00723,1,1,Hiện có,argmin,1,1,6,6,1,1
+B-train-00723,2,1,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00724,2,1,Huy động,argmax,1,0,9,6,1,1
+B-train-00724,1,1,Chi phí,argmax,1,1,3,3,1,1
+B-train-00724,2,1,Tăng trưởng,argmin,1,0,5,9,1,1
+B-train-00724,2,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00725,1,1,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00725,1,1,Giá dự toán,argmin,1,1,8,8,1,1
+B-train-00725,1,2,Đã giải quyết,argmin,1,1,4,4,1,1
+B-train-00725,1,2,Trễ hạn,argmax,1,0,6,3,1,1
+B-train-00726,1,2,Tỷ lệ rớt cuộc,argmax,1,1,10,10,1,1
+B-train-00726,1,2,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00726,1,2,Lưu lượng,argmin,1,1,5,5,1,1
+B-train-00727,1,1,Kỳ này,argmax,1,0,13,7,1,1
+B-train-00727,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00727,1,2,Phí bảo hiểm,argmin,1,1,10,10,1,1
+B-train-00728,1,1,Sản lượng (tấn),argmax,1,1,10,10,1,1
+B-train-00728,1,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00729,1,2,Tỷ lệ rớt cuộc,argmin,1,1,11,11,1,1
+B-train-00729,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00729,1,1,Khách quốc tế,argmax,1,1,13,13,1,1
+B-train-00729,1,2,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00730,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00730,2,1,Tỷ trọng (%),argmax,1,0,13,11,1,1
+B-train-00730,1,1,Số đơn,argmin,1,1,10,10,1,1
+B-train-00730,1,2,Huy động,argmax,1,1,7,7,1,1
+B-train-00731,1,1,Chi trả,argmax,1,1,14,14,1,1
+B-train-00731,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00731,2,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00731,1,1,Trễ hạn,argmin,1,1,4,4,1,1
+B-train-00732,2,1,Tiến độ,argmax,1,1,8,8,1,1
+B-train-00732,2,1,Giải ngân,argmin,1,1,8,8,1,1
+B-train-00732,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00732,1,1,Giải ngân,argmax,1,1,10,10,1,1
+B-train-00733,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00733,1,1,COD,argmax,1,1,3,3,1,1
+B-train-00733,1,2,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00733,1,1,BOD5,argmin,1,1,7,7,1,1
+B-train-00734,1,1,Công suất đỉnh,argmin,1,1,5,5,1,1
+B-train-00734,1,1,Công suất đỉnh,argmax,1,1,15,15,1,1
+B-train-00734,2,1,Công suất đỉnh,argmax,1,1,12,12,1,1
+B-train-00735,1,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00735,2,1,Sản lượng (tấn),argmax,1,1,6,6,1,1
+B-train-00736,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00736,1,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00736,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00736,1,2,Phản ánh,argmax,1,1,14,14,1,1
+B-train-00737,1,2,Tỷ lệ rớt cuộc,argmin,1,1,3,3,1,1
+B-train-00737,1,2,Tỷ lệ rớt cuộc,argmax,1,1,5,5,1,1
+B-train-00737,1,2,Thuê bao,argmax,1,1,9,9,1,1
+B-train-00737,1,1,Tồn cuối,argmin,1,1,10,10,1,1
+B-train-00738,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00738,1,1,Định biên,argmin,1,1,11,11,1,1
+B-train-00738,1,2,Phí bảo hiểm,argmax,1,1,12,12,1,1
+B-train-00738,1,2,Tỷ lệ,argmax,1,1,13,13,1,1
+B-train-00739,1,1,Tổn thất,argmax,1,1,12,12,1,1
+B-train-00739,1,1,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00739,1,1,Tổn thất,argmin,1,1,8,8,1,1
+B-train-00740,1,2,Chi trả,argmin,1,1,11,11,1,1
+B-train-00740,1,2,Lũy kế,argmax,1,1,13,13,1,1
+B-train-00740,1,1,Tiến độ,argmax,1,1,9,9,1,1
+B-train-00741,1,2,Kế hoạch năm,argmax,1,0,8,12,1,1
+B-train-00741,1,1,Đơn xử lý,argmax,1,0,11,8,1,1
+B-train-00741,1,1,Đúng hạn,argmin,1,1,8,8,1,1
+B-train-00741,2,1,Đã giải quyết,argmin,1,1,13,13,1,1
+B-train-00742,1,2,Nợ quá hạn,argmax,1,1,10,10,1,1
+B-train-00743,1,1,Tồn cuối,argmin,1,1,11,11,1,1
+B-train-00743,2,1,Kế hoạch năm,argmax,1,1,19,19,1,1
+B-train-00743,2,1,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00743,2,1,Lũy kế,argmin,1,1,10,10,1,1
+B-train-00744,1,2,Phí bảo hiểm,argmin,1,1,13,13,1,1
+B-train-00745,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00745,2,1,Xuất,argmax,1,1,10,10,1,1
+B-train-00745,1,2,Tỷ lệ rớt cuộc,argmin,1,1,13,13,1,1
+B-train-00746,1,1,Kỳ này,argmax,1,1,12,12,1,1
+B-train-00746,2,1,Hoàn trả,argmin,1,1,12,12,1,1
+B-train-00746,1,1,Giá trị bán,argmax,1,1,16,16,1,1
+B-train-00747,2,1,Thí sinh,argmin,1,1,8,8,1,1
+B-train-00747,1,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00747,1,2,Định biên,argmax,1,1,3,3,1,1
+B-train-00747,2,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00748,1,2,Tiến độ,argmax,1,1,11,11,1,1
+B-train-00748,1,1,Giải ngân,argmax,1,1,13,13,1,1
+B-train-00748,1,2,Tiến độ,argmin,1,1,5,5,1,1
+B-train-00749,1,1,Đạt,argmin,1,1,15,15,1,1
+B-train-00749,2,1,Chuyển tuyến,argmin,1,1,12,12,1,1
+B-train-00749,2,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00749,1,2,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00750,1,2,Khách quốc tế,argmin,1,1,10,10,1,1
+B-train-00750,1,2,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00751,1,1,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-00751,2,1,Lũy kế,argmax,1,1,4,4,1,1
+B-train-00751,1,2,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00751,1,1,Công suất đỉnh,argmin,1,1,11,11,1,1
+B-train-00752,2,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00752,1,2,Tỷ trọng (%),argmax,1,1,5,5,1,1
+B-train-00752,1,2,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00753,1,2,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00753,2,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00753,1,2,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00753,1,2,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00754,2,1,Kỳ này,argmin,1,0,9,3,1,1
+B-train-00754,1,2,Kỳ trước,argmax,1,0,11,12,1,1
+B-train-00755,1,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00755,1,1,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00755,2,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00755,1,1,Tỷ trọng (%),argmax,1,1,16,16,1,1
+B-train-00756,2,1,Đúng giờ,argmin,1,1,5,5,1,1
+B-train-00756,2,1,Kỳ này,argmax,1,1,14,14,1,1
+B-train-00756,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00756,2,1,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-00757,1,1,Giá dự toán,argmin,1,1,9,9,1,1
+B-train-00757,1,2,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00757,1,2,Đúng giờ,argmin,1,0,8,9,1,1
+B-train-00757,1,2,Hành khách,argmax,1,1,8,8,1,1
+B-train-00758,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00758,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00758,1,2,Tồn cuối,argmax,1,1,16,16,1,1
+B-train-00758,1,2,Chi phí,argmin,1,1,11,11,1,1
+B-train-00759,2,1,Đã giải quyết,argmax,1,1,12,12,1,1
+B-train-00759,1,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00759,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00760,2,1,Tổn thất,argmin,1,1,12,12,1,1
+B-train-00760,2,1,Kỳ trước,argmin,1,0,6,9,1,1
+B-train-00760,1,1,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00761,2,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00761,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00761,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00761,1,2,Giá dự toán,argmin,1,1,8,8,1,1
+B-train-00762,1,2,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00762,1,2,Kỳ này,argmax,1,1,4,4,1,1
+B-train-00762,1,2,Đơn xử lý,argmax,1,0,10,13,1,1
+B-train-00762,1,2,Tồn cuối,argmin,1,0,5,7,1,1
+B-train-00763,2,1,Hành khách,argmax,1,1,11,11,1,1
+B-train-00763,1,1,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00763,2,1,Doanh thu,argmax,1,1,14,14,1,1
+B-train-00763,1,1,Đúng giờ,argmin,1,1,16,16,1,1
+B-train-00764,1,1,Giá trúng,argmax,1,1,20,20,1,1
+B-train-00764,2,1,Giá dự toán,argmin,1,1,20,20,1,1
+B-train-00764,2,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00765,1,2,Khách nội địa,argmax,1,0,12,11,1,1
+B-train-00765,1,2,Công suất phòng,argmin,1,1,12,12,1,1
+B-train-00765,1,2,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00765,1,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00766,1,2,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00766,1,2,Huy động,argmin,1,1,9,9,1,1
+B-train-00766,1,2,Tăng trưởng,argmin,1,1,11,11,1,1
+B-train-00766,1,1,Tồn cuối,argmax,1,1,6,6,1,1
+B-train-00767,2,1,Kỳ này,argmax,1,1,16,16,1,1
+B-train-00767,1,1,Chi phí,argmin,1,1,20,20,1,1
+B-train-00767,2,1,Tồn cuối,argmin,1,1,18,18,1,1
+B-train-00767,1,1,Kỳ trước,argmax,1,1,14,14,1,1
+B-train-00768,2,1,Lũy kế,argmax,1,1,20,20,1,1
+B-train-00768,2,1,Kỳ này,argmax,1,1,20,20,1,1
+B-train-00769,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00769,1,1,Trễ hạn,argmin,1,1,4,4,1,1
+B-train-00769,1,1,Đã giải quyết,argmin,1,1,13,13,1,1
+B-train-00769,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00770,1,2,BOD5,argmin,1,1,10,10,1,1
+B-train-00770,1,2,Tỷ trọng (%),argmax,1,1,5,5,1,1
+B-train-00770,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00770,1,1,Lượt khách,argmin,1,1,4,4,1,1
+B-train-00771,1,1,Nhập viện,argmax,1,1,13,13,1,1
+B-train-00771,1,1,Lượt khám,argmin,1,0,11,3,1,1
+B-train-00771,1,2,Hành khách,argmax,1,1,13,13,1,1
+B-train-00771,1,1,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00772,2,1,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00772,1,2,Hoàn trả,argmin,1,1,12,12,1,1
+B-train-00772,1,2,Số đơn,argmax,1,1,7,7,1,1
+B-train-00772,1,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00773,1,2,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00773,1,2,Đã giải quyết,argmax,1,0,4,8,1,1
+B-train-00773,1,1,pH,argmin,1,0,5,3,1,1
+B-train-00773,1,1,pH,argmax,1,1,10,10,1,1
+B-train-00774,1,1,Kỳ này,argmax,1,0,6,5,1,1
+B-train-00774,1,2,Giải ngân,argmax,1,1,11,11,1,1
+B-train-00774,1,1,Giá trúng,argmin,1,1,9,9,1,1
+B-train-00774,1,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00775,1,1,Tiến độ,argmax,1,1,16,16,1,1
+B-train-00775,2,1,Giải ngân,argmin,1,1,17,17,1,1
+B-train-00775,2,1,Giải ngân,argmax,1,1,9,9,1,1
+B-train-00775,1,1,Giải ngân,argmin,1,1,17,17,1,1
+B-train-00776,1,2,Hoàn trả,argmin,1,1,3,3,1,1
+B-train-00776,1,1,Đúng giờ,argmin,1,1,6,6,1,1
+B-train-00776,1,1,Hành khách,argmax,1,1,7,7,1,1
+B-train-00776,1,2,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00777,2,1,Tồn cuối,argmax,1,1,15,15,1,1
+B-train-00777,1,1,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00777,1,1,Đúng hạn,argmin,1,1,8,8,1,1
+B-train-00777,2,1,Kỳ trước,argmin,1,1,17,17,1,1
+B-train-00778,1,1,Huy động,argmax,1,0,15,3,1,1
+B-train-00778,2,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00778,2,1,Phản ánh,argmin,1,1,10,10,1,1
+B-train-00778,2,1,Lưu lượng,argmax,1,1,7,7,1,1
+B-train-00779,1,2,Hồ sơ nhận,argmax,1,1,7,7,1,1
+B-train-00779,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00779,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00780,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00780,1,1,Kỳ trước,argmin,1,1,12,12,1,1
+B-train-00780,1,1,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00781,2,1,Chi trả,argmin,1,1,4,4,1,1
+B-train-00781,1,1,Kế hoạch năm,argmax,1,1,15,15,1,1
+B-train-00781,2,1,Trễ hạn,argmax,1,1,10,10,1,1
+B-train-00781,1,1,Trễ hạn,argmin,1,0,10,8,1,1
+B-train-00782,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00782,2,1,Công suất phòng,argmin,1,0,16,15,1,1
+B-train-00783,1,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00783,1,1,Lũy kế,argmax,1,1,13,13,1,1
+B-train-00783,1,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00783,1,2,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00784,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00784,2,1,Hoàn trả,argmax,1,1,5,5,1,1
+B-train-00785,1,1,Diện tích (ha),argmax,1,0,16,13,1,1
+B-train-00785,2,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00785,2,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-00785,1,2,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00786,1,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00786,1,2,Tồn cuối,argmax,1,1,3,3,1,1
+B-train-00786,1,2,Kỳ trước,argmin,1,0,10,6,1,1
+B-train-00787,1,2,Lượt khách,argmin,1,1,10,10,1,1
+B-train-00787,1,2,Số đơn,argmax,1,1,5,5,1,1
+B-train-00787,1,1,Bồi thường,argmin,1,1,4,4,1,1
+B-train-00788,2,1,Thí sinh,argmax,1,1,8,8,1,1
+B-train-00788,1,1,Giải ngân,argmax,1,1,12,12,1,1
+B-train-00788,1,2,Lượt khách,argmin,1,1,8,8,1,1
+B-train-00789,2,1,Hành khách,argmax,1,1,8,8,1,1
+B-train-00789,1,2,Kỳ này,argmax,1,0,15,8,1,1
+B-train-00789,1,1,Hoàn trả,argmin,1,1,4,4,1,1
+B-train-00789,2,1,Đúng giờ,argmin,1,1,14,14,1,1
+B-train-00790,2,1,Tăng trưởng,argmin,1,1,22,22,1,1
+B-train-00790,1,1,Nợ quá hạn,argmax,1,1,11,11,1,1
+B-train-00790,1,1,Kế hoạch năm,argmin,1,1,13,13,1,1
+B-train-00790,1,1,Tăng trưởng,argmax,1,1,18,18,1,1
+B-train-00791,1,1,Nhập viện,argmax,1,1,19,19,1,1
+B-train-00791,1,1,Nhập viện,argmin,1,1,21,21,1,1
+B-train-00791,2,1,Chuyển tuyến,argmax,1,1,6,6,1,1
+B-train-00791,2,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00792,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00792,1,2,Tiến độ,argmax,1,1,12,12,1,1
+B-train-00792,1,1,Kỳ này,argmin,1,0,9,3,1,1
+B-train-00793,2,1,Chi trả,argmin,1,1,8,8,1,1
+B-train-00793,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00793,1,1,Kỳ này,argmax,1,1,22,22,1,1
+B-train-00794,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00794,1,1,Tỷ trọng (%),argmin,1,1,19,19,1,1
+B-train-00794,1,1,Kỳ này,argmin,1,1,19,19,1,1
+B-train-00795,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00795,1,2,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00795,1,2,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00795,1,2,Đúng hạn,argmax,1,1,3,3,1,1
+B-train-00796,1,1,Giá dự toán,argmax,1,1,8,8,1,1
+B-train-00796,1,2,Tổn thất,argmin,1,1,5,5,1,1
+B-train-00797,1,2,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00797,1,1,Tỷ lệ,argmax,1,1,11,11,1,1
+B-train-00797,1,2,Tỷ trọng (%),argmin,1,0,11,10,1,1
+B-train-00797,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00798,1,2,Kỳ này,argmax,1,1,3,3,1,1
+B-train-00798,2,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00798,1,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00798,1,2,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00799,2,1,Tiến độ,argmin,1,0,6,9,1,1
+B-train-00799,1,2,Diện tích (ha),argmax,1,1,4,4,1,1
+B-train-00799,2,1,Giải ngân,argmin,1,1,5,5,1,1
+B-train-00799,1,1,Doanh thu,argmax,1,1,6,6,1,1
+B-train-00800,1,2,Giá trúng,argmin,1,1,5,5,1,1
+B-train-00800,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00801,1,1,Nợ quá hạn,argmax,1,1,14,14,1,1
+B-train-00801,1,1,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00801,2,1,Nợ quá hạn,argmax,1,1,19,19,1,1
+B-train-00801,2,1,Huy động,argmin,1,1,18,18,1,1
+B-train-00802,1,2,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00802,1,2,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-00802,1,2,Sản lượng (tấn),argmax,1,1,12,12,1,1
+B-train-00803,1,1,Giá trị hợp đồng,argmin,1,0,7,8,1,1
+B-train-00803,1,2,Hiện có,argmax,1,1,13,13,1,1
+B-train-00803,1,2,Thiếu/thừa,argmax,1,0,15,4,1,1
+B-train-00804,1,2,Lượt khám,argmax,1,0,11,4,1,1
+B-train-00804,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00805,2,1,Tồn cuối,argmax,1,1,4,4,1,1
+B-train-00805,1,1,Dư nợ,argmin,1,0,7,9,1,1
+B-train-00805,2,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00806,1,2,Chi phí,argmin,1,1,8,8,1,1
+B-train-00806,1,2,Đúng hạn,argmax,1,1,6,6,1,1
+B-train-00806,1,1,Lũy kế,argmin,1,1,10,10,1,1
+B-train-00807,1,2,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00807,1,1,Tồn cuối,argmin,1,1,6,6,1,1
+B-train-00807,1,1,Tồn đầu,argmin,1,1,10,10,1,1
+B-train-00807,1,1,Tồn đầu,argmax,1,1,7,7,1,1
+B-train-00808,1,2,Kế hoạch năm,argmax,1,0,6,7,1,1
+B-train-00808,1,1,Tỷ trọng (%),argmin,1,0,11,3,1,1
+B-train-00808,1,2,Xuất,argmin,1,1,10,10,1,1
+B-train-00808,1,1,Lũy kế,argmax,1,1,9,9,1,1
+B-train-00809,1,2,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00809,2,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00809,1,1,Kỳ trước,argmin,1,1,12,12,1,1
+B-train-00810,2,1,Hành khách,argmin,1,1,11,11,1,1
+B-train-00810,2,1,Kỳ này,argmax,1,1,12,12,1,1
+B-train-00810,1,1,Kỳ này,argmax,1,1,16,16,1,1
+B-train-00810,1,1,Doanh thu,argmin,1,1,15,15,1,1
+B-train-00811,2,1,Tiến độ,argmin,1,0,8,14,1,1
+B-train-00811,1,1,Thực hiện,argmin,1,1,7,7,1,1
+B-train-00811,1,2,Giá dự toán,argmax,1,1,7,7,1,1
+B-train-00811,1,1,Chênh lệch,argmax,1,1,6,6,1,1
+B-train-00812,2,1,Trễ hạn,argmax,1,1,5,5,1,1
+B-train-00812,2,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00813,1,1,Khách quốc tế,argmax,1,1,3,3,1,1
+B-train-00813,2,1,Khách quốc tế,argmax,1,1,8,8,1,1
+B-train-00813,1,1,Công suất phòng,argmin,1,1,6,6,1,1
+B-train-00814,1,1,Thiếu/thừa,argmin,1,1,6,6,1,1
+B-train-00814,1,2,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00814,1,2,Giá dự toán,argmin,1,1,6,6,1,1
+B-train-00814,1,2,Giá trúng,argmax,1,1,10,10,1,1
+B-train-00815,1,1,Lưu lượng,argmin,1,1,4,4,1,1
+B-train-00815,2,1,Phản ánh,argmin,1,1,6,6,1,1
+B-train-00815,1,1,Lưu lượng,argmax,1,1,11,11,1,1
+B-train-00815,1,1,Phản ánh,argmax,1,1,6,6,1,1
+B-train-00816,1,2,Lượt khám,argmax,1,0,8,10,1,1
+B-train-00816,1,2,Nhập viện,argmin,1,1,4,4,1,1
+B-train-00816,1,1,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00817,2,1,Tỷ lệ rớt cuộc,argmax,1,1,5,5,1,1
+B-train-00817,1,2,Kỳ này,argmax,1,1,12,12,1,1
+B-train-00817,2,1,Phản ánh,argmin,1,1,3,3,1,1
+B-train-00817,2,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00818,2,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00818,1,1,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00819,1,2,Kỳ trước,argmin,1,0,5,7,1,1
+B-train-00819,1,2,Công suất phòng,argmin,1,0,8,7,1,1
+B-train-00819,1,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00820,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00820,1,1,Giá trị bán,argmax,1,1,6,6,1,1
+B-train-00821,2,1,Giải ngân,argmax,1,1,7,7,1,1
+B-train-00821,2,1,Tiến độ,argmin,1,1,18,18,1,1
+B-train-00821,1,1,Giải ngân,argmax,1,1,8,8,1,1
+B-train-00822,1,2,Tỷ trọng (%),argmax,1,1,12,12,1,1
+B-train-00822,1,2,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00822,1,2,Kỳ này,argmin,1,0,6,12,1,1
+B-train-00822,1,2,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00823,1,1,Tỷ lệ đạt,argmin,1,1,5,5,1,1
+B-train-00823,1,1,Đạt,argmin,1,1,5,5,1,1
+B-train-00823,1,1,Thí sinh,argmax,1,1,11,11,1,1
+B-train-00824,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00824,1,1,Kỳ trước,argmax,1,1,4,4,1,1
+B-train-00825,1,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00825,2,1,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00825,1,1,Đúng giờ,argmax,1,1,13,13,1,1
+B-train-00825,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00826,1,2,Tỷ trọng (%),argmin,1,0,11,5,1,1
+B-train-00826,1,1,Tồn cuối,argmax,1,1,11,11,1,1
+B-train-00826,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00827,1,2,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00827,1,1,Công suất đỉnh,argmax,1,1,9,9,1,1
+B-train-00827,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00827,1,2,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00828,1,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00828,1,2,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00828,1,2,Kế hoạch năm,argmax,1,1,15,15,1,1
+B-train-00828,1,1,Tồn cuối,argmax,1,1,8,8,1,1
+B-train-00829,2,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00829,1,1,Kỳ trước,argmin,1,1,17,17,1,1
+B-train-00829,2,1,Diện tích (ha),argmin,1,1,11,11,1,1
+B-train-00830,2,1,Tỷ trọng (%),argmax,1,0,5,6,1,1
+B-train-00830,2,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00830,2,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00830,2,1,Tồn cuối,argmax,1,0,10,6,1,1
+B-train-00831,1,1,Kỳ này,argmin,1,1,18,18,1,1
+B-train-00831,1,1,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00831,2,1,Sự cố,argmax,1,1,5,5,1,1
+B-train-00832,1,1,Lũy kế,argmin,1,0,11,14,1,1
+B-train-00832,1,2,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00832,1,1,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00833,1,1,Khách quốc tế,argmax,1,1,3,3,1,1
+B-train-00833,1,1,Khách quốc tế,argmin,1,1,11,11,1,1
+B-train-00833,2,1,Kỳ này,argmax,1,1,16,16,1,1
+B-train-00833,2,1,Doanh thu,argmin,1,1,7,7,1,1
+B-train-00834,1,2,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00834,1,2,Kỳ trước,argmax,1,1,9,9,1,1
+B-train-00834,1,1,Hiện có,argmax,1,1,11,11,1,1
+B-train-00835,1,1,Công suất phòng,argmax,1,1,10,10,1,1
+B-train-00835,1,2,Phản ánh,argmin,1,1,3,3,1,1
+B-train-00835,1,1,Kỳ trước,argmin,1,0,3,15,1,1
+B-train-00836,1,1,Nhập,argmin,1,0,13,11,1,1
+B-train-00836,1,1,Tồn đầu,argmax,1,1,14,14,1,1
+B-train-00836,1,1,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00837,1,1,Tỷ trọng (%),argmin,1,0,17,8,1,1
+B-train-00837,2,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00837,1,1,Kỳ trước,argmax,1,1,17,17,1,1
+B-train-00837,1,1,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00838,1,2,Doanh thu,argmax,1,1,8,8,1,1
+B-train-00838,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-00838,1,2,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00839,2,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00839,1,1,BOD5,argmin,1,1,11,11,1,1
+B-train-00839,1,1,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00840,1,2,Xuất,argmin,1,1,7,7,1,1
+B-train-00841,1,2,Lũy kế,argmax,1,0,5,8,1,1
+B-train-00841,1,2,Tỷ lệ,argmax,1,1,11,11,1,1
+B-train-00841,1,2,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00841,1,2,Kế hoạch,argmin,1,0,11,5,1,1
+B-train-00842,1,1,Kỳ trước,argmax,1,1,11,11,1,1
+B-train-00842,1,2,Lũy kế,argmax,1,0,9,7,1,1
+B-train-00843,1,2,Lũy kế,argmax,1,0,9,3,1,1
+B-train-00843,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00843,1,2,Kế hoạch năm,argmin,1,0,10,3,1,1
+B-train-00843,1,2,Thiếu/thừa,argmax,1,1,5,5,1,1
+B-train-00844,1,2,Kỳ này,argmin,1,0,8,5,1,1
+B-train-00844,1,1,Hợp đồng,argmax,1,1,4,4,1,1
+B-train-00844,1,1,Hợp đồng,argmin,1,0,9,6,1,1
+B-train-00844,1,1,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00845,2,1,Lũy kế,argmax,1,1,17,17,1,1
+B-train-00845,1,1,Số đơn,argmax,1,1,5,5,1,1
+B-train-00845,2,1,Lũy kế,argmin,1,1,14,14,1,1
+B-train-00846,1,2,Tỷ lệ rớt cuộc,argmax,1,1,11,11,1,1
+B-train-00846,1,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00846,1,2,Phản ánh,argmax,1,1,13,13,1,1
+B-train-00847,1,2,Tỷ lệ rớt cuộc,argmax,1,1,6,6,1,1
+B-train-00847,2,1,Kế hoạch năm,argmax,1,1,12,12,1,1
+B-train-00847,1,2,Tỷ lệ rớt cuộc,argmin,1,1,11,11,1,1
+B-train-00847,2,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00848,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00848,1,2,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00848,1,1,Nhập,argmax,1,1,7,7,1,1
+B-train-00849,1,2,Bồi thường,argmin,1,1,7,7,1,1
+B-train-00849,1,1,Bồi thường,argmax,1,1,13,13,1,1
+B-train-00849,1,2,Phí bảo hiểm,argmin,1,1,10,10,1,1
+B-train-00850,2,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00850,2,1,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00850,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00850,1,1,Tỷ trọng (%),argmax,1,1,12,7,1,1
+B-train-00851,1,2,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00851,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-00851,1,2,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00851,1,2,Giải ngân,argmin,1,0,11,9,1,1
+B-train-00852,1,1,Kế hoạch năm,argmax,1,1,18,18,1,1
+B-train-00852,1,1,Kỳ này,argmin,1,1,18,18,1,1
+B-train-00852,2,1,Tỷ trọng (%),argmax,1,1,21,21,1,1
+B-train-00852,2,1,Thiếu/thừa,argmin,1,1,16,16,1,1
+B-train-00853,1,2,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00853,1,2,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-00853,2,1,Kế hoạch năm,argmax,1,1,4,4,1,1
+B-train-00854,1,2,Hành khách,argmin,1,1,8,8,1,1
+B-train-00854,1,2,Kế hoạch năm,argmin,1,1,12,12,1,1
+B-train-00855,1,2,Lượt khám,argmax,1,0,7,10,1,1
+B-train-00855,1,1,Tổn thất,argmin,1,1,9,9,1,1
+B-train-00855,1,2,Chuyển tuyến,argmax,1,1,11,11,1,1
+B-train-00855,1,2,Chuyển tuyến,argmin,1,1,5,5,1,1
+B-train-00856,1,1,Lũy kế,argmax,1,1,13,13,1,1
+B-train-00856,2,1,Tồn đầu,argmin,1,1,5,5,1,1
+B-train-00856,2,1,Tồn đầu,argmax,1,1,6,6,1,1
+B-train-00857,1,1,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-00857,1,1,Kỳ này,argmin,1,1,14,14,1,1
+B-train-00857,1,1,Lũy kế,argmax,1,1,4,4,1,1
+B-train-00857,1,1,Kế hoạch năm,argmin,1,1,12,12,1,1
+B-train-00858,2,1,Kỳ trước,argmax,1,1,21,21,1,1
+B-train-00858,1,1,Tỷ trọng (%),argmin,1,1,19,19,1,1
+B-train-00858,1,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00858,1,1,Nợ quá hạn,argmin,1,1,6,6,1,1
+B-train-00859,2,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00859,2,1,Diện tích (ha),argmax,1,1,18,18,1,1
+B-train-00859,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00860,1,2,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00860,1,1,Tăng trưởng,argmin,1,0,15,7,1,1
+B-train-00860,1,1,Dư nợ,argmax,1,1,6,6,1,1
+B-train-00860,1,1,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00861,1,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00861,1,1,Tỷ trọng (%),argmax,1,0,14,6,1,1
+B-train-00861,1,2,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-00861,1,2,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00862,1,1,COD,argmin,1,0,15,13,1,1
+B-train-00862,1,1,COD,argmax,1,1,14,14,1,1
+B-train-00862,1,1,Kỳ trước,argmax,1,1,19,19,1,1
+B-train-00862,2,1,Tỷ trọng (%),argmin,1,1,17,17,1,1
+B-train-00863,1,1,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00863,1,2,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00863,1,1,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00864,2,1,Doanh thu,argmax,1,1,7,7,1,1
+B-train-00864,1,1,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-00864,1,1,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-00864,1,1,Doanh thu,argmin,1,1,14,14,1,1
+B-train-00865,1,1,Hiện có,argmin,1,1,20,20,1,1
+B-train-00865,1,1,Kế hoạch năm,argmax,1,1,19,19,1,1
+B-train-00865,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00865,2,1,Kế hoạch năm,argmin,1,1,19,19,1,1
+B-train-00866,1,2,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00866,1,2,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00866,1,1,Sản lượng (tấn),argmin,1,1,3,3,1,1
+B-train-00867,2,1,Kỳ trước,argmin,1,0,20,8,1,1
+B-train-00867,1,1,Tỷ lệ đạt,argmin,1,1,19,19,1,1
+B-train-00867,2,1,Tỷ trọng (%),argmax,1,1,15,15,1,1
+B-train-00867,1,1,Kỳ trước,argmax,1,1,21,21,1,1
+B-train-00868,1,1,Nhập,argmin,1,0,13,6,1,1
+B-train-00868,1,2,Kỳ này,argmin,1,1,3,3,1,1
+B-train-00868,1,1,Tồn đầu,argmax,1,1,4,4,1,1
+B-train-00869,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00869,1,1,Chi trả,argmax,1,1,14,14,1,1
+B-train-00869,2,1,Kỳ này,argmin,1,1,18,18,1,1
+B-train-00869,1,1,Đã giải quyết,argmax,1,1,14,14,1,1
+B-train-00870,1,1,Nhập viện,argmax,1,1,14,14,1,1
+B-train-00870,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00870,2,1,Nhập viện,argmin,1,1,14,14,1,1
+B-train-00871,2,1,Tỷ lệ,argmax,1,1,14,14,1,1
+B-train-00871,1,1,Tỷ lệ,argmax,1,1,14,14,1,1
+B-train-00871,1,1,Kỳ trước,argmin,1,1,17,17,1,1
+B-train-00871,1,1,Thực hiện,argmin,1,1,4,4,1,1
+B-train-00872,1,2,Diện tích (ha),argmax,1,1,12,12,1,1
+B-train-00872,1,1,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00872,1,1,Bồi thường,argmin,1,0,4,6,1,1
+B-train-00872,1,1,Hợp đồng,argmax,1,0,6,9,1,1
+B-train-00873,1,1,Kỳ trước,argmin,1,1,4,4,1,1
+B-train-00873,2,1,Thuê bao,argmax,1,1,3,3,1,1
+B-train-00873,1,2,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00873,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00874,1,2,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00874,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00875,1,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00875,1,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00875,2,1,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00875,1,1,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00876,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00876,1,1,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00876,1,1,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00876,1,2,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00877,1,1,Đã giải quyết,argmin,1,1,9,9,1,1
+B-train-00877,1,1,Chi trả,argmax,1,0,11,6,1,1
+B-train-00877,1,1,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00877,1,2,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00878,1,1,BOD5,argmin,1,1,5,5,1,1
+B-train-00878,2,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00878,2,1,COD,argmax,1,1,6,6,1,1
+B-train-00878,2,1,BOD5,argmin,1,1,21,21,1,1
+B-train-00879,2,1,COD,argmin,1,1,14,14,1,1
+B-train-00879,1,1,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00879,1,1,Lũy kế,argmin,1,1,7,7,1,1
+B-train-00880,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00880,1,2,Thiếu/thừa,argmin,1,1,6,6,1,1
+B-train-00880,1,2,Định biên,argmax,1,0,8,10,1,1
+B-train-00881,2,1,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00881,1,2,Chuyển tuyến,argmax,1,1,6,6,1,1
+B-train-00881,1,2,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-00881,2,1,Doanh thu,argmax,1,1,4,4,1,1
+B-train-00882,2,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00882,1,1,Tỷ trọng (%),argmax,1,1,21,21,1,1
+B-train-00882,2,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00883,1,2,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00883,1,2,Giá trị bán,argmax,1,1,16,16,1,1
+B-train-00883,1,2,Lượt khách,argmax,1,0,7,10,1,1
+B-train-00883,1,1,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00884,2,1,Xuất,argmin,1,1,11,11,1,1
+B-train-00884,1,2,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00884,1,2,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00884,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00885,1,2,Lũy kế,argmin,1,0,14,7,1,1
+B-train-00885,1,2,Kỳ trước,argmax,1,0,13,10,1,1
+B-train-00885,1,1,Doanh thu,argmax,1,0,5,8,1,1
+B-train-00886,1,2,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00886,1,1,COD,argmax,1,1,3,3,1,1
+B-train-00887,1,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-00887,2,1,Nợ quá hạn,argmax,1,0,12,9,1,1
+B-train-00888,1,1,Tỷ lệ,argmax,1,1,4,4,1,1
+B-train-00888,1,2,Nợ quá hạn,argmin,1,1,14,14,1,1
+B-train-00889,1,2,Kỳ này,argmin,1,0,15,4,1,1
+B-train-00889,2,1,Kỳ này,argmax,1,0,6,9,1,1
+B-train-00889,2,1,Bồi thường,argmax,1,1,9,9,1,1
+B-train-00889,2,1,Kỳ trước,argmin,1,1,13,8,1,1
+B-train-00890,1,1,Tỷ lệ rớt cuộc,argmax,1,0,14,9,1,1
+B-train-00890,1,2,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00890,1,1,Tỷ lệ rớt cuộc,argmin,1,1,5,5,1,1
+B-train-00891,2,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-00891,1,1,Chi phí,argmax,1,1,12,12,1,1
+B-train-00891,1,1,Đúng hạn,argmin,1,1,11,11,1,1
+B-train-00891,2,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00892,1,1,Tồn cuối,argmin,1,1,5,5,1,1
+B-train-00892,1,1,Xuất,argmax,1,1,3,3,1,1
+B-train-00892,1,2,Nhập,argmin,1,1,6,6,1,1
+B-train-00892,1,2,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00893,1,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00893,1,1,Trễ hạn,argmin,1,1,5,5,1,1
+B-train-00893,1,1,Trễ hạn,argmax,1,1,8,8,1,1
+B-train-00893,2,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00894,1,2,Giá trị hợp đồng,argmax,1,0,5,8,1,1
+B-train-00894,1,1,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00894,1,2,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00895,1,2,Kỳ này,argmax,1,1,13,13,1,1
+B-train-00895,1,2,Tỷ lệ,argmin,1,1,12,12,1,1
+B-train-00896,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00896,1,1,Sản lượng (tấn),argmax,1,1,13,13,1,1
+B-train-00897,1,2,Hành khách,argmin,1,0,6,10,1,1
+B-train-00897,1,1,Công suất phòng,argmax,1,1,8,8,1,1
+B-train-00898,1,1,Tỷ lệ rớt cuộc,argmin,1,1,5,5,1,1
+B-train-00898,1,2,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00898,1,2,Hiện có,argmax,1,1,4,4,1,1
+B-train-00899,2,1,Tỷ lệ,argmax,1,1,10,10,1,1
+B-train-00899,2,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-00899,1,1,Kỳ trước,argmin,1,0,4,8,1,1
+B-train-00900,1,1,Khách nội địa,argmin,1,0,11,3,1,1
+B-train-00900,1,1,Khách nội địa,argmax,1,1,6,6,1,1
+B-train-00900,1,1,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-00900,1,1,Khách quốc tế,argmax,1,1,5,5,1,1
+B-train-00901,1,1,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00901,1,1,Kỳ này,argmin,1,1,10,10,1,1
+B-train-00901,1,1,Kỳ này,argmax,1,1,14,14,1,1
+B-train-00901,1,2,Tồn cuối,argmax,1,1,10,10,1,1
+B-train-00902,1,1,Khách quốc tế,argmax,1,1,11,11,1,1
+B-train-00902,1,2,Phí bảo hiểm,argmin,1,1,12,12,1,1
+B-train-00902,1,1,Công suất phòng,argmax,1,1,6,6,1,1
+B-train-00903,1,1,Chuyển tuyến,argmin,1,1,13,13,1,1
+B-train-00903,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00903,2,1,Kỳ trước,argmax,1,1,7,7,1,1
+B-train-00904,1,1,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-00904,1,2,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00904,2,1,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00905,2,1,Tỷ lệ rớt cuộc,argmax,1,1,13,13,1,1
+B-train-00905,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00905,1,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00905,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00906,1,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00906,2,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-00907,1,1,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-00907,1,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00907,1,1,Tỷ trọng (%),argmin,1,1,7,7,1,1
+B-train-00907,1,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-00908,1,1,Chi phí,argmax,1,1,9,9,1,1
+B-train-00908,2,1,Kế hoạch năm,argmax,1,1,17,17,1,1
+B-train-00908,2,1,Tồn cuối,argmin,1,1,19,19,1,1
+B-train-00908,1,1,Tồn cuối,argmin,1,0,14,15,1,1
+B-train-00909,1,2,Thiếu/thừa,argmax,1,1,6,6,1,1
+B-train-00909,1,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00909,1,2,Hiện có,argmax,1,1,6,6,1,1
+B-train-00910,1,2,Kỳ này,argmax,1,1,7,7,1,1
+B-train-00910,1,1,Tổn thất,argmin,1,0,11,8,1,1
+B-train-00910,1,2,Kỳ này,argmin,1,1,6,6,1,1
+B-train-00910,1,2,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-00911,2,1,Diện tích (ha),argmax,1,1,16,16,1,1
+B-train-00911,1,1,Lũy kế,argmin,1,1,20,20,1,1
+B-train-00911,2,1,Sản lượng (tấn),argmin,1,1,5,5,1,1
+B-train-00911,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00912,1,1,Lũy kế,argmax,1,0,12,8,1,1
+B-train-00912,1,1,Tỷ lệ rớt cuộc,argmax,1,1,13,13,1,1
+B-train-00912,1,1,Phản ánh,argmin,1,1,4,4,1,1
+B-train-00913,1,1,Hiện có,argmin,1,1,18,18,1,1
+B-train-00913,2,1,Kỳ này,argmin,1,1,9,9,1,1
+B-train-00913,2,1,Hiện có,argmax,1,1,19,19,1,1
+B-train-00913,2,1,Kỳ này,argmax,1,1,19,19,1,1
+B-train-00914,1,2,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-00914,2,1,Nợ quá hạn,argmax,1,1,5,5,1,1
+B-train-00915,1,1,Tỷ trọng (%),argmin,1,1,15,15,1,1
+B-train-00915,2,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00915,1,1,Phí bảo hiểm,argmax,1,1,16,16,1,1
+B-train-00916,2,1,Hành khách,argmin,1,1,20,20,1,1
+B-train-00916,1,1,Doanh thu,argmax,1,1,4,4,1,1
+B-train-00917,1,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-00917,1,1,Tỷ lệ đạt,argmin,1,1,6,6,1,1
+B-train-00917,1,1,Thí sinh,argmax,1,0,10,9,1,1
+B-train-00917,1,1,Tỷ lệ đạt,argmax,1,1,4,4,1,1
+B-train-00918,1,2,Công suất phòng,argmin,1,1,6,6,1,1
+B-train-00918,1,1,Dư nợ,argmax,1,0,11,8,1,1
+B-train-00918,1,2,Khách quốc tế,argmin,1,1,11,11,1,1
+B-train-00918,1,1,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-00919,1,1,Tỷ lệ đạt,argmax,1,1,11,11,1,1
+B-train-00919,1,1,Lũy kế,argmin,1,0,15,5,1,1
+B-train-00919,1,2,Tiến độ,argmin,1,1,4,4,1,1
+B-train-00919,1,2,Giải ngân,argmax,1,1,3,3,1,1
+B-train-00920,2,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00920,2,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00921,1,1,Đúng hạn,argmin,1,1,3,3,1,1
+B-train-00921,2,1,Kế hoạch năm,argmax,1,1,17,17,1,1
+B-train-00921,1,1,Kỳ trước,argmax,1,1,5,5,1,1
+B-train-00921,1,1,Tồn cuối,argmin,1,0,3,7,1,1
+B-train-00922,1,2,pH,argmax,1,0,7,9,1,1
+B-train-00922,1,2,BOD5,argmax,1,1,7,7,1,1
+B-train-00922,1,1,Thực hiện,argmin,1,1,5,5,1,1
+B-train-00922,1,2,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00923,1,1,Khách quốc tế,argmin,1,1,20,20,1,1
+B-train-00923,2,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00923,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00923,2,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00924,1,1,Nợ quá hạn,argmax,1,1,12,12,1,1
+B-train-00924,1,1,Tỷ trọng (%),argmin,1,1,18,18,1,1
+B-train-00924,1,1,Huy động,argmax,1,1,9,9,1,1
+B-train-00925,1,2,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-00925,2,1,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00925,2,1,Chuyển tuyến,argmin,1,1,15,15,1,1
+B-train-00925,2,1,Nhập viện,argmax,1,1,14,14,1,1
+B-train-00926,1,2,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-00926,1,2,Chuyển tuyến,argmin,1,1,8,8,1,1
+B-train-00926,1,1,Thiếu/thừa,argmin,1,1,14,14,1,1
+B-train-00926,1,2,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00927,1,2,Giá dự toán,argmax,1,0,7,5,1,1
+B-train-00927,1,1,Sản lượng (tấn),argmin,1,1,10,10,1,1
+B-train-00927,2,1,Đạt,argmin,1,1,5,5,1,1
+B-train-00927,1,1,Kỳ này,argmax,1,1,6,6,1,1
+B-train-00928,1,1,Phản ánh,argmin,1,0,13,15,1,1
+B-train-00928,1,1,Tỷ lệ rớt cuộc,argmax,1,1,9,9,1,1
+B-train-00928,1,1,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00929,1,1,Kế hoạch năm,argmin,1,0,3,12,1,1
+B-train-00929,1,1,Kỳ này,argmin,1,0,8,10,1,1
+B-train-00929,1,1,Tỷ trọng (%),argmax,1,1,5,5,1,1
+B-train-00929,1,2,Nhập,argmax,1,1,11,11,1,1
+B-train-00930,1,2,Chênh lệch,argmax,1,1,9,9,1,1
+B-train-00930,1,1,Lũy kế,argmax,1,0,4,7,1,1
+B-train-00931,2,1,Số đơn,argmax,1,1,19,19,1,1
+B-train-00931,2,1,Kế hoạch năm,argmin,1,1,14,14,1,1
+B-train-00931,1,1,Giá trị bán,argmin,1,1,9,9,1,1
+B-train-00931,1,1,Kỳ này,argmax,1,1,15,15,1,1
+B-train-00932,1,2,Kế hoạch năm,argmin,1,0,4,8,1,1
+B-train-00932,1,2,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-00932,1,1,Kỳ này,argmax,1,0,12,15,1,1
+B-train-00933,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00933,1,1,Nợ quá hạn,argmin,1,1,5,5,1,1
+B-train-00933,1,2,Chi trả,argmax,1,1,4,4,1,1
+B-train-00934,2,1,Lũy kế,argmin,1,1,20,20,1,1
+B-train-00934,1,1,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00934,2,1,Tồn cuối,argmax,1,1,8,8,1,1
+B-train-00934,2,1,Lũy kế,argmax,1,1,15,15,1,1
+B-train-00935,1,1,Kỳ trước,argmin,1,1,19,19,1,1
+B-train-00935,2,1,Kế hoạch năm,argmax,1,1,16,16,1,1
+B-train-00936,1,1,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00936,1,2,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00937,1,1,Xuất,argmax,1,1,11,11,1,1
+B-train-00937,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00937,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-00937,1,1,Xuất,argmin,1,1,12,12,1,1
+B-train-00938,2,1,Thực hiện,argmax,1,1,18,18,1,1
+B-train-00938,2,1,Thực hiện,argmin,1,1,16,16,1,1
+B-train-00938,2,1,Tỷ lệ,argmax,1,1,20,20,1,1
+B-train-00938,2,1,Kế hoạch năm,argmin,1,1,22,22,1,1
+B-train-00939,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00939,2,1,Doanh thu,argmin,1,1,15,15,1,1
+B-train-00939,2,1,Hành khách,argmin,1,1,15,15,1,1
+B-train-00939,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00940,1,2,Sản lượng (tấn),argmax,1,1,10,10,1,1
+B-train-00940,1,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00940,1,1,Chênh lệch,argmax,1,1,6,6,1,1
+B-train-00941,1,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00941,1,2,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-00941,1,2,Nhập viện,argmin,1,1,7,7,1,1
+B-train-00941,1,2,Nhập viện,argmax,1,0,10,4,1,1
+B-train-00942,1,1,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-00942,1,1,Lũy kế,argmin,1,1,20,20,1,1
+B-train-00943,1,1,Nhập,argmax,1,0,6,8,1,1
+B-train-00943,1,2,Kỳ trước,argmin,1,1,13,13,1,1
+B-train-00943,1,1,Tồn đầu,argmax,1,1,15,15,1,1
+B-train-00943,1,2,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00944,2,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-00944,2,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00945,1,2,Bồi thường,argmin,1,1,10,10,1,1
+B-train-00945,1,2,Phí bảo hiểm,argmin,1,1,15,15,1,1
+B-train-00946,2,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-00946,1,1,Hiện có,argmin,1,1,12,12,1,1
+B-train-00946,2,1,Hiện có,argmax,1,1,7,7,1,1
+B-train-00946,2,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00947,1,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-00947,1,1,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-00947,1,2,Hành khách,argmin,1,1,11,11,1,1
+B-train-00948,1,2,Trễ hạn,argmax,1,1,13,13,1,1
+B-train-00948,2,1,Diện tích (ha),argmax,1,1,3,3,1,1
+B-train-00948,2,1,Diện tích (ha),argmin,1,1,6,6,1,1
+B-train-00949,1,1,Bồi thường,argmin,1,1,7,7,1,1
+B-train-00949,2,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-00949,2,1,Tỷ trọng (%),argmax,1,1,5,5,1,1
+B-train-00949,2,1,Bồi thường,argmax,1,1,22,22,1,1
+B-train-00950,1,1,Phản ánh,argmin,1,1,3,3,1,1
+B-train-00950,1,1,Lưu lượng,argmin,1,1,12,12,1,1
+B-train-00951,1,1,Giá trúng,argmax,1,1,21,21,1,1
+B-train-00951,2,1,Giá dự toán,argmax,1,0,20,21,1,1
+B-train-00952,2,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00952,2,1,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-00952,1,1,Kỳ trước,argmin,1,1,14,14,1,1
+B-train-00952,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-00953,1,2,Đúng hạn,argmin,1,1,7,7,1,1
+B-train-00953,2,1,Đúng giờ,argmax,1,1,4,4,1,1
+B-train-00953,2,1,Kỳ này,argmax,1,0,4,10,1,1
+B-train-00953,2,1,Kỳ này,argmin,1,0,10,12,1,1
+B-train-00954,1,1,Tỷ lệ đạt,argmax,1,1,12,12,1,1
+B-train-00954,2,1,Khách quốc tế,argmax,1,1,5,5,1,1
+B-train-00954,1,1,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00954,2,1,Doanh thu,argmin,1,1,7,7,1,1
+B-train-00955,1,1,Nợ quá hạn,argmax,1,1,11,11,1,1
+B-train-00955,2,1,Lũy kế,argmax,1,1,10,10,1,1
+B-train-00955,2,1,Kỳ này,argmin,1,1,19,19,1,1
+B-train-00955,2,1,Huy động,argmin,1,1,11,11,1,1
+B-train-00956,1,2,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-00956,1,2,Phí bảo hiểm,argmin,1,1,16,16,1,1
+B-train-00956,1,1,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-00957,1,1,Kế hoạch năm,argmax,1,1,22,22,1,1
+B-train-00957,2,1,Xuất,argmax,1,1,15,15,1,1
+B-train-00957,1,1,Kế hoạch năm,argmin,1,1,16,16,1,1
+B-train-00957,2,1,Lũy kế,argmin,1,1,23,23,1,1
+B-train-00958,1,1,Tỷ lệ đạt,argmax,1,0,15,7,1,1
+B-train-00958,1,1,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-00958,1,2,Khách quốc tế,argmax,1,1,6,6,1,1
+B-train-00958,1,2,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00959,2,1,Hoàn trả,argmin,1,1,9,9,1,1
+B-train-00959,2,1,Giá trị bán,argmin,1,1,5,5,1,1
+B-train-00960,1,1,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00960,1,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-00961,1,1,Nợ quá hạn,argmin,1,0,11,13,1,1
+B-train-00961,1,2,Nợ quá hạn,argmin,1,1,12,12,1,1
+B-train-00961,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-00961,1,1,Tăng trưởng,argmax,1,1,6,6,1,1
+B-train-00962,2,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00962,2,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00962,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-00963,1,2,Kỳ này,argmin,1,1,12,12,1,1
+B-train-00963,2,1,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-00963,2,1,Lũy kế,argmax,1,1,12,12,1,1
+B-train-00964,1,1,Trễ hạn,argmax,1,1,11,11,1,1
+B-train-00964,1,1,Chi trả,argmin,1,0,9,16,1,1
+B-train-00965,1,1,Kỳ này,argmax,1,1,16,16,1,1
+B-train-00965,1,2,Công suất đỉnh,argmin,1,1,12,12,1,1
+B-train-00965,1,2,Tổn thất,argmax,1,1,4,4,1,1
+B-train-00965,1,1,Số đơn,argmin,1,1,7,7,1,1
+B-train-00966,1,1,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-00966,1,2,Kỳ trước,argmin,1,1,5,5,1,1
+B-train-00966,1,1,Lũy kế,argmax,1,1,5,5,1,1
+B-train-00967,2,1,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-00967,1,2,Kỳ này,argmin,1,1,16,16,1,1
+B-train-00967,1,1,Kế hoạch năm,argmax,1,1,12,12,1,1
+B-train-00968,1,1,Tỷ lệ,argmax,1,1,7,7,1,1
+B-train-00968,1,1,Kế hoạch năm,argmin,1,1,18,18,1,1
+B-train-00968,1,1,Chênh lệch,argmax,1,1,15,15,1,1
+B-train-00968,1,1,Thực hiện,argmin,1,1,12,12,1,1
+B-train-00969,2,1,Kỳ trước,argmax,1,1,22,22,1,1
+B-train-00969,1,1,Kỳ trước,argmin,1,1,17,17,1,1
+B-train-00969,2,1,Tỷ trọng (%),argmax,1,1,12,12,1,1
+B-train-00969,1,1,Công suất đỉnh,argmin,1,1,15,15,1,1
+B-train-00970,1,1,Lũy kế,argmin,1,1,3,3,1,1
+B-train-00970,1,1,Lũy kế,argmax,1,1,19,19,1,1
+B-train-00970,1,1,Doanh thu,argmax,1,0,17,16,1,1
+B-train-00971,1,2,Tỷ trọng (%),argmax,1,1,4,4,1,1
+B-train-00971,1,2,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00971,1,2,Lũy kế,argmin,1,1,9,9,1,1
+B-train-00971,1,2,Kỳ trước,argmax,1,1,3,3,1,1
+B-train-00972,1,1,COD,argmin,1,1,8,8,1,1
+B-train-00972,1,2,Kỳ này,argmax,1,1,14,14,1,1
+B-train-00972,1,2,Diện tích (ha),argmin,1,0,13,3,1,1
+B-train-00972,1,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00973,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-00973,2,1,Lũy kế,argmin,1,0,18,13,1,1
+B-train-00973,1,1,Lũy kế,argmax,1,0,3,6,1,1
+B-train-00974,1,1,Lưu lượng,argmin,1,1,6,6,1,1
+B-train-00974,1,1,Kỳ trước,argmin,1,1,16,16,1,1
+B-train-00974,1,1,Kỳ này,argmax,1,1,17,17,1,1
+B-train-00975,1,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00975,1,1,Hồ sơ nhận,argmax,1,0,13,8,1,1
+B-train-00975,2,1,Xuất,argmin,1,1,13,13,1,1
+B-train-00976,2,1,Kế hoạch năm,argmax,1,1,19,19,1,1
+B-train-00976,1,1,Doanh thu,argmin,1,1,16,16,1,1
+B-train-00976,2,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-00977,1,1,Hành khách,argmin,1,1,9,9,1,1
+B-train-00977,1,1,Doanh thu,argmax,1,1,3,3,1,1
+B-train-00977,1,1,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00977,1,1,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00978,1,2,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00978,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-00978,1,2,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-00979,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-00979,1,2,Kế hoạch năm,argmin,1,1,14,14,1,1
+B-train-00979,1,2,Kỳ này,argmax,1,1,15,15,1,1
+B-train-00980,1,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-00980,1,1,Tiến độ,argmin,1,1,7,7,1,1
+B-train-00980,1,1,Tiến độ,argmax,1,1,8,8,1,1
+B-train-00980,1,1,Giải ngân,argmax,1,1,8,8,1,1
+B-train-00981,1,1,Kỳ trước,argmax,1,1,23,23,1,1
+B-train-00981,2,1,Tỷ lệ,argmin,1,1,8,8,1,1
+B-train-00981,2,1,Bồi thường,argmax,1,1,15,15,1,1
+B-train-00981,2,1,Kỳ này,argmin,1,1,5,5,1,1
+B-train-00982,1,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-00982,1,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-00982,1,1,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-00983,2,1,Tỷ trọng (%),argmin,1,1,5,5,1,1
+B-train-00983,1,1,Lũy kế,argmin,1,1,12,12,1,1
+B-train-00983,2,1,Tỷ trọng (%),argmax,1,1,18,18,1,1
+B-train-00983,2,1,Chi phí,argmax,1,1,7,7,1,1
+B-train-00984,1,1,Kế hoạch năm,argmax,1,1,14,14,1,1
+B-train-00984,1,1,Công suất phòng,argmax,1,1,15,15,1,1
+B-train-00984,1,2,Kỳ trước,argmin,1,1,10,10,1,1
+B-train-00984,1,1,Doanh thu,argmin,1,1,17,12,1,1
+B-train-00985,1,2,Lũy kế,argmax,1,1,6,6,1,1
+B-train-00985,1,2,Kế hoạch năm,argmin,1,1,5,5,1,1
+B-train-00985,1,2,Giá trị bán,argmax,1,1,8,8,1,1
+B-train-00985,1,1,Tỷ trọng (%),argmin,1,1,12,12,1,1
+B-train-00986,1,2,Kế hoạch năm,argmin,1,1,6,6,1,1
+B-train-00986,1,1,Lũy kế,argmax,1,1,11,11,1,1
+B-train-00986,1,2,Lũy kế,argmax,1,1,17,17,1,1
+B-train-00986,1,2,Số đơn,argmin,1,1,16,16,1,1
+B-train-00987,1,1,Chi phí,argmax,1,1,15,15,1,1
+B-train-00987,2,1,Tồn đầu,argmin,1,1,14,14,1,1
+B-train-00987,1,1,Kỳ này,argmin,1,1,16,16,1,1
+B-train-00988,2,1,Nợ quá hạn,argmax,1,1,21,21,1,1
+B-train-00988,1,1,Lũy kế,argmin,1,1,4,4,1,1
+B-train-00989,1,1,Tuyển mới,argmax,1,1,8,8,1,1
+B-train-00989,2,1,Tuyển mới,argmax,1,1,3,3,1,1
+B-train-00989,1,1,Tỷ trọng (%),argmin,1,1,11,11,1,1
+B-train-00989,2,1,Hiện có,argmin,1,1,24,24,1,1
+B-train-00990,1,1,Huy động,argmax,1,1,18,18,1,1
+B-train-00990,2,1,Tỷ trọng (%),argmax,1,1,19,19,1,1
+B-train-00990,1,1,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-00991,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-00991,2,1,Hoàn trả,argmin,1,1,6,6,1,1
+B-train-00991,1,1,Kỳ trước,argmin,1,0,3,16,1,1
+B-train-00991,1,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-00992,1,1,Trễ hạn,argmin,1,1,16,16,1,1
+B-train-00993,1,1,Kỳ này,argmax,1,1,20,20,1,1
+B-train-00993,2,1,Kỳ này,argmin,1,1,11,11,1,1
+B-train-00993,1,1,Kỳ trước,argmax,1,1,22,22,1,1
+B-train-00993,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-00994,2,1,Tồn cuối,argmin,1,1,12,12,1,1
+B-train-00994,2,1,Tồn đầu,argmax,1,1,12,12,1,1
+B-train-00994,2,1,Xuất,argmax,1,1,4,4,1,1
+B-train-00994,1,1,Tồn đầu,argmin,1,1,14,14,1,1
+B-train-00995,1,2,Lũy kế,argmax,1,1,3,3,1,1
+B-train-00995,1,2,Huy động,argmax,1,0,9,3,1,1
+B-train-00996,1,1,Lũy kế,argmin,1,1,6,6,1,1
+B-train-00996,2,1,Lũy kế,argmax,1,1,16,16,1,1
+B-train-00996,2,1,Lũy kế,argmin,1,1,21,21,1,1
+B-train-00997,1,2,Doanh thu,argmin,1,1,7,7,1,1
+B-train-00997,1,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-00997,1,1,Phản ánh,argmax,1,1,15,15,1,1
+B-train-00997,1,1,Tỷ lệ rớt cuộc,argmax,1,1,11,11,1,1
+B-train-00998,2,1,Lũy kế,argmax,1,1,15,15,1,1
+B-train-00998,2,1,Kỳ trước,argmin,1,1,16,16,1,1
+B-train-00999,1,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-00999,1,2,Kế hoạch năm,argmax,1,0,11,10,1,1
+B-train-00999,1,2,Lưu lượng,argmax,1,1,6,6,1,1
+B-train-00999,1,2,Phản ánh,argmin,1,1,6,6,1,1
+B-train-01000,1,1,Doanh thu,argmax,1,1,3,3,1,1
+B-train-01000,1,1,Doanh thu,argmin,1,1,4,4,1,1
+B-train-01000,1,1,Khách quốc tế,argmax,1,1,3,3,1,1
+B-train-01000,1,1,Khách nội địa,argmin,1,1,1,1,1,1
+B-train-01001,1,1,Thực hiện,argmax,1,1,5,5,1,1
+B-train-01001,1,1,Thực hiện,argmin,1,1,2,2,1,1
+B-train-01001,1,1,Kế hoạch,argmax,1,1,5,5,1,1
+B-train-01001,1,1,Kế hoạch,argmin,1,1,2,2,1,1
+B-train-01002,1,1,Đã giải quyết,argmin,1,1,4,4,1,1
+B-train-01002,1,1,Đã giải quyết,argmax,1,1,6,6,1,1
+B-train-01002,1,1,Hồ sơ nhận,argmin,1,1,4,4,1,1
+B-train-01003,1,1,Giá dự toán,argmin,1,1,5,5,1,1
+B-train-01003,1,1,Giá trúng,argmin,1,1,4,4,1,1
+B-train-01003,1,1,Giá trúng,argmax,1,1,7,7,1,1
+B-train-01004,1,1,Phản ánh,argmax,1,1,6,6,1,1
+B-train-01004,1,1,Lưu lượng,argmin,1,1,5,5,1,1
+B-train-01004,1,1,Lưu lượng,argmax,1,1,7,7,1,1
+B-train-01005,1,1,Giá trị bán,argmax,1,1,7,7,1,1
+B-train-01005,1,1,Giá trị bán,argmin,1,1,5,5,1,1
+B-train-01005,1,1,Số đơn,argmin,1,1,2,2,1,1
+B-train-01005,1,1,Số đơn,argmax,1,1,8,8,1,1
+B-train-01006,1,1,Công suất đỉnh,argmin,1,1,3,3,1,1
+B-train-01006,1,1,Công suất đỉnh,argmax,1,1,7,7,1,1
+B-train-01006,1,1,Sự cố,argmin,1,1,1,1,1,1
+B-train-01006,1,1,Sự cố,argmax,1,1,4,4,1,1
+B-train-01007,1,1,Tỷ lệ,argmax,1,1,2,2,1,1
+B-train-01007,1,1,Tỷ lệ,argmin,1,1,5,5,1,1
+B-train-01007,1,1,Hợp đồng,argmin,1,1,2,2,1,1
+B-train-01007,1,1,Phí bảo hiểm,argmax,1,1,6,6,1,1
+B-train-01008,1,1,Nhập viện,argmax,1,1,8,8,1,1
+B-train-01008,1,1,Chuyển tuyến,argmax,1,1,3,3,1,1
+B-train-01008,1,1,Lượt khám,argmin,1,1,4,4,1,1
+B-train-01008,1,1,Nhập viện,argmin,1,1,2,2,1,1
+B-train-01009,1,1,Bồi thường,argmax,1,1,6,6,1,1
+B-train-01009,1,1,Hợp đồng,argmin,1,1,3,3,1,1
+B-train-01009,1,1,Phí bảo hiểm,argmin,1,1,3,3,1,1
+B-train-01009,1,1,Tỷ lệ,argmax,1,1,6,6,1,1
+B-train-01010,2,1,Tỷ lệ đạt,argmin,1,1,16,16,1,1
+B-train-01010,1,1,Tỷ lệ đạt,argmin,1,1,9,9,1,1
+B-train-01011,1,1,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-01011,1,1,Kỳ này,argmin,1,1,6,6,1,1
+B-train-01011,1,1,Nợ quá hạn,argmax,1,1,10,10,1,1
+B-train-01011,1,1,Kỳ này,argmax,1,1,11,11,1,1
+B-train-01012,1,1,COD,argmin,1,1,12,12,1,1
+B-train-01012,1,1,BOD5,argmax,1,1,6,6,1,1
+B-train-01012,1,1,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-01013,1,1,Sản lượng (tấn),argmax,1,1,17,17,1,1
+B-train-01013,1,1,Diện tích (ha),argmin,1,1,10,10,1,1
+B-train-01014,1,2,Tỷ lệ,argmin,1,1,10,10,1,1
+B-train-01014,1,1,COD,argmin,1,1,10,10,1,1
+B-train-01015,1,1,Đúng giờ,argmax,1,1,4,4,1,1
+B-train-01015,1,1,Lũy kế,argmax,1,1,6,6,1,1
+B-train-01015,1,1,Lũy kế,argmin,1,1,11,15,1,1
+B-train-01015,1,1,Doanh thu,argmin,1,0,14,15,1,1
+B-train-01016,1,2,Dư nợ,argmax,1,0,9,8,1,1
+B-train-01016,1,2,Huy động,argmax,1,1,8,8,1,1
+B-train-01017,1,1,Chi trả,argmin,1,1,8,8,1,1
+B-train-01017,1,1,Kỳ trước,argmin,1,0,6,8,1,1
+B-train-01017,1,1,Đã giải quyết,argmax,1,1,17,17,1,1
+B-train-01017,1,1,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-01018,1,1,Bồi thường,argmin,1,1,10,10,1,1
+B-train-01018,1,1,Bồi thường,argmax,1,1,9,9,1,1
+B-train-01018,1,1,Hợp đồng,argmax,1,1,7,7,1,1
+B-train-01019,1,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-01019,1,1,Kỳ này,argmax,1,1,8,8,1,1
+B-train-01019,1,1,Tỷ lệ đạt,argmax,1,0,13,10,1,1
+B-train-01019,1,1,Đạt,argmin,1,1,16,16,1,1
+B-train-01020,1,1,Đã giải quyết,argmax,1,1,19,19,1,1
+B-train-01020,1,1,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-01020,1,1,Chi trả,argmin,1,1,18,18,1,1
+B-train-01021,1,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-01021,1,1,Giá dự toán,argmin,1,1,5,5,1,1
+B-train-01021,1,2,Tổn thất,argmax,1,1,13,13,1,1
+B-train-01021,1,1,Giá trúng,argmax,1,1,3,3,1,1
+B-train-01022,1,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-01022,1,1,Huy động,argmin,1,1,6,6,1,1
+B-train-01022,1,1,Nợ quá hạn,argmax,1,1,3,3,1,1
+B-train-01022,1,1,Huy động,argmax,1,0,4,10,1,1
+B-train-01023,1,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-01023,1,1,Lũy kế,argmax,1,1,12,12,1,1
+B-train-01023,1,1,Sản lượng (tấn),argmax,1,1,10,10,1,1
+B-train-01024,1,1,Tỷ trọng (%),argmax,1,1,8,8,1,1
+B-train-01024,1,1,Tỷ trọng (%),argmin,1,1,16,16,1,1
+B-train-01024,1,1,Thiếu/thừa,argmin,1,1,4,4,1,1
+B-train-01025,1,1,Nhập viện,argmin,1,1,13,13,1,1
+B-train-01025,1,1,Lượt khám,argmax,1,1,8,8,1,1
+B-train-01025,1,1,Chuyển tuyến,argmax,1,1,11,11,1,1
+B-train-01025,1,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-01026,1,1,Tỷ trọng (%),argmin,1,1,4,4,1,1
+B-train-01026,1,1,Kế hoạch năm,argmin,1,1,18,18,1,1
+B-train-01026,1,1,Đã giải quyết,argmax,1,1,7,7,1,1
+B-train-01027,1,2,Tỷ lệ,argmax,1,1,5,5,1,1
+B-train-01027,1,1,Giá trị hợp đồng,argmax,1,0,12,4,1,1
+B-train-01027,1,2,Kế hoạch năm,argmin,1,1,12,12,1,1
+B-train-01027,1,2,Kế hoạch,argmin,1,1,5,5,1,1
+B-train-01028,1,2,Diện tích (ha),argmax,1,1,12,12,1,1
+B-train-01028,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-01028,1,1,Tỷ lệ rớt cuộc,argmin,1,1,9,9,1,1
+B-train-01028,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-01029,1,1,Bồi thường,argmin,1,1,10,10,1,1
+B-train-01029,1,1,Phí bảo hiểm,argmax,1,1,18,18,1,1
+B-train-01029,1,1,Bồi thường,argmax,1,1,18,18,1,1
+B-train-01029,1,1,Phí bảo hiểm,argmin,1,1,10,10,1,1
+B-train-01030,1,2,Kỳ trước,argmin,1,1,7,7,1,1
+B-train-01030,1,1,Giá trị bán,argmax,1,1,5,5,1,1
+B-train-01030,1,1,Số đơn,argmin,1,1,7,7,1,1
+B-train-01031,1,1,Định biên,argmin,1,0,7,4,1,1
+B-train-01031,1,1,Kế hoạch năm,argmax,1,1,9,9,1,1
+B-train-01031,1,1,Hiện có,argmin,1,1,6,6,1,1
+B-train-01031,1,1,Thiếu/thừa,argmax,1,1,4,4,1,1
+B-train-01032,1,1,Doanh thu,argmin,1,1,8,8,1,1
+B-train-01032,2,1,Đúng giờ,argmax,1,1,11,11,1,1
+B-train-01032,2,1,Kế hoạch năm,argmin,1,1,7,7,1,1
+B-train-01033,1,1,Nhập,argmax,1,1,4,4,1,1
+B-train-01033,1,1,Nhập,argmin,1,1,5,5,1,1
+B-train-01033,1,1,Tồn cuối,argmin,1,1,16,16,1,1
+B-train-01033,1,1,Tồn đầu,argmax,1,1,12,12,1,1
+B-train-01034,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-01034,1,1,Lũy kế,argmax,1,1,17,17,1,1
+B-train-01034,1,1,BOD5,argmin,1,1,8,8,1,1
+B-train-01035,1,1,Kỳ trước,argmax,1,1,6,6,1,1
+B-train-01035,1,2,Lượt khám,argmax,1,0,5,10,1,1
+B-train-01035,1,1,Giá dự toán,argmin,1,1,10,10,1,1
+B-train-01035,1,2,Kế hoạch năm,argmin,1,1,8,8,1,1
+B-train-01036,1,2,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-01036,1,1,Kỳ này,argmin,1,1,6,6,1,1
+B-train-01036,1,2,Phí bảo hiểm,argmin,1,1,4,4,1,1
+B-train-01036,1,2,Bồi thường,argmax,1,1,8,8,1,1
+B-train-01037,1,1,Kỳ trước,argmax,1,1,13,13,1,1
+B-train-01037,1,1,Tiến độ,argmin,1,1,8,8,1,1
+B-train-01037,1,1,Lũy kế,argmin,1,1,13,13,1,1
+B-train-01037,1,1,Kế hoạch năm,argmax,1,1,3,3,1,1
+B-train-01038,1,1,Lũy kế,argmax,1,1,18,18,1,1
+B-train-01038,1,1,Tỷ trọng (%),argmin,1,1,18,18,1,1
+B-train-01038,1,1,Phản ánh,argmax,1,1,16,16,1,1
+B-train-01039,1,2,Đúng giờ,argmin,1,1,8,8,1,1
+B-train-01039,1,2,Doanh thu,argmin,1,1,7,7,1,1
+B-train-01039,1,2,Hành khách,argmax,1,1,13,13,1,1
+B-train-01039,1,1,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-01040,1,1,Kỳ này,argmax,1,1,15,15,1,1
+B-train-01040,1,1,Trễ hạn,argmax,1,1,11,11,1,1
+B-train-01040,1,1,Kỳ này,argmin,1,1,4,4,1,1
+B-train-01041,1,1,Đã giải quyết,argmin,1,0,6,4,1,1
+B-train-01041,1,1,Chi trả,argmin,1,1,6,6,1,1
+B-train-01041,1,1,Đã giải quyết,argmax,1,1,17,17,1,1
+B-train-01042,1,1,Diện tích (ha),argmin,1,1,14,14,1,1
+B-train-01042,2,1,Diện tích (ha),argmin,1,1,8,8,1,1
+B-train-01042,2,1,Diện tích (ha),argmax,1,1,6,6,1,1
+B-train-01043,1,1,Tỷ lệ,argmin,1,1,7,7,1,1
+B-train-01043,1,1,Thực hiện,argmax,1,1,14,14,1,1
+B-train-01043,1,1,Chênh lệch,argmax,1,1,11,11,1,1
+B-train-01044,2,1,Phí bảo hiểm,argmin,1,1,9,9,1,1
+B-train-01044,1,1,Phí bảo hiểm,argmax,1,1,4,4,1,1
+B-train-01044,2,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-01044,2,1,Bồi thường,argmin,1,1,9,9,1,1
+B-train-01045,2,1,Sản lượng (tấn),argmin,1,1,8,8,1,1
+B-train-01045,1,1,Sản lượng (tấn),argmax,1,1,10,10,1,1
+B-train-01045,2,1,Sản lượng (tấn),argmax,1,1,3,3,1,1
+B-train-01045,1,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-01046,1,1,Tiến độ,argmin,1,1,17,17,1,1
+B-train-01046,1,1,Giải ngân,argmin,1,1,4,4,1,1
+B-train-01047,1,1,Diện tích (ha),argmax,1,1,17,17,1,1
+B-train-01047,1,1,Kỳ này,argmin,1,1,4,4,1,1
+B-train-01047,1,1,Kỳ này,argmax,1,1,10,10,1,1
+B-train-01047,1,1,Tỷ trọng (%),argmin,1,1,6,6,1,1
+B-train-01048,1,2,Giá trị hợp đồng,argmin,1,0,11,5,1,1
+B-train-01048,1,2,Lũy kế,argmax,1,1,8,8,1,1
+B-train-01048,1,1,Sản lượng,argmax,1,1,3,3,1,1
+B-train-01048,1,1,Sản lượng,argmin,1,1,8,8,1,1
+B-train-01049,1,1,Tỷ trọng (%),argmin,1,0,3,8,1,1
+B-train-01049,1,2,Công suất phòng,argmin,1,1,3,3,1,1
+B-train-01049,1,2,Kế hoạch năm,argmax,1,1,11,11,1,1
+B-train-01049,1,2,Công suất phòng,argmax,1,1,4,4,1,1
+B-train-01050,2,1,Nợ quá hạn,argmax,1,1,17,17,1,1
+B-train-01050,2,1,Huy động,argmax,1,0,8,22,1,1
+B-train-01050,2,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-01050,1,1,Huy động,argmin,1,1,6,6,1,1
+B-train-01051,2,1,Tổn thất,argmin,1,1,18,18,1,1
+B-train-01051,1,1,Kế hoạch năm,argmax,1,1,16,16,1,1
+B-train-01051,1,1,Sự cố,argmax,1,1,16,16,1,1
+B-train-01051,1,1,Tỷ trọng (%),argmin,1,1,8,8,1,1
+B-train-01052,1,2,Bồi thường,argmin,1,1,10,10,1,1
+B-train-01052,1,1,Tỷ trọng (%),argmax,1,1,11,11,1,1
+B-train-01052,1,1,Chi phí,argmax,1,0,12,13,1,1
+B-train-01052,1,1,Đúng hạn,argmin,1,0,11,7,1,1
+B-train-01053,1,1,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-01053,1,1,Công suất đỉnh,argmax,1,1,3,3,1,1
+B-train-01053,1,2,Hoàn trả,argmin,1,1,6,6,1,1
+B-train-01053,1,1,Kế hoạch năm,argmin,1,1,14,14,1,1
+B-train-01054,2,1,Hành khách,argmin,1,1,3,3,1,1
+B-train-01055,1,1,Tổn thất,argmin,1,0,4,11,1,1
+B-train-01055,1,2,Kỳ trước,argmin,1,1,3,3,1,1
+B-train-01055,1,2,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-01056,1,2,Kế hoạch năm,argmax,1,1,10,10,1,1
+B-train-01056,1,2,Giá dự toán,argmin,1,1,6,6,1,1
+B-train-01056,1,2,Giá trúng,argmin,1,1,6,6,1,1
+B-train-01056,1,2,Giá dự toán,argmax,1,1,5,5,1,1
+B-train-01057,2,1,Đúng giờ,argmax,1,1,11,11,1,1
+B-train-01057,2,1,Kỳ này,argmin,1,1,11,11,1,1
+B-train-01057,2,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-01057,1,1,Hành khách,argmax,1,0,18,20,1,1
+B-train-01058,1,1,Sản lượng (tấn),argmin,1,1,11,11,1,1
+B-train-01058,1,2,Xuất,argmax,1,1,5,5,1,1
+B-train-01058,1,2,Tồn cuối,argmin,1,1,4,4,1,1
+B-train-01059,2,1,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-01059,2,1,Kỳ trước,argmin,1,1,9,9,1,1
+B-train-01059,1,1,BOD5,argmax,1,1,5,5,1,1
+B-train-01059,2,1,Tỷ trọng (%),argmax,1,0,7,9,1,1
+B-train-01060,1,1,Chênh lệch,argmin,1,1,7,7,1,1
+B-train-01060,1,1,Lũy kế,argmax,1,1,3,3,1,1
+B-train-01061,1,2,Tỷ trọng (%),argmin,1,0,15,9,1,1
+B-train-01061,1,1,Kỳ này,argmin,1,1,4,4,1,1
+B-train-01061,1,1,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-01061,1,2,BOD5,argmax,1,1,3,3,1,1
+B-train-01062,2,1,Hiện có,argmin,1,1,6,6,1,1
+B-train-01062,1,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-01062,2,1,Tuyển mới,argmax,1,1,10,10,1,1
+B-train-01063,1,1,Sự cố,argmin,1,1,10,10,1,1
+B-train-01063,1,2,Kế hoạch năm,argmax,1,1,8,8,1,1
+B-train-01064,1,1,Tỷ lệ,argmin,1,1,7,7,1,1
+B-train-01064,1,1,Kỳ trước,argmax,1,1,12,12,1,1
+B-train-01064,1,2,Kỳ trước,argmax,1,1,9,9,1,1
+B-train-01064,1,1,Phí bảo hiểm,argmin,1,0,10,12,1,1
+B-train-01065,1,1,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-01065,1,2,Tồn cuối,argmin,1,1,3,3,1,1
+B-train-01066,2,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-01066,2,1,Tỷ trọng (%),argmin,1,1,9,9,1,1
+B-train-01066,1,1,Huy động,argmax,1,1,7,7,1,1
+B-train-01066,1,1,Tỷ trọng (%),argmax,1,1,9,9,1,1
+B-train-01067,1,1,Tăng trưởng,argmin,1,1,6,6,1,1
+B-train-01067,1,1,Tăng trưởng,argmax,1,1,14,14,1,1
+B-train-01067,1,2,Chênh lệch,argmax,1,1,8,8,1,1
+B-train-01067,1,1,Lũy kế,argmin,1,1,8,8,1,1
+B-train-01068,1,1,Kỳ này,argmin,1,1,9,9,1,1
+B-train-01068,1,1,Doanh thu,argmin,1,1,16,16,1,1
+B-train-01068,2,1,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-01069,1,1,Tỷ trọng (%),argmax,1,0,15,8,1,1
+B-train-01069,1,2,Kỳ này,argmax,1,0,5,7,1,1
+B-train-01069,1,1,Doanh thu,argmin,1,1,12,12,1,1
+B-train-01069,1,1,Kỳ này,argmin,1,1,15,15,1,1
+B-train-01070,2,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-01070,1,1,Thiếu/thừa,argmin,1,1,3,3,1,1
+B-train-01070,2,1,Hiện có,argmax,1,1,15,15,1,1
+B-train-01071,2,1,Kế hoạch năm,argmin,1,1,10,10,1,1
+B-train-01071,2,1,Lũy kế,argmax,1,1,8,8,1,1
+B-train-01071,2,1,Sản lượng (tấn),argmin,1,0,8,4,1,1
+B-train-01072,1,2,Kế hoạch năm,argmin,1,1,4,4,1,1
+B-train-01072,2,1,Tỷ trọng (%),argmax,1,1,3,3,1,1
+B-train-01072,2,1,Định biên,argmax,1,1,5,5,1,1
+B-train-01073,1,2,Thí sinh,argmin,1,0,6,8,1,1
+B-train-01073,2,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-01073,1,1,Lũy kế,argmin,1,1,16,16,1,1
+B-train-01073,1,1,Sản lượng (tấn),argmax,1,1,16,16,1,1
+B-train-01074,1,1,Hợp đồng,argmax,1,1,7,7,1,1
+B-train-01074,1,1,Phí bảo hiểm,argmin,1,1,11,11,1,1
+B-train-01074,1,1,Phí bảo hiểm,argmax,1,1,3,3,1,1
+B-train-01075,1,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-01075,1,1,Lũy kế,argmin,1,0,10,13,1,1
+B-train-01075,1,2,Kế hoạch năm,argmin,1,1,3,3,1,1
+B-train-01076,1,2,Xuất,argmax,1,1,8,8,1,1
+B-train-01076,1,1,Kỳ trước,argmax,1,1,8,8,1,1
+B-train-01077,1,1,Kỳ trước,argmax,1,1,10,10,1,1
+B-train-01077,1,1,Thực hiện,argmax,1,1,11,11,1,1
+B-train-01077,1,1,Chênh lệch,argmin,1,1,5,5,1,1
+B-train-01077,1,2,Kỳ trước,argmin,1,1,11,11,1,1
+B-train-01078,1,2,Tỷ trọng (%),argmin,1,0,11,9,1,1
+B-train-01078,1,1,Đúng giờ,argmax,1,1,10,10,1,1
+B-train-01078,1,2,Công suất phòng,argmin,1,1,12,12,1,1
+B-train-01079,1,1,COD,argmax,1,1,9,9,1,1
+B-train-01079,1,1,Kỳ này,argmin,1,1,3,3,1,1
+B-train-01079,1,1,pH,argmax,1,1,11,11,1,1
+B-train-01080,2,1,Kỳ này,argmin,1,1,13,13,1,1
+B-train-01080,2,1,Sản lượng (tấn),argmin,1,1,8,8,1,1
+B-train-01080,2,1,Kỳ này,argmax,1,1,4,4,1,1
+B-train-01080,1,2,Kế hoạch năm,argmax,1,1,7,7,1,1
+B-train-01081,2,1,Thực hiện,argmin,1,1,3,3,1,1
+B-train-01081,1,1,Thực hiện,argmin,1,1,9,9,1,1
+B-train-01081,1,1,Lũy kế,argmax,1,1,9,9,1,1
+B-train-01081,1,1,Chênh lệch,argmax,1,1,17,17,1,1
+B-train-01082,1,1,Nhập,argmax,1,1,6,6,1,1
+B-train-01082,2,1,Kỳ trước,argmin,1,1,6,6,1,1
+B-train-01082,2,1,Lũy kế,argmin,1,1,14,14,1,1
+B-train-01083,2,1,Tỷ trọng (%),argmin,1,1,23,23,1,1
+B-train-01083,2,1,Kỳ trước,argmax,1,1,15,15,1,1
+B-train-01083,1,1,Tỷ trọng (%),argmax,1,1,7,7,1,1
+B-train-01083,2,1,Kỳ trước,argmin,1,0,17,4,1,1
+B-train-01084,1,1,Kỳ này,argmin,1,1,8,8,1,1
+B-train-01084,2,1,Tăng trưởng,argmin,1,1,11,11,1,1
+B-train-01085,1,2,Đạt,argmin,1,1,11,11,1,1
+B-train-01085,1,2,Lũy kế,argmax,1,1,6,6,1,1
+B-train-01085,1,1,Kỳ này,argmin,1,1,7,7,1,1
+B-train-01085,1,1,Kỳ này,argmax,1,1,9,9,1,1
+B-train-01086,2,1,Lũy kế,argmin,1,1,11,11,1,1
+B-train-01086,1,1,Kỳ này,argmax,1,1,7,7,1,1
+B-train-01086,1,1,Lũy kế,argmin,1,1,17,17,1,1
+B-train-01087,1,2,Kỳ trước,argmax,1,1,17,17,1,1
+B-train-01087,1,2,Kỳ này,argmax,1,1,10,10,1,1
+B-train-01087,1,1,Kế hoạch năm,argmin,1,1,11,11,1,1
+B-train-01087,1,2,Kỳ này,argmin,1,1,14,14,1,1
+B-train-01088,1,2,Lũy kế,argmin,1,1,5,5,1,1
+B-train-01088,1,1,Kỳ trước,argmin,1,1,8,8,1,1
+B-train-01088,1,1,Kỳ trước,argmax,1,1,6,6,1,1
+B-train-01089,2,1,Hành khách,argmax,1,0,6,9,1,1
+B-train-01089,2,1,Tỷ trọng (%),argmax,1,1,5,5,1,1
+B-train-01089,1,1,Tỷ trọng (%),argmin,1,1,10,10,1,1
+B-train-01090,1,2,Lũy kế,argmin,1,1,12,12,1,1
+B-train-01090,1,2,Kỳ trước,argmax,1,1,15,15,1,1
+B-train-01090,1,2,Sản lượng (tấn),argmin,1,1,9,9,1,1
+B-train-01091,2,1,Tỷ trọng (%),argmax,1,1,13,13,1,1
+B-train-01091,1,1,Lũy kế,argmax,1,1,7,7,1,1
+B-train-01092,2,1,Phản ánh,argmax,1,1,12,12,1,1
+B-train-01092,1,2,Lũy kế,argmax,1,1,7,7,1,1
+B-train-01092,1,1,Tỷ trọng (%),argmin,1,0,15,8,1,1
+B-train-01093,2,1,Lũy kế,argmax,1,1,19,19,1,1
+B-train-01093,2,1,Số đơn,argmin,1,1,3,3,1,1
+B-train-01093,1,1,Giá trị bán,argmin,1,1,24,24,1,1
+B-train-01094,1,1,Kế hoạch năm,argmin,1,1,16,16,1,1
+B-train-01094,2,1,Kỳ trước,argmin,1,0,23,22,1,1
+B-train-01094,1,1,Kỳ này,argmax,1,1,15,15,1,1
+B-train-01095,1,1,Hiện có,argmax,1,1,21,21,1,1
+B-train-01095,1,1,Kế hoạch năm,argmin,1,1,15,15,1,1
+B-train-01095,1,1,Kế hoạch năm,argmax,1,1,17,17,1,1
+B-train-01095,2,1,Lũy kế,argmin,1,1,5,5,1,1
+B-train-01096,2,1,Kế hoạch năm,argmin,1,1,9,9,1,1
+B-train-01096,2,1,Kế hoạch năm,argmax,1,1,5,5,1,1
+B-train-01096,1,1,Huy động,argmin,1,1,13,13,1,1
+B-train-01096,1,1,Tỷ trọng (%),argmax,1,1,17,17,1,1
+B-train-01097,1,1,Tỷ lệ,argmin,1,1,3,3,1,1
+B-train-01097,2,1,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-01097,1,1,Kế hoạch năm,argmax,1,1,6,6,1,1
+B-train-01097,2,1,Kế hoạch năm,argmin,1,1,17,17,1,1
+B-train-01098,1,2,Kế hoạch năm,argmax,1,0,10,6,1,1
+B-train-01098,1,2,Tỷ trọng (%),argmax,1,1,10,10,1,1
+B-train-01098,1,2,Diện tích (ha),argmin,1,1,8,8,1,1
+B-train-01099,1,1,Tỷ trọng (%),argmax,1,1,6,6,1,1
+B-train-01099,1,1,Tỷ lệ đạt,argmin,1,1,25,25,1,1
