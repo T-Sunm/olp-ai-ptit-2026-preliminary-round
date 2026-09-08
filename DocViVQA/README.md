@@ -18,7 +18,7 @@ Run local notebooks with `DocViVQA/notebooks` as the working directory. The Cola
 1. `notebooks/explore_dataset.ipynb`: explore the dataset and reasoning types.
 2. `notebooks/train_bold_pair_local.ipynb`: train the visual-bold model locally.
 3. `notebooks/train_bold_pair_colab.ipynb`: train the same model in Colab instead.
-4. `notebooks/submission_pipeline.ipynb`: generate predictions and package a submission.
+4. `notebooks/submission_pipeline.ipynb`: run the main reasoning pipeline, generate grounded predictions, and package a submission.
 5. `scripts/evaluate_predictions.py`: evaluate predictions when labels are available.
 
 `notebooks/baseline.ipynb` is retained as a reference baseline and is not part of the main pipeline.
