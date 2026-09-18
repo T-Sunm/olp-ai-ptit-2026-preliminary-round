@@ -205,8 +205,16 @@ tempCodeRunnerFile.py
 
 # DocViVQA local data and generated artifacts
 DocViVQA/data/
+DocViVQA/data.zip
 DocViVQA/outputs/
 DocViVQA/artifacts/models/*.pt
+
+# Doc2Table local data and generated artifacts
+Doc2Table/data/
+Doc2Table/archives/
+Doc2Table/outputs/
+Doc2Table/artifacts/models/
+Doc2Table/artifacts/cache/
 
 # Ruff stuff:
 .ruff_cache/
