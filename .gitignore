@@ -203,6 +203,9 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Codex browser render profile
+.codex-chrome-render/
+
 # DocViVQA local data and generated artifacts
 DocViVQA/data/
 DocViVQA/data.zip

@@ -14,7 +14,6 @@ import re
 from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor
 from dataclasses import dataclass
-from difflib import SequenceMatcher
 from html import escape
 from pathlib import Path
 
@@ -60,21 +59,8 @@ def parse_markdown(text: str) -> list[list[list[str]]]:
     return tables
 
 
-def plain(value: str) -> str:
-    match = BOLD.fullmatch(value)
-    return match.group(1) if match else value
-
-
 def is_bold(value: str) -> bool:
     return BOLD.fullmatch(value) is not None
-
-
-def shape(table: list[list[str]]) -> tuple[int, ...]:
-    return tuple(len(row) for row in table)
-
-
-def merge_signature(table: list[list[str]]) -> tuple[tuple[str, ...], ...]:
-    return tuple(tuple(cell if cell in {"[[H]]", "[[V]]"} else "." for cell in row) for row in table)
 
 
 def table_to_html(table: list[list[str]]) -> str:
@@ -155,19 +141,9 @@ def document_teds(expected: list[list[list[str]]], predicted: list[list[list[str
 
 
 def compute_document_teds(pair: tuple[list[list[list[str]]], list[list[list[str]]]]) -> float:
-    """Worker entry point: each process owns its lightweight TEDS scorer."""
+    """Worker entry point; spawned processes each own their global scorer."""
     expected, predicted = pair
-    return document_teds(expected, predicted, TEDS(structure_only=False))
-
-
-def marker_positions(tables: list[list[list[str]]], marker: str) -> set[tuple[int, int, int]]:
-    return {
-        (table_id, row_id, col_id)
-        for table_id, table in enumerate(tables)
-        for row_id, row in enumerate(table)
-        for col_id, cell in enumerate(row)
-        if cell == marker
-    }
+    return document_teds(expected, predicted, CONTENT_TEDS)
 
 
 def prf(tp: int, fp: int, fn: int) -> tuple[float, float, float]:
@@ -176,90 +152,41 @@ def prf(tp: int, fp: int, fn: int) -> tuple[float, float, float]:
     return precision, recall, 2 * precision * recall / max(1e-12, precision + recall)
 
 
+def bold_positions(tables: list[list[list[str]]]) -> set[tuple[int, int, int]]:
+    return {
+        (table_id, row_id, col_id)
+        for table_id, table in enumerate(tables)
+        for row_id, row in enumerate(table)
+        for col_id, cell in enumerate(row)
+        if is_bold(cell)
+    }
+
+
+def document_bold_f1(expected: list[list[list[str]]], predicted: list[list[list[str]]]) -> float:
+    truth, prediction = bold_positions(expected), bold_positions(predicted)
+    return prf(len(truth & prediction), len(prediction - truth), len(truth - prediction))[2]
+
+
 @dataclass
 class Metrics:
     docs: int = 0
-    complete: int = 0
-    table_count_exact: int = 0
-    shape_exact: int = 0
-    merge_exact: int = 0
-    cells: int = 0
-    cell_exact: int = 0
-    char_similarity: float = 0.0
-    bold_tp: int = 0
-    bold_fp: int = 0
-    bold_fn: int = 0
-    h_tp: int = 0
-    h_fp: int = 0
-    h_fn: int = 0
-    v_tp: int = 0
-    v_fp: int = 0
-    v_fn: int = 0
     teds: float = 0.0
+    bold_f1: float = 0.0
+    document_score: float = 0.0
 
     def add(self, expected: list[list[list[str]]], predicted: list[list[list[str]]], teds_score: float | None = None) -> None:
         self.docs += 1
-        self.complete += expected == predicted
-        table_count_exact = len(expected) == len(predicted)
-        shape_exact = table_count_exact and all(shape(left) == shape(right) for left, right in zip(expected, predicted))
-        self.table_count_exact += table_count_exact
-        self.shape_exact += shape_exact
-        self.merge_exact += shape_exact and all(
-            merge_signature(left) == merge_signature(right) for left, right in zip(expected, predicted)
-        )
-        self.teds += document_teds(expected, predicted, CONTENT_TEDS) if teds_score is None else teds_score
-        if shape_exact:
-            for marker, prefix in (("[[H]]", "h"), ("[[V]]", "v")):
-                left, right = marker_positions(expected, marker), marker_positions(predicted, marker)
-                setattr(self, f"{prefix}_tp", getattr(self, f"{prefix}_tp") + len(left & right))
-                setattr(self, f"{prefix}_fp", getattr(self, f"{prefix}_fp") + len(right - left))
-                setattr(self, f"{prefix}_fn", getattr(self, f"{prefix}_fn") + len(left - right))
-        expected_bold = {
-            (table_id, row_id, col_id)
-            for table_id, table in enumerate(expected)
-            for row_id, row in enumerate(table)
-            for col_id, cell in enumerate(row)
-            if is_bold(cell)
-        }
-        predicted_bold = {
-            (table_id, row_id, col_id)
-            for table_id, table in enumerate(predicted)
-            for row_id, row in enumerate(table)
-            for col_id, cell in enumerate(row)
-            if is_bold(cell)
-        }
-        self.bold_tp += len(expected_bold & predicted_bold)
-        self.bold_fp += len(predicted_bold - expected_bold)
-        self.bold_fn += len(expected_bold - predicted_bold)
-        for left_table, right_table in zip(expected, predicted):
-            for left_row, right_row in zip(left_table, right_table):
-                for left, right in zip(left_row, right_row):
-                    self.cells += 1
-                    self.cell_exact += left == right
-                    self.char_similarity += SequenceMatcher(None, plain(left), plain(right)).ratio()
+        teds_score = document_teds(expected, predicted, CONTENT_TEDS) if teds_score is None else teds_score
+        bold_f1 = document_bold_f1(expected, predicted)
+        self.teds += teds_score
+        self.bold_f1 += bold_f1
+        self.document_score += 0.90 * teds_score + 0.10 * bold_f1
 
     def report(self, name: str) -> str:
-        _, _, bold_f1 = prf(self.bold_tp, self.bold_fp, self.bold_fn)
+        count = max(1, self.docs)
         return (
-            f"{name}: docs={self.docs} | complete={self.complete / max(1, self.docs):.2%} | "
-            f"table-count={self.table_count_exact / max(1, self.docs):.2%} | "
-            f"shape={self.shape_exact / max(1, self.docs):.2%} | "
-            f"merge|shape={self.merge_exact / max(1, self.shape_exact):.2%} | "
-            f"TEDS={self.teds / max(1, self.docs):.2%} | "
-            f"cell-exact={self.cell_exact / max(1, self.cells):.2%} | "
-            f"char-sim={self.char_similarity / max(1, self.cells):.2%} | bold-F1={bold_f1:.2%}"
-        )
-
-    def merge_report(self, name: str) -> str:
-        h = prf(self.h_tp, self.h_fp, self.h_fn)
-        v = prf(self.v_tp, self.v_fp, self.v_fn)
-        overall = prf(self.h_tp + self.v_tp, self.h_fp + self.v_fp, self.h_fn + self.v_fn)
-        return (
-            f"{name}: shape-docs={self.shape_exact}/{self.docs} | "
-            f"merge-exact|shape={self.merge_exact / max(1, self.shape_exact):.2%} | "
-            f"H P/R/F1={h[0]:.2%}/{h[1]:.2%}/{h[2]:.2%} | "
-            f"V P/R/F1={v[0]:.2%}/{v[1]:.2%}/{v[2]:.2%} | "
-            f"all P/R/F1={overall[0]:.2%}/{overall[1]:.2%}/{overall[2]:.2%}"
+            f"{name}: docs={self.docs} | TEDS={self.teds / count:.2%} | "
+            f"bold-F1={self.bold_f1 / count:.2%} | Score={100 * self.document_score / count:.4f}"
         )
 
 
@@ -268,15 +195,14 @@ def self_check() -> None:
     assert table == [["**A**", "x\\|y"], ["[[V]]", "z"]]
     score = Metrics()
     score.add([table], [table])
-    assert score.complete == score.table_count_exact == score.shape_exact == score.merge_exact == 1 and score.cell_exact == 4
     assert score.teds == 1.0
+    assert score.bold_f1 == 1.0
+    assert score.document_score == 1.0
     merged = parse_markdown("| A | [[H]] | B |\n| --- | --- | --- |\n| [[V]] | [[V]] | C |\n")[0]
     merged_html = table_to_html(merged)
     assert 'rowspan="2" colspan="2"' in merged_html
     wrong = [["**A**", "x\\|y"], ["[[H]]", "z"]]
-    score = Metrics()
-    score.add([table], [wrong])
-    assert (score.h_tp, score.h_fp, score.h_fn, score.v_tp, score.v_fp, score.v_fn) == (0, 1, 0, 0, 0, 1)
+    assert document_bold_f1([table], [wrong]) == 1.0
 
 
 def main() -> None:
@@ -321,30 +247,25 @@ def main() -> None:
         teds_scores = (document_teds(expected, predicted, CONTENT_TEDS) for _, expected, predicted in evaluations)
     else:
         pool = ProcessPoolExecutor(max_workers=args.workers)
-        teds_scores = pool.map(compute_document_teds, pairs, chunksize=4)
+        teds_scores = pool.map(compute_document_teds, pairs, chunksize=16)
 
-    totals, by_difficulty, m2_groups = Metrics(), defaultdict(Metrics), defaultdict(Metrics)
+    totals, by_difficulty = Metrics(), defaultdict(Metrics)
     try:
         score_iter = tqdm(teds_scores, total=len(evaluations), desc=f"TEDS ({args.workers} workers)", unit="doc")
         for (record, expected, predicted), teds_score in zip(evaluations, score_iter, strict=True):
             totals.add(expected, predicted, teds_score)
             by_difficulty[record["difficulty"]].add(expected, predicted, teds_score)
-            if record["difficulty"] == "M2":
-                attributes = record["attributes"]
-                m2_groups[f"M2 {attributes['table_count']}T{attributes['page_count']}P"].add(expected, predicted, teds_score)
     finally:
         if args.workers > 1:
             pool.shutdown(cancel_futures=True)
 
     print(f"predictions: {pred_dir}")
     print(f"files missing={len(missing)} | invalid={len(invalid)}")
-    print("TEDS uses PubTabNet per table; multiple tables are averaged in document order (diagnostic aggregation)")
+    print("Score = 100 * mean(0.90 * document TEDS + 0.10 * document Bold-F1)")
+    print("TEDS uses PubTabNet per table; multiple tables are averaged in document order")
     print(totals.report("ALL"))
     for difficulty in sorted(by_difficulty):
         print(by_difficulty[difficulty].report(difficulty))
-    print("M2 merge diagnostics (only shape-exact documents contribute marker counts):")
-    for group in sorted(m2_groups):
-        print(m2_groups[group].merge_report(group))
     if missing:
         print("missing examples:", ", ".join(missing[:10]))
     if invalid:
