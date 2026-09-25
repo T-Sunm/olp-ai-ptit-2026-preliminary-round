@@ -49,19 +49,15 @@ Phần phân tích dữ liệu tập trung vào những đặc điểm ảnh hư
 - M2 có các layout `1T1P`, `2T1P` và `1T2P`.
 - Số hàng và số cột thay đổi giữa các bảng, kể cả trong cùng một difficulty.
 
-**[CHÈN HÌNH 2.4: Các sample `1T1P`, `2T1P` và `1T2P` (sinh từ cell EDA)]**
-
-*Hình 2.4. Ba dạng page và table layout xuất hiện trong M1 và M2.*
-
 #### 2.2.3. Merge và content characteristics
 
 - M1 không có merged cells hoặc multiline content.
 - M2 có horizontal merge, vertical merge và multiline content.
 - Atomic grid và logical table là hai tầng biểu diễn khác nhau.
 
-**[CHÈN HÌNH 2.5: Grid-size distribution | Merge prevalence | Multiline sample (sinh từ cell EDA)]**
+**[CHÈN HÌNH 2.4: Grid-size distribution | Merge prevalence | Multiline sample (sinh từ cell EDA)]**
 
-*Hình 2.5. Kích thước grid, merged cells và multiline content trong M1 và M2.*
+*Hình 2.4. Kích thước grid, merged cells và multiline content trong M1 và M2.*
 
 #### 2.2.4. Các grammar của M2
 
@@ -69,9 +65,9 @@ Phần phân tích dữ liệu tập trung vào những đặc điểm ảnh hư
 - Bold formatting phụ thuộc vào vai trò của hàng và page context.
 - Trang thứ hai của cross-page table lặp lại ba hàng header.
 
-**[CHÈN HÌNH 2.6: Header grammar | Bold grammar | Cross-page continuation (sinh từ cell EDA)]**
+**[CHÈN HÌNH 2.5: Header grammar | Bold grammar | Cross-page continuation (sinh từ cell EDA)]**
 
-*Hình 2.6. Các pattern về header, bold và cross-page continuation được quan sát trong M2 training data.*
+*Hình 2.5. Các pattern về header, bold và cross-page continuation được quan sát trong M2 training data.*
 
 ### 2.3. Hướng triển khai
 
@@ -119,19 +115,23 @@ Ba cấu trúc dữ liệu được truyền qua các bước của pipeline:
 
 ### 3.2. Tiền xử lý ảnh
 
-Ảnh xám được tăng tương phản bằng CLAHE. Otsu thresholding sau đó tạo binary image với quy ước nền bằng `0`, còn chữ và đường kẻ bằng `255`.
+Ảnh xám được căn thẳng dựa trên góc nghiêng của các đường kẻ, sau đó tăng tương phản bằng CLAHE. Otsu thresholding tạo binary image với quy ước nền bằng `0`, còn chữ và đường kẻ bằng `255`.
 
 Luồng xử lý:
 
 ```text
-Grayscale → CLAHE → Otsu thresholding → Binary inversion
+Grayscale → Deskew → CLAHE → Otsu thresholding → Binary inversion
 ```
 
-**[CHÈN HÌNH 3.2: Grayscale → CLAHE → Otsu → Binary Image (sinh từ cell visualization)]**
+**[CHÈN HÌNH 3.2a: Phát hiện góc nghiêng và căn thẳng ảnh; nguồn: cell 12 của document_deskew.ipynb]**
 
-*Hình 3.2. Ảnh xám được tăng tương phản và nhị phân hóa để làm rõ chữ cùng các đường kẻ của bảng.*
+*Hình 3.2a. Góc nghiêng được ước lượng từ các đường kẻ trước khi ảnh được căn thẳng.*
 
-Notebook có sẵn hàm `deskew_gray()`, nhưng vòng inference hiện tại giả định các trang đã được căn thẳng nên không gọi bước này.
+**[CHÈN HÌNH 3.2b: So sánh CLAHE và kết quả nhị phân hóa Otsu; nguồn: cell 1 của contrast_binarization.ipynb]**
+
+*Hình 3.2b. Tăng tương phản và nhị phân hóa làm rõ chữ cùng các đường kẻ của bảng.*
+
+Hàm `deskew_gray()` trong notebook cung cấp bước căn thẳng được minh họa bằng Hình 3.2a.
 
 ### 3.3. Phát hiện vùng bảng
 
@@ -149,9 +149,9 @@ Binary image
 
 Các table candidates được lọc theo chiều rộng, chiều cao, diện tích và số lượng grid edges. Khi một trang chứa nhiều bảng, kết quả được sắp xếp theo vị trí từ trên xuống dưới và từ trái sang phải.
 
-**[CHÈN HÌNH 3.3: Binary Image → Line Masks → Grid Mask → Table Bounding Boxes (sinh từ cell visualization)]**
+**[CHÈN HÌNH 3.3: Mask đã ghép, contour và khung bảng; nguồn: cell 3 của table_grid_detection.ipynb]**
 
-*Hình 3.3. Directional morphology và contour detection chuyển binary image thành các vùng bảng trên trang.*
+*Hình 3.3. Contour ngoài của mask đường kẻ xác định khung bao của bảng.*
 
 ### 3.4. Phục hồi atomic grid
 
@@ -174,9 +174,9 @@ $$
 A_{r,c}=[x_c,x_{c+1})\times[y_r,y_{r+1})
 $$
 
-**[CHÈN HÌNH 3.4: Line Masks → Axis Projections → Grid Edges → Atomic Grid (sinh từ cell visualization)]**
+**[CHÈN HÌNH 3.4: Line masks, phép chiếu và grid edges; nguồn: cell 8 của table_grid_detection.ipynb]**
 
-*Hình 3.4. Projection trên hai line masks tạo các row và column boundaries của atomic grid.*
+*Hình 3.4. Phép chiếu tạo ra các ranh giới hàng và cột trên ảnh bảng.*
 
 ### 3.5. Phục hồi logical cells
 
@@ -201,10 +201,6 @@ Union-Find gom các merge relations thành connected components. Component tạo
 
 Vị trí trên trái của `CellRegion` là anchor chứa nội dung. Các vị trí còn lại dùng `[[H]]` hoặc `[[V]]` để biểu diễn phần tiếp tục của merged cell.
 
-**[CHÈN HÌNH 3.5: Atomic Grid → Separator Evidence → Merge Relations → CellRegion và Merge Markers (sinh từ cell visualization)]**
-
-*Hình 3.5. Separator evidence và M2 header grammar được dùng để tạo logical cells, anchor và merge markers.*
-
 ### 3.6. Nhận dạng nội dung ô
 
 Mỗi `CellRegion` xác định vùng pixel đầy đủ của một logical cell. Pipeline thu crop vào một khoảng nhỏ để giảm ảnh hưởng của table borders, sau đó tách các text bands theo chiều dọc và đưa từng band qua VietOCR.
@@ -222,10 +218,6 @@ Logical cell
 
 Kết quả của các text bands được nối bằng `<br>`. Ký tự `|` trong nội dung được chuyển thành `\|`. Text chỉ được ghi tại anchor; các merge markers trong cell matrix được giữ nguyên.
 
-**[CHÈN HÌNH 3.6: Logical Cell → Text Bands → VietOCR → Cell Content (sinh từ cell visualization)]**
-
-*Hình 3.6. Logical cell được crop, tách thành các text bands và nhận dạng trước khi nội dung được ghi vào anchor.*
-
 ### 3.7. Khôi phục định dạng
 
 Bold được phục hồi từ vai trò của hàng và stroke evidence:
@@ -239,10 +231,6 @@ $$
 $$
 
 Rule chỉ áp dụng cho các anchor có nội dung. Merge markers và ô rỗng được giữ nguyên.
-
-**[CHÈN HÌNH 3.7: Cell Roles + Stroke Scores → Bold Formatting (sinh từ cell visualization)]**
-
-*Hình 3.7. Baseline khôi phục bold từ vai trò của hàng và stroke evidence tại terminal row của M2.*
 
 ### 3.8. Xử lý ở cấp document
 
@@ -265,19 +253,11 @@ Khi điều kiện được thỏa mãn, ba hàng header lặp lại của trang
 page1.cells + page2.cells[3:]
 ```
 
-**[CHÈN HÌNH 3.8: Multiple Tables | Cross-Page Stitching (sinh từ cell visualization)]**
-
-*Hình 3.8. Pipeline giữ thứ tự của nhiều bảng trên một trang và nối hai page tables sau khi loại header lặp lại.*
-
 ### 3.9. Sinh Extended Markdown
 
 Cell matrix cuối cùng đã chứa text, `[[H]]`, `[[V]]`, `<br>`, escaped pipes và bold markers. Serializer nối các cell bằng `" | "`, thêm pipe ở hai đầu hàng và chèn separator row sau hàng đầu tiên.
 
 Nhiều bảng trong cùng document được ngăn cách bằng một dòng trống. Trước khi ghi file, kết quả được kiểm tra số cột, separator row và cú pháp Markdown. Mỗi document tạo một file `.md`.
-
-**[CHÈN HÌNH 3.9: Final Cell Matrix → Extended Markdown (sinh từ cell visualization)]**
-
-*Hình 3.9. Cell matrix được serialize thành Extended Markdown trong khi vẫn giữ merge, multiline và bold formatting.*
 
 ## 4. Kết quả đánh giá
 

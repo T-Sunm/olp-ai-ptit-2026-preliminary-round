@@ -34,8 +34,12 @@ Hai tập kiểm tra chỉ gồm tài liệu mức `M1` và `M2`, và không kè
 Dữ liệu nằm tại `/home/user/TACVU2`:
 
 ```text
-TACVU2/
-|-- baseline_TACVU2.ipynb           # Code mẫu tham khảo
+Doc2Table/
+|-- notebooks/
+|   |-- baselines/
+|   |   |-- baseline.ipynb           # Code mẫu tham khảo
+|   |   |-- baseline_improved.ipynb
+|   |   |-- baseline_improved_colab.ipynb
 |-- data/
     |-- training_set/
     |   |-- manifest.jsonl          # Thông tin 1.100 tài liệu
